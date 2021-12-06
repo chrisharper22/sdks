@@ -1,0 +1,7 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MobileSafari.framework/PlugIns/Safari.wkbundle/Safari
+current-version:       0
+compatibility-version: 0
+...

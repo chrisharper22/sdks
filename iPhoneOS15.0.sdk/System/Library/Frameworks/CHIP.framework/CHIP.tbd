@@ -1,0 +1,32 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           72DEEAB7-CF3A-308D-B39A-99BA8E83FF2E
+  - target:          arm64e-ios
+    value:           3D283909-54F8-3CB0-A6C5-FB694D2F2FCB
+install-name:    '/System/Library/Frameworks/CHIP.framework/CHIP'
+exports:
+  - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
+    symbols:         [ _CHIPErrorDomain, _CHIPVersionNumber, _CHIPVersionString ]
+    objc-classes:    [ CHIPAccountLogin, CHIPApplicationBasic, CHIPApplicationLauncher, 
+                       CHIPAudioOutput, CHIPBarrierControl, CHIPBasic, CHIPBinaryInputBasic, 
+                       CHIPBinding, CHIPBridgedDeviceBasic, CHIPCluster, CHIPColorControl, 
+                       CHIPContentLaunch, CHIPDescriptor, CHIPDevice, CHIPDeviceController, 
+                       CHIPDoorLock, CHIPError, CHIPEthernetNetworkDiagnostics, CHIPFixedLabel, 
+                       CHIPGeneralCommissioning, CHIPGeneralDiagnostics, CHIPGroupKeyManagement, 
+                       CHIPGroups, CHIPIdentify, CHIPKeypadInput, CHIPLevelControl, 
+                       CHIPLowPower, CHIPManualSetupPayloadParser, CHIPMediaInput, 
+                       CHIPMediaPlayback, CHIPNetworkCommissioning, CHIPOnOff, CHIPOnboardingPayloadParser, 
+                       CHIPOperationalCredentials, CHIPOptionalQRCodeInfo, CHIPPumpConfigurationAndControl, 
+                       CHIPQRCodeSetupPayloadParser, CHIPRelativeHumidityMeasurement, 
+                       CHIPScenes, CHIPSetupPayload, CHIPSoftwareDiagnostics, CHIPSwitch, 
+                       CHIPTargetNavigator, CHIPTemperatureMeasurement, CHIPTestCluster, 
+                       CHIPThermostat, CHIPTrustedRootCertificates, CHIPTvChannel, 
+                       CHIPWakeOnLan, CHIPWindowCovering ]
+...

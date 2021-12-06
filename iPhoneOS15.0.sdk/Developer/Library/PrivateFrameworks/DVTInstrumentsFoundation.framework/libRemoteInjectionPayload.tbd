@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /Developer/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/libRemoteInjectionPayload.dylib
+current-version:       64550.130.1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _local_loader_function,
+                            _pthread_local_loader_variant ]
+...

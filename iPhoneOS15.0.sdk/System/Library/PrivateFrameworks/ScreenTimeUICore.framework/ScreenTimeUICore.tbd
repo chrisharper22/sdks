@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ScreenTimeUICore.framework/ScreenTimeUICore
+current-version:       500.0.25
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _$s7SwiftUI5ImageV16ScreenTimeUICoreE4fromAC10Foundation4DataV_tcfC ]
+    objc-classes:         [ _STScreenTimeUICoreBundle, _STUICoreDevice ]
+...

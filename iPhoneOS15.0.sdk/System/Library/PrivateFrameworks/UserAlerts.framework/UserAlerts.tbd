@@ -1,0 +1,61 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/UserAlerts.framework/UserAlerts
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _URTAlertCancel, _URTAlertCreate,
+                            _URTAlertCreateRunLoopSource,
+                            _URTAlertReceiveResponse,
+                            _URTDescriptionForAlertDestination,
+                            _URTMachPortNameForAlertDestination,
+                            _kURTAlertCarPlayAllowedApplicationsKey,
+                            _kURTAlertCarPlayCancelButtonTitleKey,
+                            _kURTAlertCarPlayDefaultButtonTitleKey,
+                            _kURTAlertCarPlayHeaderKey,
+                            _kURTAlertCarPlayMessageKey ]
+    objc-classes:         [ _URTAlert, _URTAlertAction, _URTAlertConnection,
+                            _URTAlertPresenter, _URTAlertService,
+                            _URTAlertServiceDelegateProxy,
+                            _URTAlertServiceSpecification,
+                            _URTDefaultDestinationPresentation,
+                            _URTServiceDestinationPresentation,
+                            _URTUserNotificationPresentation ]
+    objc-ivars:           [ _URTAlert._allowedApplicationBundleIDs,
+                            _URTAlert._cancelAction, _URTAlert._defaultAction,
+                            _URTAlert._identifier, _URTAlert._message,
+                            _URTAlert._otherAction, _URTAlert._title,
+                            _URTAlertAction._handler, _URTAlertAction._title,
+                            _URTAlertConnection._alert,
+                            _URTAlertConnection._connection,
+                            _URTAlertPresenter._compatibilityCallback,
+                            _URTAlertPresenter._compatibilityResponse,
+                            _URTAlertPresenter._compatibilityResponseButtonFlag,
+                            _URTAlertPresenter._presentationsForDestinations,
+                            _URTAlertPresenter._presentationsQueue,
+                            _URTAlertPresenter._userNotificationPresentation,
+                            _URTAlertService._connectionQueue,
+                            _URTAlertService._connections,
+                            _URTAlertService._delegate,
+                            _URTAlertService._delegateProxy,
+                            _URTAlertService._domain,
+                            _URTAlertService._domainActivationToken,
+                            _URTAlertService._listener,
+                            _URTAlertServiceDelegateProxy._service,
+                            _URTDefaultDestinationPresentation._alert,
+                            _URTDefaultDestinationPresentation._delegate,
+                            _URTDefaultDestinationPresentation._destination,
+                            _URTDefaultDestinationPresentation._runLoopSource,
+                            _URTServiceDestinationPresentation._alert,
+                            _URTServiceDestinationPresentation._connection,
+                            _URTServiceDestinationPresentation._connectionQueue,
+                            _URTServiceDestinationPresentation._delegate,
+                            _URTServiceDestinationPresentation._destination,
+                            _URTServiceDestinationPresentation._remoteTargetQueue,
+                            _URTUserNotificationPresentation._contents,
+                            _URTUserNotificationPresentation._creationFlags,
+                            _URTUserNotificationPresentation._error,
+                            _URTUserNotificationPresentation._userNotification ]
+...

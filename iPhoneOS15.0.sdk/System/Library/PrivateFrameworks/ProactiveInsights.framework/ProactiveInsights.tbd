@@ -1,0 +1,24 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ProactiveInsights.framework/ProactiveInsights
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _PIPBFeatureFeedbackEventReadFrom,
+                            _ProactiveInsightsVersionNumber,
+                            _ProactiveInsightsVersionString ]
+    objc-classes:         [ _PIFeatureFeedback, _PIFeatureFeedbackEvent,
+                            _PIFeatureFeedbackStream, _PIPBFeatureFeedbackEvent ]
+    objc-ivars:           [ _PIFeatureFeedback._stream,
+                            _PIFeatureFeedbackEvent._date,
+                            _PIFeatureFeedbackEvent._feature,
+                            _PIFeatureFeedbackEvent._type,
+                            _PIFeatureFeedbackStream._storeStream,
+                            _PIFeatureFeedbackStream._streamIdentifier,
+                            _PIPBFeatureFeedbackEvent._date,
+                            _PIPBFeatureFeedbackEvent._feature,
+                            _PIPBFeatureFeedbackEvent._has,
+                            _PIPBFeatureFeedbackEvent._type ]
+...

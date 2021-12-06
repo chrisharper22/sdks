@@ -1,0 +1,31 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/ScreenTime.framework/ScreenTime
+current-version:       500.0.25
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _STMachServiceNameScreenTime ]
+    objc-classes:         [ _STScreenTimeAgentConnection, _STScreenTimeBundle,
+                            _STScreenTimeConfiguration,
+                            _STScreenTimeConfigurationObserver, _STWebHistory,
+                            _STWebRemoteViewController, _STWebService,
+                            _STWebpageController ]
+    objc-ivars:           [ _STScreenTimeConfiguration._enforcesChildRestrictions,
+                            _STScreenTimeConfigurationObserver._configuration,
+                            _STScreenTimeConfigurationObserver._notificationToken,
+                            _STScreenTimeConfigurationObserver._xpcConnection,
+                            _STWebHistory._bundleIdentifier,
+                            _STWebHistory._xpcConnection,
+                            _STWebRemoteViewController._URLIsBlocked,
+                            _STWebpageController._URL,
+                            _STWebpageController._URLIsBlocked,
+                            _STWebpageController._URLIsPictureInPicture,
+                            _STWebpageController._URLIsPlayingVideo,
+                            _STWebpageController._URLIsVisibleInForeground,
+                            _STWebpageController._bundleIdentifier,
+                            _STWebpageController._currentUsageState,
+                            _STWebpageController._remoteViewController,
+                            _STWebpageController._suppressUsageRecording ]
+...

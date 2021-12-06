@@ -1,0 +1,22 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MorphunAssets.framework/MorphunAssets
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _MorphunAssetOSLog, _MorphunAssetsError,
+                            _MorphunAssetsVersionNumber,
+                            _MorphunAssetsVersionString, _MorphunLogInitIfNeeded,
+                            __EmbeddedLanguages, __EmbeddedPath, __MorphunDomain,
+                            __SupportedLanguages, _embeddedFilepath,
+                            _embeddedLanguagesKey, _kMorphunLogContextAsset,
+                            _libmorphunVersionKey, _morphunNamespace ]
+    objc-classes:         [ _MorphunAssets, _MorphunAssetsUtilities ]
+    objc-ivars:           [ _MorphunAssets.readyLanguages,
+                            _MorphunAssets.subscriptionCache,
+                            _MorphunAssets.subscriptionProcessKey,
+                            _MorphunAssets.subscriptionView,
+                            _MorphunAssets.subscriptionViewLock ]
+...

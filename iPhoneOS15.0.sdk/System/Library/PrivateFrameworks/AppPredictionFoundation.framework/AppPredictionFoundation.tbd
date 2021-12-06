@@ -1,0 +1,64 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AppPredictionFoundation.framework/AppPredictionFoundation
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _ATXAppPredictionPanelWidgetBundleIdentifier,
+                            _ATXAppPredictionPanelWidgetKind,
+                            _ATXAppPredictionPreviewIdentifier2x4,
+                            _ATXBucketDoubleBetweenValues,
+                            _ATXBucketUInt32BetweenValuesWithRounding,
+                            _ATXCacheFileJoinChunks, _ATXCacheFileRead,
+                            _ATXCacheFileSplitChunks, _ATXCacheFileWrite,
+                            _ATXCacheFileWriteChunks,
+                            _ATXCachedDefaultTVWidgetSuggestionAppLaunchCountKey,
+                            _ATXCachedDefaultTVWidgetSuggestionAzulFKey,
+                            _ATXCachedDefaultTVWidgetSuggestionIntentDonationCountKey,
+                            _ATXCachedDefaultTVWidgetSuggestionUpcomingMediaCountKey,
+                            _ATXDefaultTVWidgetSuggestionAcceptanceTimestamp,
+                            _ATXDefaultTVWidgetSuggestionRejectionTimestamp,
+                            _ATXDefaultTVWidgetSuggestionResponseKey,
+                            _ATXDetailedActionLoggingEnabled,
+                            _ATXLocalizationNotNeeded,
+                            _ATXSuggestionsWidgetBundleIdentifier,
+                            _ATXSuggestionsWidgetKind,
+                            _ATXSuggestionsWidgetPreviewIdentifier2x2,
+                            _ATXSuggestionsWidgetPreviewIdentifier2x4,
+                            _ATXSuggestionsWidgetPreviewIdentifier4x4,
+                            _AppPredictionFoundationVersionNumber,
+                            _AppPredictionFoundationVersionString, __ATXDomain,
+                            __ATXTimelineRelevanceMetricsDomain,
+                            __kATXAzulHomescreenWidgetStatusDefaultsKey,
+                            __kATXFirstAddedWidgetsOnHomescreenDateDefaultsKey,
+                            __kATXHasHadWidgetsOnHomeScreenDefaultsKey,
+                            __kATXHistoricallyConfiguredDNDModeSemanticTypesArrayKey,
+                            __kATXIgnoreDailyWidgetSuggestionLimitKey,
+                            __kATXNumFirstTenSeenSuggestedSGKey,
+                            __kATXNumFirstTenSeenSuggestedSGTappedKey,
+                            __kATXSawWidgetOnboardingDefaultsKey,
+                            __kATXSkyUpgradeDateDefaultsKey,
+                            __kATXTimeOfMostRecentUserWakeupDefaultsKey,
+                            __kATXUseFastHomeScreenSuggestionClientSuppressionTimerKey,
+                            __kATXWidgetOnboardingRemovedDateDefaultsKey,
+                            __kATXWidgetOnboardingResultDefaultsKey,
+                            __kATXWidgetOnboardingSuggestionsWerePersonalizedDefaultsKey ]
+    objc-classes:         [ _ATXBMBookmark, _ATXBMStoreEvent,
+                            _ATXGenericFileBasedCache, _ATXMemoryPressureMonitor,
+                            _ATXPETEventTracker2Logger, _ATXPaths,
+                            _ATXReservoirSampler, _ATXRingBuffer,
+                            _ATXSecureCodedTuple, _ATXTypes ]
+    objc-ivars:           [ _ATXBMBookmark._bookmark, _ATXBMBookmark._metadata,
+                            _ATXBMBookmark._urlPath,
+                            _ATXBMBookmark._versionNumber,
+                            _ATXBMStoreEvent._eventBody,
+                            _ATXBMStoreEvent._timestamp,
+                            _ATXGenericFileBasedCache._cacheFilePath,
+                            _ATXMemoryPressureMonitor._internalQueue,
+                            _ATXMemoryPressureMonitor._memoryMonitoringSource,
+                            _ATXMemoryPressureMonitor._observers,
+                            _ATXRingBuffer._bufferArray, _ATXRingBuffer._maxSize,
+                            _ATXRingBuffer._readStartIndex ]
+...

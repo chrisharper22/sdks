@@ -1,0 +1,51 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ChronoCore.framework/ChronoCore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _$s10ChronoCore21_ChronodStartupHelperC9bootstrapyyFZ,
+                            _$s10ChronoCore21_ChronodStartupHelperCMa,
+                            _$s10ChronoCore21_ChronodStartupHelperCMm,
+                            _$s10ChronoCore21_ChronodStartupHelperCMn,
+                            _$s10ChronoCore21_ChronodStartupHelperCMo,
+                            _$s10ChronoCore21_ChronodStartupHelperCMu,
+                            _$s10ChronoCore21_ChronodStartupHelperCN,
+                            _$s10ChronoCore21_ChronodStartupHelperCfD,
+                            _$s10ChronoCore21_ChronodStartupHelperCfd,
+                            _CHDCreateATXInfoTimelineEntries,
+                            _CHDFaultInProactiveFramework,
+                            _CHDForwardEntriesToProactive,
+                            _CHDJetsamSetElevatedInactivePriority,
+                            _CHDRegisterForTemporaryFolder,
+                            _CHDSerializeNSUserActivity,
+                            _ChronoCoreVersionNumber, _ChronoCoreVersionString ]
+    objc-classes:         [ _CHCDistributedNotificationCenter, _CHCWorkloop,
+                            _CHDProactiveEntry, __TtC10ChronoCore12WidgetWindow,
+                            __TtC10ChronoCore14ProcessMonitor,
+                            __TtC10ChronoCore16StateCaptureItem,
+                            __TtC10ChronoCore17ActivityScheduler,
+                            __TtC10ChronoCore17DescriptorService,
+                            __TtC10ChronoCore17StateCaptureEntry,
+                            __TtC10ChronoCore18ToolServicesServer,
+                            __TtC10ChronoCore18WidgetCenterServer,
+                            __TtC10ChronoCore19ApplicationDelegate,
+                            __TtC10ChronoCore19StateCaptureService,
+                            __TtC10ChronoCore19WidgetSceneDelegate,
+                            __TtC10ChronoCore20ChronoServicesServer,
+                            __TtC10ChronoCore20TaskSessionQueuePool,
+                            __TtC10ChronoCore20TouchPassThroughView,
+                            __TtC10ChronoCore21WidgetSceneConnection,
+                            __TtC10ChronoCore23StateCaptureInvalidator,
+                            __TtC10ChronoCore26DebugOverlayViewController,
+                            __TtC10ChronoCore27WidgetContentViewController,
+                            __TtC10ChronoCore29ZStackContainerViewController,
+                            __TtC10ChronoCore41_UserInterfaceStyleSceneComponentProvider,
+                            __TtC10ChronoCore4Task ]
+    objc-ivars:           [ _CHDProactiveEntry._date,
+                            _CHDProactiveEntry._duration,
+                            _CHDProactiveEntry._hasRelevance,
+                            _CHDProactiveEntry._score ]
+...

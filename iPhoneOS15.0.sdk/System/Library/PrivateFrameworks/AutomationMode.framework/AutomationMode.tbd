@@ -1,0 +1,36 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AutomationMode.framework/AutomationMode
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _XAMAutomationModeReaderMachServiceName,
+                            _XAMAutomationModeStateChangedNotificationName,
+                            _XAMAutomationModeStateFilePath,
+                            _XAMAutomationModeWriterMachServiceName,
+                            _XAMCreateNoAuthenticationRequiredCookie,
+                            _XAMCreateNoAuthenticationRequiredCookieWithCompletion,
+                            _XAMDisableAutomationMode,
+                            _XAMDisableAutomationModeWithCompletion,
+                            _XAMEnableAutomationMode,
+                            _XAMEnableAutomationModeWithCompletion,
+                            _XAMIsAutomationModeEnabled, _XAMLog,
+                            _XAMRegisterAutomationModeChangeHandler,
+                            _XAMRemoveNoAuthenticationRequiredCookie,
+                            _XAMRemoveNoAuthenticationRequiredCookieWithCompletion,
+                            _XAMResetSharedObserver, _XAMResetSharedWriter,
+                            _XAMUnregisterAutomationModeChangeHandler ]
+    objc-classes:         [ _XAMHandlerRecord, _XAMLocalAuthenticationProvider,
+                            _XAMObserver, _XAMWriter ]
+    objc-ivars:           [ _XAMHandlerRecord._block, _XAMHandlerRecord._queue,
+                            _XAMObserver._changeNotificationName,
+                            _XAMObserver._handlers,
+                            _XAMObserver._hasReceivedAutomationModeEnabledState,
+                            _XAMObserver._isAutomationModeEnabled,
+                            _XAMObserver._observationToken, _XAMObserver._queue,
+                            _XAMObserver._readerConnectionFactory,
+                            _XAMWriter._authorizationProvider,
+                            _XAMWriter._writerConnectionFactory ]
+...

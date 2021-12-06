@@ -1,0 +1,17 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/XCTTargetBootstrap.framework/XCTTargetBootstrap
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _XCTSetSharedDaemonConnectionProvider,
+                            _XCTSharedDaemonConnectionProvider, _XCTTBDefaultLog,
+                            _XCTTargetBootstrap ]
+    objc-classes:         [ _XCTDaemonConnectionProvider, _XCTTargetSession ]
+    objc-ivars:           [ _XCTTargetSession._clientListener,
+                            _XCTTargetSession._connectionHandler,
+                            _XCTTargetSession._daemonConnection,
+                            _XCTTargetSession._queue ]
+...

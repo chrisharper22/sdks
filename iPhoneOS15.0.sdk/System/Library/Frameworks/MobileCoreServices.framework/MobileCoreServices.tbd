@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+current-version:       1141.1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/Frameworks/CoreServices.framework/CoreServices ]
+    symbols:              [ _MobileCoreServicesVersionNumber,
+                            _MobileCoreServicesVersionString ]
+...

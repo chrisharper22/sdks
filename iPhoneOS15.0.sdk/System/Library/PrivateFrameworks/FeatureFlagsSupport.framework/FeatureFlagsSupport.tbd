@@ -1,0 +1,29 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/FeatureFlagsSupport.framework/FeatureFlagsSupport
+current-version:       54
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _FFConfigurationValidateProfilePayload ]
+    objc-classes:         [ _FFConfiguration, _FFDefaultFileReader,
+                            _FFDefaultFileWriter, _FFFeatureAttribute,
+                            _FFFeatureState ]
+    objc-ivars:           [ _FFConfiguration._domains,
+                            _FFConfiguration._filereader,
+                            _FFConfiguration._filewriter,
+                            _FFConfiguration._profilePayloads,
+                            _FFConfiguration.configByLevel,
+                            _FFConfiguration.disclosuresByLevel,
+                            _FFConfiguration.lock, _FFConfiguration.metaByLevel,
+                            _FFConfiguration.searchPaths,
+                            _FFDefaultFileWriter._dirAttributes,
+                            _FFDefaultFileWriter._fileAttributes,
+                            _FFFeatureAttribute._name,
+                            _FFFeatureAttribute._value,
+                            _FFFeatureState._attributes,
+                            _FFFeatureState._disclosurerequired,
+                            _FFFeatureState._domain, _FFFeatureState._feature,
+                            _FFFeatureState._value ]
+...

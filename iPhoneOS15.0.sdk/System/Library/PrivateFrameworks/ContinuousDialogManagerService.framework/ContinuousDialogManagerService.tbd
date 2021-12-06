@@ -1,0 +1,25 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/ContinuousDialogManagerService
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CDMXPCClientErrorCodeXPCError,
+                            _CDMXPCClientErrorDomain,
+                            _ContinuousDialogManagerServiceVersionNumber,
+                            _ContinuousDialogManagerServiceVersionString,
+                            _activeGraphNameKey, _availableServiceGraphsKey,
+                            _errorKey, _errorKeyCDMXPCSetGraphResponse,
+                            _localeIdentifierKey, _sandboxIdKey ]
+    objc-classes:         [ _CDMXPCClient, _CDMXPCListGraphsResponse,
+                            _CDMXPCSetGraphResponse, _CDMXPCSetupNLURequest ]
+    objc-ivars:           [ _CDMXPCClient._connection, _CDMXPCClient._delegate,
+                            _CDMXPCListGraphsResponse._activeGraphName,
+                            _CDMXPCListGraphsResponse._availableServiceGraphs,
+                            _CDMXPCListGraphsResponse._error,
+                            _CDMXPCSetGraphResponse._error,
+                            _CDMXPCSetupNLURequest._localeIdentifier,
+                            _CDMXPCSetupNLURequest._sandboxId ]
+...

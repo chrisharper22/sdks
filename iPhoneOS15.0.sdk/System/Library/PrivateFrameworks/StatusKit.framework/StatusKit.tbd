@@ -1,0 +1,63 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/StatusKit.framework/StatusKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _SKStatusPublishingErrorDomain,
+                            _SKStatusSubscriptionErrorDomain ]
+    objc-classes:         [ _SKDelegateResponseQueue, _SKHandle,
+                            _SKHandleInvitability, _SKInvitationPayload,
+                            _SKPublishedStatus, _SKStatusPayload,
+                            _SKStatusPublishRequest,
+                            _SKStatusPublishingDaemonConnection,
+                            _SKStatusPublishingService, _SKStatusSubscription,
+                            _SKStatusSubscriptionDaemonConnection,
+                            _SKStatusSubscriptionMetadata,
+                            _SKStatusSubscriptionService ]
+    objc-ivars:           [ _SKDelegateResponseQueue._dispatchQueue,
+                            _SKHandle._handleString,
+                            _SKHandleInvitability._isInvitable,
+                            _SKHandleInvitability._wasRemoved,
+                            _SKInvitationPayload._cachedPayloadDictionary,
+                            _SKInvitationPayload._dateCreated,
+                            _SKInvitationPayload._payloadData,
+                            _SKPublishedStatus._dateCreated,
+                            _SKPublishedStatus._datePublished,
+                            _SKPublishedStatus._dateReceived,
+                            _SKPublishedStatus._invitationPayload,
+                            _SKPublishedStatus._statusPayload,
+                            _SKPublishedStatus._statusUniqueIdentifier,
+                            _SKStatusPayload._cachedPayloadDictionary,
+                            _SKStatusPayload._payloadData,
+                            _SKStatusPublishRequest._dateCreated,
+                            _SKStatusPublishRequest._isScheduledRequest,
+                            _SKStatusPublishRequest._isSecondaryDeviceRepublish,
+                            _SKStatusPublishRequest._statusPayload,
+                            _SKStatusPublishRequest._statusUniqueIdentifier,
+                            _SKStatusPublishingDaemonConnection._connectionDelegate,
+                            _SKStatusPublishingDaemonConnection._publishingDaemonDelegate,
+                            _SKStatusPublishingDaemonConnection._xpcConnection,
+                            _SKStatusPublishingService._daemonConnection,
+                            _SKStatusPublishingService._delegates,
+                            _SKStatusPublishingService._privateWorkQueue,
+                            _SKStatusPublishingService._registeredForDelegateCallbacks,
+                            _SKStatusPublishingService._statusTypeIdentifier,
+                            _SKStatusSubscription._daemonConnection,
+                            _SKStatusSubscription._subscriptionMetadata,
+                            _SKStatusSubscriptionDaemonConnection._connectionDelegate,
+                            _SKStatusSubscriptionDaemonConnection._subscriptionDaemonDelegate,
+                            _SKStatusSubscriptionDaemonConnection._xpcConnection,
+                            _SKStatusSubscriptionMetadata._currentStatus,
+                            _SKStatusSubscriptionMetadata._ownerHandles,
+                            _SKStatusSubscriptionMetadata._personalStatusSubscription,
+                            _SKStatusSubscriptionMetadata._statusTypeIdentifier,
+                            _SKStatusSubscriptionMetadata._subscriptionIdentifier,
+                            _SKStatusSubscriptionService._daemonConnection,
+                            _SKStatusSubscriptionService._delegates,
+                            _SKStatusSubscriptionService._privateWorkQueue,
+                            _SKStatusSubscriptionService._registeredForDelegateCallbacks,
+                            _SKStatusSubscriptionService._statusTypeIdentifier ]
+...

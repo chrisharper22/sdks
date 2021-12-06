@@ -1,0 +1,15 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CoreGlyphs.framework/CoreGlyphs
+current-version:       64.2
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CoreGlyphsVersionNumber, _CoreGlyphsVersionString,
+                            _kCoreGlyphsNameAliases, _kCoreGlyphsNoFillToFill,
+                            _kCoreGlyphsPrivateNameAliases,
+                            _kCoreGlyphsPrivateNoFillToFill,
+                            _kCoreGlyphsPrivateSymbolOrder,
+                            _kCoreGlyphsSymbolOrder ]
+...

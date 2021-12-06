@@ -1,0 +1,66 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ShazamInsights.framework/ShazamInsights
+current-version:       145
+compatibility-version: 0
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _SHInsightsErrorDomain ]
+    objc-classes:         [ _SHAffinityGroup, _SHAffinityGroupQuery,
+                            _SHCDNDataFetcher, _SHCampaignTokens,
+                            _SHDataStoreMetadata,
+                            _SHDateGeohashServerResponseParser,
+                            _SHDefaultConfigurationValues, _SHEndpoints,
+                            _SHFeatureFlags, _SHFileReader, _SHHost, _SHInsights,
+                            _SHInsightsError, _SHInsightsPersistenceController,
+                            _SHLouvainClusterDataStore, _SHLouvainClusterImport,
+                            _SHLouvainClusterQuery, _SHNetworkRequester, _SHRegion,
+                            _SHRegionAffinityGroup, _SHRemoteConfiguration,
+                            _SHServerResponseContext, _SHTargetingMetadataMO,
+                            _SHTargetingTrackMO, _SHTokenizedURL ]
+    objc-ivars:           [ _SHAffinityGroup._clusterType,
+                            _SHAffinityGroup._cohesionLevel,
+                            _SHAffinityGroup._mutableMediaItems,
+                            _SHAffinityGroupQuery._dataManager,
+                            _SHCampaignTokens._campaignTokens,
+                            _SHDataStoreMetadata._etag,
+                            _SHDataStoreMetadata._fetchDate,
+                            _SHDataStoreMetadata._storefront,
+                            _SHDefaultConfigurationValues._defaultValues,
+                            _SHEndpoints._endpoints,
+                            _SHEndpoints._suggestedLanguage,
+                            _SHFileReader._filePath, _SHFileReader.chunkSize,
+                            _SHFileReader.currentOffset,
+                            _SHFileReader.fileHandle,
+                            _SHFileReader.lineDelimiter,
+                            _SHFileReader.totalFileLength, _SHHost._name,
+                            _SHInsights._insightsDictionary,
+                            _SHInsightsPersistenceController._cloudServiceController,
+                            _SHInsightsPersistenceController._dataFetcher,
+                            _SHInsightsPersistenceController._dataStore,
+                            _SHLouvainClusterDataStore._persistentContainer,
+                            _SHLouvainClusterDataStore._query,
+                            _SHLouvainClusterDataStore._useInMemoryStore,
+                            _SHLouvainClusterImport._dataStore,
+                            _SHLouvainClusterQuery._moc, _SHRegion._geohash,
+                            _SHRegion._location,
+                            _SHRegionAffinityGroup._affinityGroup,
+                            _SHRegionAffinityGroup._geohashKeyedRegions,
+                            _SHRegionAffinityGroup._regions,
+                            _SHRemoteConfiguration._amsBag,
+                            _SHRemoteConfiguration._campaignTokenBagValue,
+                            _SHRemoteConfiguration._defaultValuesBagValue,
+                            _SHRemoteConfiguration._endpointsBagValue,
+                            _SHRemoteConfiguration._externalHostBagValue,
+                            _SHRemoteConfiguration._featureFlags,
+                            _SHRemoteConfiguration._featureFlagsBagValue,
+                            _SHRemoteConfiguration._insightsBagValue,
+                            _SHRemoteConfiguration._internalHostBagValue,
+                            _SHRemoteConfiguration._languageTagBagValue,
+                            _SHServerResponseContext._campaignToken,
+                            _SHServerResponseContext._defaultRecordingIntermissionInSeconds,
+                            _SHTokenizedURL._host,
+                            _SHTokenizedURL._originalURLPath,
+                            _SHTokenizedURL._tokenDictionary ]
+...

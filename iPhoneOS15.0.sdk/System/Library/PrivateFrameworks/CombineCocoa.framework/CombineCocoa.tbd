@@ -1,0 +1,7 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CombineCocoa.framework/CombineCocoa
+current-version:       276
+compatibility-version: 1
+...

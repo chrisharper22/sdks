@@ -1,0 +1,35 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/DataDetection.framework/DataDetection
+current-version:       694
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _DDMatch, _DDMatchCalendarEvent, _DDMatchEmailAddress,
+                            _DDMatchFlightNumber, _DDMatchLink,
+                            _DDMatchMoneyAmount, _DDMatchPhoneNumber,
+                            _DDMatchPostalAddress,
+                            _DDMatchShipmentTrackingNumber ]
+    objc-ivars:           [ _DDMatch._matchedRange, _DDMatch._matchedString,
+                            _DDMatchCalendarEvent._allDay,
+                            _DDMatchCalendarEvent._endDate,
+                            _DDMatchCalendarEvent._endTimeZone,
+                            _DDMatchCalendarEvent._startDate,
+                            _DDMatchCalendarEvent._startTimeZone,
+                            _DDMatchEmailAddress._emailAddress,
+                            _DDMatchEmailAddress._label,
+                            _DDMatchFlightNumber._airline,
+                            _DDMatchFlightNumber._flightNumber,
+                            _DDMatchLink._URL, _DDMatchMoneyAmount._amount,
+                            _DDMatchMoneyAmount._currency,
+                            _DDMatchPhoneNumber._label,
+                            _DDMatchPhoneNumber._phoneNumber,
+                            _DDMatchPostalAddress._city,
+                            _DDMatchPostalAddress._country,
+                            _DDMatchPostalAddress._postalCode,
+                            _DDMatchPostalAddress._state,
+                            _DDMatchPostalAddress._street,
+                            _DDMatchShipmentTrackingNumber._carrier,
+                            _DDMatchShipmentTrackingNumber._trackingNumber ]
+...

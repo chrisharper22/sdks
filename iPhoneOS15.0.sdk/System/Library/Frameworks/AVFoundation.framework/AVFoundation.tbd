@@ -1,0 +1,13 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+current-version:       2
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/Frameworks/AVFAudio.framework/AVFAudio,
+                            /System/Library/PrivateFrameworks/AVFCapture.framework/AVFCapture,
+                            /System/Library/PrivateFrameworks/AVFCore.framework/AVFCore ]
+    symbols:              [ _kAVFoundationSCMVersion ]
+...

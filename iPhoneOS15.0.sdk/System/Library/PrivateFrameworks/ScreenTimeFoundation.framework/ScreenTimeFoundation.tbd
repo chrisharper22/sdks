@@ -1,0 +1,16 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ScreenTimeFoundation.framework/ScreenTimeFoundation
+current-version:       500.0.25
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _$s10Foundation4DateV010ScreenTimeA0E09localizedB0SSyF,
+                            _$s10Foundation4DateV010ScreenTimeA0E09localizedD0SSyF,
+                            _$s10Foundation4DateV010ScreenTimeA0E09localizedb3AndD0SSyF,
+                            _$s10Foundation4DateV010ScreenTimeA0E6formatyS2SF,
+                            _$s20ScreenTimeFoundation7openURLyy0C00E0VF,
+                            _$sSS20ScreenTimeFoundationE10obfuscatedSSvg,
+                            _$sSS20ScreenTimeFoundationE10obfuscatedSSvpMV ]
+...

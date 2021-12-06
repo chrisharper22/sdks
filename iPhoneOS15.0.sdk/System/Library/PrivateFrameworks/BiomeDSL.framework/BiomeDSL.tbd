@@ -1,0 +1,59 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/BiomeDSL.framework/BiomeDSL
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _BMDSLJSONTransformerNameFromEncodingDescriptor,
+                            _BMDSLRegisterJSONTransformerNameFromEncodingDescriptor,
+                            _BMDSLValidateDictionary, _BiomeDSLVersionNumber,
+                            _BiomeDSLVersionString, _kBMDSLName, _kBMDSLUpstream,
+                            _kBMDSLVersion ]
+    objc-classes:         [ _BMDSL, _BMDSLAggregator, _BMDSLArgumentTransform,
+                            _BMDSLArray, _BMDSLBaseCodable, _BMDSLClassTransform,
+                            _BMDSLClasses, _BMDSLCollect, _BMDSLFilter,
+                            _BMDSLInstanceTransform, _BMDSLJSONAllowedClasses,
+                            _BMDSLJSONArchiver, _BMDSLJSONCoder,
+                            _BMDSLJSONUnarchiver, _BMDSLKeyPathSelector,
+                            _BMDSLKeyPathTransform, _BMDSLMap, _BMDSLMerge,
+                            _BMDSLOrderedMerge, _BMDSLState, _BMDSLSubscribeOn,
+                            _BMDSLSubscriber, _BMDSLTransformInvocation,
+                            _BMDSLTransformValidator, _BMDSLTransforms,
+                            _BMDSLTumblingWindowAssigner, _BMDSLWindowAssigner,
+                            _BMDSLWindower, __BPSSubscribeOnInner ]
+    objc-ivars:           [ _BMDSLArgumentTransform._selector,
+                            _BMDSLArray._valueClassName, _BMDSLArray._values,
+                            _BMDSLBaseCodable._evaluationBlocked,
+                            _BMDSLBaseCodable._name, _BMDSLBaseCodable._version,
+                            _BMDSLClassTransform._className,
+                            _BMDSLClassTransform._transformName,
+                            _BMDSLCollect._upstream, _BMDSLFilter._comparison,
+                            _BMDSLFilter._keyPath, _BMDSLFilter._negation,
+                            _BMDSLFilter._upstream, _BMDSLFilter._value,
+                            _BMDSLInstanceTransform._transformName,
+                            _BMDSLJSONCoder._allowKeyModifications,
+                            _BMDSLJSONCoder._allowSecureCodingObjects,
+                            _BMDSLJSONCoder._currentDictionary,
+                            _BMDSLJSONCoder._stack, _BMDSLJSONCoder._userInfo,
+                            _BMDSLKeyPathSelector._keyPaths,
+                            _BMDSLKeyPathTransform._keyPath,
+                            _BMDSLMap._transform, _BMDSLMap._upstream,
+                            _BMDSLMerge._a, _BMDSLMerge._b, _BMDSLOrderedMerge._a,
+                            _BMDSLOrderedMerge._b, _BMDSLOrderedMerge._key,
+                            _BMDSLOrderedMerge._selectorName,
+                            _BMDSLState._combinedValue, _BMDSLState._key,
+                            _BMDSLState._upstream, _BMDSLState._value,
+                            _BMDSLSubscribeOn._scheduler,
+                            _BMDSLSubscribeOn._upstream,
+                            _BMDSLSubscriber._identifier,
+                            _BMDSLTumblingWindowAssigner._aggregator,
+                            _BMDSLTumblingWindowAssigner._interval,
+                            _BMDSLTumblingWindowAssigner._timestampKeyPaths,
+                            _BMDSLWindower._assigner, _BMDSLWindower._keyedPath,
+                            _BMDSLWindower._upstream,
+                            __BPSSubscribeOnInner._downstream,
+                            __BPSSubscribeOnInner._status,
+                            __BPSSubscribeOnInner._subscription ]
+...

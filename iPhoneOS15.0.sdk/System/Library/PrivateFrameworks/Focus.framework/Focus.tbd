@@ -1,0 +1,33 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/Focus.framework/Focus
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _FCLogActivities, _FCRegisterLogging,
+                            _FocusVersionNumber, _FocusVersionString ]
+    objc-classes:         [ _FCActivityManager, __FCActivity, __FCActivityLifetime ]
+    objc-ivars:           [ _FCActivityManager._activeActivity,
+                            _FCActivityManager._activeLifetimeDetailsCollection,
+                            _FCActivityManager._activeModeAssertion,
+                            _FCActivityManager._activeModeAssertionIsValid,
+                            _FCActivityManager._activeStateUpdate,
+                            _FCActivityManager._activitySuggestionClient,
+                            _FCActivityManager._allActivitiesByIdentifier,
+                            _FCActivityManager._availableActivities,
+                            _FCActivityManager._defaultActivity,
+                            _FCActivityManager._identifier,
+                            _FCActivityManager._lifetimeDescriptionsUpdatingEnabled,
+                            _FCActivityManager._lifetimeDetailsProvider,
+                            _FCActivityManager._lifetimeOfActiveActivity,
+                            _FCActivityManager._locationsToSuggestedActivitiesOrNull,
+                            _FCActivityManager._modeSelectionService,
+                            _FCActivityManager._observers,
+                            _FCActivityManager._stateService,
+                            __FCActivity._activityCreationDate,
+                            __FCActivity._activityLifetimeDescriptions,
+                            __FCActivity._dndMode,
+                            __FCActivityLifetime._dndLifetimeDetails ]
+...

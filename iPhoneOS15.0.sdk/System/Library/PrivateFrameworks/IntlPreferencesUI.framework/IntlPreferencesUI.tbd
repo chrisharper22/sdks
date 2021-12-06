@@ -1,0 +1,14 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/IntlPreferencesUI.framework/IntlPreferencesUI
+current-version:       364
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _IntlPreferencesUIVersionNumber,
+                            _IntlPreferencesUIVersionString ]
+    objc-classes:         [ _IPInflectionSettingsViewController ]
+    objc-ivars:           [ _IPInflectionSettingsViewController._delegate,
+                            _IPInflectionSettingsViewController._inflection ]
+...

@@ -1,0 +1,32 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ClassKitUI.framework/ClassKitUI
+current-version:       147.0.89
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _CLSNotificationBanner,
+                            _CLSNotificationBannerDisplayManager,
+                            _CLSNotificationBannerView,
+                            _CLSNotificationBannerViewController,
+                            _CLSNotificationBannerWindow,
+                            _CLSRemoteViewController ]
+    objc-ivars:           [ _CLSNotificationBannerDisplayManager._lastBannerTime,
+                            _CLSNotificationBannerView._completionHandler,
+                            _CLSNotificationBannerView._duration,
+                            _CLSNotificationBannerView._imageView,
+                            _CLSNotificationBannerView._labelsStackView,
+                            _CLSNotificationBannerView._messageLabel,
+                            _CLSNotificationBannerView._preferredWidthPad,
+                            _CLSNotificationBannerView._titleLabel,
+                            _CLSNotificationBannerViewController._bannerAnimating,
+                            _CLSNotificationBannerViewController._bannerView,
+                            _CLSNotificationBannerViewController._bannerVisible,
+                            _CLSNotificationBannerViewController._bannerWidthConstraint,
+                            _CLSNotificationBannerViewController._bannerYPositionConstraint,
+                            _CLSNotificationBannerWindow._bannerSemaphore,
+                            _CLSNotificationBannerWindow._currentBannerViewController,
+                            _CLSRemoteViewController._previousKeyWindow,
+                            _CLSRemoteViewController._window ]
+...

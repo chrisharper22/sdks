@@ -1,0 +1,33 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/PeopleUIInternal.framework/PeopleUIInternal
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _PPLPeopleAppBundleIdentifier,
+                            _PPLPeopleViewServiceLog ]
+    objc-classes:         [ _PPLMutablePeopleEntitySceneSettings,
+                            _PPLPeopleAppLauncher, _PPLPeopleAppSceneManager,
+                            _PPLPeopleEntityMetadata,
+                            _PPLPeopleEntitySceneSettings,
+                            _PPLPeopleEntitySceneSpecification,
+                            _PPLPeopleEntitySceneTransitionContext,
+                            _PPLPeopleEntityViewController ]
+    objc-ivars:           [ _PPLPeopleAppLauncher._delegate,
+                            _PPLPeopleAppLauncher._initializationAssertion,
+                            _PPLPeopleAppLauncher._peopleAppProcessHandle,
+                            _PPLPeopleAppLauncher._queue,
+                            _PPLPeopleAppSceneManager._peopleAppLauncher,
+                            _PPLPeopleAppSceneManager._scene,
+                            _PPLPeopleAppSceneManager._sceneRequesters,
+                            _PPLPeopleAppSceneManager._transaction,
+                            _PPLPeopleEntityMetadata._url,
+                            _PPLPeopleEntityViewController._delegate,
+                            _PPLPeopleEntityViewController._hostView,
+                            _PPLPeopleEntityViewController._metadata,
+                            _PPLPeopleEntityViewController._presenter,
+                            _PPLPeopleEntityViewController._scene,
+                            _PPLPeopleEntityViewController._sceneManager ]
+...

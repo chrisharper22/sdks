@@ -1,0 +1,32 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Frameworks/AACDependencies.framework/AACDependencies
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _AEDConcreteSingleAppModePrimitives,
+                            _AEDConcreteSingleAppModeSession,
+                            _AEDNotificationObservation,
+                            _AEDSingleAppModeConfiguration,
+                            _AEDSingleAppModePrimitivesProvider,
+                            _AEDUnionObservation ]
+    objc-ivars:           [ _AEDConcreteSingleAppModeSession._session,
+                            _AEDNotificationObservation._notificationCenter,
+                            _AEDNotificationObservation._notificationHandler,
+                            _AEDNotificationObservation._notificationName,
+                            _AEDNotificationObservation._object,
+                            _AEDNotificationObservation._queue,
+                            _AEDSingleAppModeConfiguration._allowsAccessibilitySpeech,
+                            _AEDSingleAppModeConfiguration._allowsActivityContinuation,
+                            _AEDSingleAppModeConfiguration._allowsAutoCorrection,
+                            _AEDSingleAppModeConfiguration._allowsContinuousPathKeyboard,
+                            _AEDSingleAppModeConfiguration._allowsDictation,
+                            _AEDSingleAppModeConfiguration._allowsKeyboardShortcuts,
+                            _AEDSingleAppModeConfiguration._allowsPasswordAutoFill,
+                            _AEDSingleAppModeConfiguration._allowsPredictiveKeyboard,
+                            _AEDSingleAppModeConfiguration._allowsSmartPunctuation,
+                            _AEDSingleAppModeConfiguration._allowsSpellCheck,
+                            _AEDUnionObservation._observations ]
+...

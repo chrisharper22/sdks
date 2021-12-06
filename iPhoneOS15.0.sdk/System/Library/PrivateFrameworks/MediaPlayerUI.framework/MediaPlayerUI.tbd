@@ -1,0 +1,36 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MediaPlayerUI.framework/MediaPlayerUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/PrivateFrameworks/MPUFoundation.framework/MPUFoundation ]
+    symbols:              [ _MPUApplicationDefaultsDidChangeNotification ]
+    objc-classes:         [ _MPUApplicationDefaults, _MPUArtworkView,
+                            _MPUPlaybackAlertController, _MPURatingControl,
+                            _MPUTheme ]
+    objc-ivars:           [ _MPUApplicationDefaults._accessQueue,
+                            _MPUApplicationDefaults._applicationIdentifier,
+                            _MPUApplicationDefaults._defaultValues,
+                            _MPUApplicationDefaults._referenceCountForDefferringUpdates,
+                            _MPUArtworkView._aspectConstraint,
+                            _MPUArtworkView._automaticallyApplyAspectConstraints,
+                            _MPUArtworkView._dimsWhenHighlighted,
+                            _MPUArtworkView._displayingPlaceholder,
+                            _MPUArtworkView._externalImage,
+                            _MPUArtworkView._forcesAnimatedUnhighlighting,
+                            _MPUArtworkView._highlightView,
+                            _MPUArtworkView._isDeallocating,
+                            _MPUArtworkView._placeholderImage,
+                            _MPUPlaybackAlertController._error,
+                            _MPUPlaybackAlertController._item,
+                            _MPUPlaybackAlertController._playbackAlertType,
+                            _MPURatingControl._delegate,
+                            _MPURatingControl._hitTestEdgeInsets,
+                            _MPURatingControl._imageViews,
+                            _MPURatingControl._panGestureRecognizer,
+                            _MPURatingControl._rating,
+                            _MPURatingControl._tapGestureRecognizer ]
+...

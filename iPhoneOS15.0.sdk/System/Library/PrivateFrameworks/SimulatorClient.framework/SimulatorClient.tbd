@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SimulatorClient.framework/SimulatorClient
+current-version:       819
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _IndigoHIDSystemSpawnLoopback,
+                            _IndigoTvOutExtendedState ]
+...

@@ -1,0 +1,34 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AXIDSServices.framework/AXIDSServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AXIDSServiceDataKey,
+                            _AXIDSServiceDeviceIDSIdentifierKey,
+                            _AXIDSServiceDeviceNRIdentifierKey,
+                            _AXIDSServiceDevicesKey,
+                            _AXIDSServiceDirectMessageIDSKey,
+                            _AXIDSServiceExpectsResponseKey,
+                            _AXIDSServiceFromIDKey,
+                            _AXIDSServiceIncomingIdentifierKey,
+                            _AXIDSServiceMessageKey,
+                            _AXIDSServiceOutgoingIdentifierKey,
+                            _AXIDSServicePriorityKey, _AXIDSServiceRegisterKey,
+                            _AXIDSServiceRegisterLocalServiceKey,
+                            _AXIDSServiceRequestingResponseKey,
+                            _AXIDSServiceResourceURLKey, _AXIDSServiceResultKey,
+                            _AXIDSServiceSendErrorKey,
+                            _AXIDSServiceSendIdentifierKey,
+                            _AXIDSServicesVersionNumber,
+                            _AXIDSServicesVersionString ]
+    objc-classes:         [ _AXIDSServices ]
+    objc-ivars:           [ _AXIDSServices._cachedConnectedDevices,
+                            _AXIDSServices._clients, _AXIDSServices._clientsLock,
+                            _AXIDSServices._connectedDevicesLock,
+                            _AXIDSServices._idsServerClient,
+                            _AXIDSServices._isConnectingToAXUIServer,
+                            _AXIDSServices._localService ]
+...

@@ -1,0 +1,14 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           C8A1E733-FAB0-3804-917D-6AE31564C9A4
+  - target:          arm64e-ios
+    value:           26A33324-076D-3091-9520-DE2DD4A0BFB2
+install-name:    '/usr/lib/libAppleSSEExt.dylib'
+...

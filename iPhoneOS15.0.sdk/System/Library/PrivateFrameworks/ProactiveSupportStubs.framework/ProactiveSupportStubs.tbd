@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/ProactiveSupportStubs
+current-version:       330
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _ProactiveSupportStubsVersionNumber,
+                            _ProactiveSupportStubsVersionString ]
+    objc-classes:         [ __PASDeviceStateStub ]
+...

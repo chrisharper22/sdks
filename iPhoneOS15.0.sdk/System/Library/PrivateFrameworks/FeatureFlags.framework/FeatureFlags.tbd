@@ -1,0 +1,16 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+current-version:       54
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF,
+                            _$s12FeatureFlags0aB3KeyMp,
+                            _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTj,
+                            _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq,
+                            _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTj,
+                            _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq,
+                            _$s12FeatureFlags0aB3KeyTL ]
+...

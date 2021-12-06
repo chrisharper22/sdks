@@ -1,0 +1,14 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/Phoenix.framework/Phoenix
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _PhoenixVersionNumber, _PhoenixVersionString ]
+    objc-classes:         [ _AXPhoenixAssetPolicy, _backtap, _backtapInput,
+                            _backtapOutput ]
+    objc-ivars:           [ _backtap._model, _backtapInput._model_input,
+                            _backtapOutput._model_output ]
+...

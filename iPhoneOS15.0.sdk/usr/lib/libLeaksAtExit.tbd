@@ -1,0 +1,14 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           62665BF7-9488-3D61-B5A8-9F0E0306DE40
+  - target:          arm64e-ios
+    value:           D951AAC1-2A32-357D-B7CE-B6493409C19F
+install-name:    '/usr/lib/libLeaksAtExit.dylib'
+...

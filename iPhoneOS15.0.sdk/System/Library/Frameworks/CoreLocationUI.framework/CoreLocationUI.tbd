@@ -1,0 +1,40 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/CoreLocationUI.framework/CoreLocationUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CoreLocationUIVersionNumber,
+                            _CoreLocationUIVersionString ]
+    objc-classes:         [ _CLLocationButton, _CLLocationButtonDrawing,
+                            _CLLocationButtonTag ]
+    objc-ivars:           [ _CLLocationButton._alphaInsufficient,
+                            _CLLocationButton._backgroundColor,
+                            _CLLocationButton._colorsIllegible,
+                            _CLLocationButton._cornerRadius,
+                            _CLLocationButton._fontSize, _CLLocationButton._icon,
+                            _CLLocationButton._intrinsicSize,
+                            _CLLocationButton._label, _CLLocationButton._proxy,
+                            _CLLocationButton._sandboxExtension,
+                            _CLLocationButton._slotView,
+                            _CLLocationButton._tintColor,
+                            _CLLocationButtonDrawing._currentTag,
+                            _CLLocationButtonDrawing._engravedSize,
+                            _CLLocationButtonDrawing._glyphDrawing,
+                            _CLLocationButtonDrawing._localizedTitle,
+                            _CLLocationButtonDrawing._neededSize,
+                            _CLLocationButtonDrawing._remote,
+                            _CLLocationButtonDrawing._style,
+                            _CLLocationButtonDrawing._textDrawing,
+                            _CLLocationButtonTag._backgroundColor,
+                            _CLLocationButtonTag._cornerRadius,
+                            _CLLocationButtonTag._fontSize,
+                            _CLLocationButtonTag._frame,
+                            _CLLocationButtonTag._icon,
+                            _CLLocationButtonTag._label,
+                            _CLLocationButtonTag._renderedSuccessfully,
+                            _CLLocationButtonTag._style,
+                            _CLLocationButtonTag._tintColor ]
+...

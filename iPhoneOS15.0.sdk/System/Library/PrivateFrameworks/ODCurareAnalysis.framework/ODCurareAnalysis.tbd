@@ -1,0 +1,54 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ODCurareAnalysis.framework/ODCurareAnalysis
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _$s16ODCurareAnalysis10TimeseriesC015runBinomialTestC07samples16sampleTimestamps11chunkMethod17minimumSampleSize021lastTimestampPreviousF017significanceLevel11pHypothesisSaySo0F6ResultCGSaySo8NSNumberCG_Say10Foundation4DateVGSSAPSgATSgA2PtKF,
+                            _$s16ODCurareAnalysis10TimeseriesC015runBinomialTestC07samples16sampleTimestamps11chunkMethod17minimumSampleSize021lastTimestampPreviousF017significanceLevel11pHypothesisSaySo0F6ResultCGSaySo8NSNumberCG_Say10Foundation4DateVGSSAPSgATSgA2PtKFTq,
+                            _$s16ODCurareAnalysis10TimeseriesC027runZTestBinomialProportionsC07samples16sampleTimestamps11chunkMethod17minimumSampleSize25lastTimestampPreviousTest17significanceLevelSaySo03TwonS6ResultCGSaySo8NSNumberCG_Say10Foundation4DateVGSSAOSgASSgAOtKF,
+                            _$s16ODCurareAnalysis10TimeseriesC027runZTestBinomialProportionsC07samples16sampleTimestamps11chunkMethod17minimumSampleSize25lastTimestampPreviousTest17significanceLevelSaySo03TwonS6ResultCGSaySo8NSNumberCG_Say10Foundation4DateVGSSAOSgASSgAOtKFTq,
+                            _$s16ODCurareAnalysis10TimeseriesCACycfC,
+                            _$s16ODCurareAnalysis10TimeseriesCACycfc,
+                            _$s16ODCurareAnalysis10TimeseriesCMa,
+                            _$s16ODCurareAnalysis10TimeseriesCMn,
+                            _$s16ODCurareAnalysis10TimeseriesCN,
+                            _$s16ODCurareAnalysis10TimeseriesCfD,
+                            _$s16ODCurareAnalysis6NormalCMa,
+                            _$s16ODCurareAnalysis6NormalCMm,
+                            _$s16ODCurareAnalysis6NormalCMn,
+                            _$s16ODCurareAnalysis6NormalCN,
+                            _$s16ODCurareAnalysis6NormalCfD,
+                            _$s16ODCurareAnalysis6NormalCfd,
+                            _$s16ODCurareAnalysis8BinomialCMa,
+                            _$s16ODCurareAnalysis8BinomialCMm,
+                            _$s16ODCurareAnalysis8BinomialCMn,
+                            _$s16ODCurareAnalysis8BinomialCN,
+                            _$s16ODCurareAnalysis8BinomialCfD,
+                            _$s16ODCurareAnalysis8BinomialCfd,
+                            _ODCurareAnalysisVersionNumber,
+                            _ODCurareAnalysisVersionString, _smallSampleSize,
+                            _testError ]
+    objc-classes:         [ _TestResult, _Timeseries, _TimeseriesInternal,
+                            _TwoSampleTestResult ]
+    objc-ivars:           [ _TestResult._maxTimestamp, _TestResult._minTimestamp,
+                            _TestResult._numSuccesses, _TestResult._pValue,
+                            _TestResult._rejectNullHypothesis,
+                            _TestResult._sampleSize, _TestResult._testRan,
+                            _TestResult._testSkippedReason,
+                            _Timeseries._underlyingObject,
+                            _TwoSampleTestResult._maxTimestamp1,
+                            _TwoSampleTestResult._maxTimestamp2,
+                            _TwoSampleTestResult._minTimestamp1,
+                            _TwoSampleTestResult._minTimestamp2,
+                            _TwoSampleTestResult._numSuccesses1,
+                            _TwoSampleTestResult._numSuccesses2,
+                            _TwoSampleTestResult._rejectNullHypothesis,
+                            _TwoSampleTestResult._sampleSize1,
+                            _TwoSampleTestResult._sampleSize2,
+                            _TwoSampleTestResult._testRan,
+                            _TwoSampleTestResult._testSkippedReason,
+                            _TwoSampleTestResult._testStatistic ]
+...

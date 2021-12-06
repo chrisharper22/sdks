@@ -1,0 +1,55 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AAAFoundation.framework/AAAFoundation
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AAAFoundationVersionNumber,
+                            _AAAFoundationVersionString,
+                            _AFUtilitiesAppleIDPrefPath,
+                            _AFUtilitiesEnergySaverPath,
+                            _AFUtilitiesInternetAccountsPrefPath,
+                            _AFUtilitiesMailAppBundleIdentifier,
+                            _AFUtilitiesParentalControlsPrefPath,
+                            _AFUtilitiesPhotosAppBundleIdentifier,
+                            _AFUtilitiesSecurityPrefPath,
+                            _AFUtilitiesSharingPrefPath,
+                            _AFUtilitiesSoftwareUpdateBundleIdentifier,
+                            _AFUtilitiesStoreAppBundleIdentifier, __AAFLogSystem ]
+    objc-classes:         [ _AAFKeychainItem, _AAFKeychainItemDescriptor,
+                            _AAFKeychainManager, _AAFPromise, _AAFService,
+                            _AAFXPCSession, _AAFXPCSessionConfig, _AFUtilities ]
+    objc-ivars:           [ _AAFKeychainItem._descriptor,
+                            _AAFKeychainItem._value,
+                            _AAFKeychainItemDescriptor._accessGroup,
+                            _AAFKeychainItemDescriptor._account,
+                            _AAFKeychainItemDescriptor._invisible,
+                            _AAFKeychainItemDescriptor._itemAccessible,
+                            _AAFKeychainItemDescriptor._itemClass,
+                            _AAFKeychainItemDescriptor._label,
+                            _AAFKeychainItemDescriptor._securityDomain,
+                            _AAFKeychainItemDescriptor._server,
+                            _AAFKeychainItemDescriptor._service,
+                            _AAFKeychainItemDescriptor._synchronizable,
+                            _AAFKeychainItemDescriptor._useDataProtection,
+                            _AAFKeychainManager._keychainQueue,
+                            _AAFPromise._callbacks, _AAFPromise._completed,
+                            _AAFPromise._error, _AAFPromise._queue,
+                            _AAFPromise._selfReference, _AAFPromise._value,
+                            _AAFService._exportedObject,
+                            _AAFService._exportedProtocol,
+                            _AAFService._preConnectEntitlements,
+                            _AAFService._serviceListener,
+                            _AAFService._serviceName, _AAFXPCSession.__proxy,
+                            _AAFXPCSession._connection, _AAFXPCSession._delegate,
+                            _AAFXPCSession._identifier,
+                            _AAFXPCSession._remoteServiceConfig,
+                            _AAFXPCSession._serialQueue,
+                            _AAFXPCSessionConfig._exportedProtocol,
+                            _AAFXPCSessionConfig._options,
+                            _AAFXPCSessionConfig._remoteObjectInterface,
+                            _AAFXPCSessionConfig._remoteProtocol,
+                            _AAFXPCSessionConfig._serviceName ]
+...

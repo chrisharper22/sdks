@@ -1,0 +1,60 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SiriUICardKitProviderSupport.framework/SiriUICardKitProviderSupport
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _SCKPProviderIdentifier,
+                            _SiriUICardKitProviderSupportVersionNumber,
+                            _SiriUICardKitProviderSupportVersionString ]
+    objc-classes:         [ _SCKPAudioMessageView, _SCKPCardSectionViewProvider,
+                            _SCKPGradientView,
+                            _SCKPInteractiveCardSectionViewController,
+                            _SCKPMediaControlCardSectionView,
+                            _SCKPMediaControlCardSectionViewController,
+                            _SCKPMessageCardSectionAttachmentView,
+                            _SCKPMessageCardSectionView,
+                            _SCKPMessageCardSectionViewController, _SCKPProvider,
+                            _SCKPUtilities ]
+    objc-ivars:           [ _SCKPAudioMessageView._delegate,
+                            _SCKPAudioMessageView._pauseImage,
+                            _SCKPAudioMessageView._playButton,
+                            _SCKPAudioMessageView._playButtonState,
+                            _SCKPAudioMessageView._playImage,
+                            _SCKPAudioMessageView._waveformImageView,
+                            _SCKPCardSectionViewProvider._card,
+                            _SCKPCardSectionViewProvider._viewConfigurations,
+                            _SCKPGradientView._gradientEndOpacity,
+                            _SCKPGradientView._gradientHeight,
+                            _SCKPGradientView._gradientOrigin,
+                            _SCKPGradientView._gradientStartOpacity,
+                            _SCKPGradientView._gradientType,
+                            _SCKPGradientView._isVisible,
+                            _SCKPMediaControlCardSectionView._contentView,
+                            _SCKPMediaControlCardSectionViewController._assistantSecurityConnection,
+                            _SCKPMediaControlCardSectionViewController._cardSection,
+                            _SCKPMediaControlCardSectionViewController._mediaPlatterViewController,
+                            _SCKPMediaControlCardSectionViewController.cardSectionViewControllingDelegate,
+                            _SCKPMessageCardSectionAttachmentView._alignmentStyle,
+                            _SCKPMessageCardSectionAttachmentView._delegate,
+                            _SCKPMessageCardSectionAttachmentView._fullMetadata,
+                            _SCKPMessageCardSectionAttachmentView._gradientView,
+                            _SCKPMessageCardSectionAttachmentView._imageContainer,
+                            _SCKPMessageCardSectionAttachmentView._imageView,
+                            _SCKPMessageCardSectionAttachmentView._linkView,
+                            _SCKPMessageCardSectionAttachmentView._livePhotoBadge,
+                            _SCKPMessageCardSectionAttachmentView._videoDurationLabel,
+                            _SCKPMessageCardSectionView._attachmentView,
+                            _SCKPMessageCardSectionView._audioMessageView,
+                            _SCKPMessageCardSectionView._delegate,
+                            _SCKPMessageCardSectionView._messageBackgroundView,
+                            _SCKPMessageCardSectionView._sendButton,
+                            _SCKPMessageCardSectionView._sentBalloonView,
+                            _SCKPMessageCardSectionView._textView,
+                            _SCKPMessageCardSectionViewController._cardSection,
+                            _SCKPMessageCardSectionViewController._interaction,
+                            _SCKPMessageCardSectionViewController._player,
+                            _SCKPMessageCardSectionViewController.cardSectionViewControllingDelegate ]
+...

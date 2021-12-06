@@ -1,0 +1,13 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/UIKit.framework/UIKit
+current-version:       5067.3.107
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/Frameworks/FileProvider.framework/FileProvider,
+                            /System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager,
+                            /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet,
+                            /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore ]
+...

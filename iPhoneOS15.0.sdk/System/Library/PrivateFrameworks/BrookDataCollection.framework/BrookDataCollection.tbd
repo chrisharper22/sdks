@@ -1,0 +1,52 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/BrookDataCollection.framework/BrookDataCollection
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _BRKPreferredAudioFormat,
+                            _BrookDataCollectionVersionNumber,
+                            _BrookDataCollectionVersionString,
+                            _NSStringFromDataCollectionEnabled,
+                            __BRKHandleForUploadNotification, _kDCDeviceIdKey,
+                            _kDCPreferencesDomain ]
+    objc-classes:         [ _BRKAccelerationBufferedFileWriter,
+                            _BRKAccelerationFileWriter, _BRKAudioFileReader,
+                            _BRKAudioFileWriter, _BRKDataCollectionBundle,
+                            _BRKDataCollectionLogger,
+                            _BRKDataCollectionScheduler, _BRKLogFileWriter,
+                            _BRKMetricsLogger, _BRKWriter, _S3AccessConfig,
+                            _S3Content, _S3ContentConfig ]
+    objc-ivars:           [ _BRKAccelerationBufferedFileWriter._values,
+                            _BRKAccelerationFileWriter._outputStream,
+                            _BRKAudioFileReader._audioFile,
+                            _BRKAudioFileReader._path,
+                            _BRKAudioFileWriter._audioFile,
+                            _BRKAudioFileWriter._format,
+                            _BRKDataCollectionBundle._basePath,
+                            _BRKDataCollectionBundle._folderName,
+                            _BRKDataCollectionBundle._isPackaged,
+                            _BRKDataCollectionBundle._manifest,
+                            _BRKDataCollectionBundle._settings,
+                            _BRKDataCollectionBundle._writers,
+                            _BRKDataCollectionBundle._writersLock,
+                            _BRKDataCollectionLogger._dailyIdentifier,
+                            _BRKDataCollectionLogger._dailyIdentifierRefreshDate,
+                            _BRKDataCollectionLogger._dailySessionUploadCount,
+                            _BRKDataCollectionLogger._dateFormatter,
+                            _BRKDataCollectionLogger._idsFilesList,
+                            _BRKDataCollectionLogger._lock,
+                            _BRKDataCollectionLogger._queue,
+                            _BRKDataCollectionLogger._storageDirectory,
+                            _BRKDataCollectionLogger._uploadScheduler,
+                            _BRKDataCollectionScheduler._scheduler,
+                            _BRKLogFileWriter._json, _BRKWriter._lock,
+                            _BRKWriter._path, _S3AccessConfig._AWSAccessKeyID,
+                            _S3AccessConfig._AWSSecretAccessKey,
+                            _S3Content._bucket, _S3Content._content,
+                            _S3Content._filename, _S3Content._gzip,
+                            _S3Content._gzipContentCache,
+                            _S3ContentConfig._bucket, _S3ContentConfig._filename ]
+...

@@ -1,0 +1,30 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/BagKit.framework/BagKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _BAGIsValidConfigKeyType, _BAGIsValidLoadState,
+                            _BAGIsValidResourceType,
+                            _BAGResourceLoadStateToString,
+                            _BAGResourceTypeToString,
+                            _BAGResourceVendorErrorDomain ]
+    objc-classes:         [ _BAGConfig, _BAGFile, _BAGLog, _BAGResourceOptions,
+                            _BAGResourceUpdateContext, _BAGResourceVendor,
+                            _BAGXPCInterface ]
+    objc-ivars:           [ _BAGConfig._configuration,
+                            _BAGConfig._defaultKeyType, _BAGConfig._options,
+                            _BAGFile._contentType, _BAGFile._options,
+                            _BAGFile._resource,
+                            _BAGResourceOptions._additionalOptions,
+                            _BAGResourceOptions._bundleID,
+                            _BAGResourceOptions._name, _BAGResourceOptions._type,
+                            _BAGResourceUpdateContext._error,
+                            _BAGResourceUpdateContext._loadState,
+                            _BAGResourceVendor._daemonController,
+                            _BAGResourceVendor._queue,
+                            _BAGResourceVendor._updateBlocksByOptions,
+                            _BAGResourceVendor._vendorID ]
+...

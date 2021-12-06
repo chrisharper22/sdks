@@ -1,0 +1,63 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/FeedbackLogger.framework/FeedbackLogger
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _FLErrorDomain, _FLGetBootSessionUUID,
+                            _FLSignpostLoggingInit, _FLUploadHeadersKey,
+                            _FLUploadImmediately, _FL_LOG_SIGNPOSTS,
+                            _FeedbackLoggerVersionNumber,
+                            _FeedbackLoggerVersionString, _flLogForObject,
+                            _kMaxBatchContinuesDuration, _tryGetDataProperty,
+                            _tryGetDateProperty, _tryGetTextProperty ]
+    objc-classes:         [ _BatchMetadata, _FLLogger, _FLLoggingContext,
+                            _FLSQLitePersistence, _FeedbackLoggerFBFClient,
+                            _UploadRecord ]
+    objc-ivars:           [ _BatchMetadata._batchIdentifier,
+                            _BatchMetadata._batchSize,
+                            _BatchMetadata._batchStatus,
+                            _BatchMetadata._category,
+                            _BatchMetadata._dateCreated,
+                            _BatchMetadata._dateLastProcessed,
+                            _BatchMetadata._dateUploaded,
+                            _BatchMetadata._eventCount,
+                            _BatchMetadata._processedAttempts,
+                            _BatchMetadata._timestampReferenceIdentifier,
+                            _FLLogger._context, _FLLogger._log,
+                            _FLLogger._notificationCenter,
+                            _FLLogger._persistentStoreCacheTTL,
+                            _FLLogger._persistentStoreCacheTTLTimer,
+                            _FLLogger._persistentStores,
+                            _FLLoggingContext._fileManager,
+                            _FLLoggingContext._queue,
+                            _FLLoggingContext._timestampReferenceIdentifier,
+                            _FLLoggingContext._userDefaults,
+                            _FLSQLitePersistence._batchMaximumDuration,
+                            _FLSQLitePersistence._configured,
+                            _FLSQLitePersistence._context,
+                            _FLSQLitePersistence._currentBatchCreationDate,
+                            _FLSQLitePersistence._currentBatchIdentifier,
+                            _FLSQLitePersistence._currentBatchPayloadSize,
+                            _FLSQLitePersistence._databasePath,
+                            _FLSQLitePersistence._db,
+                            _FLSQLitePersistence._insertRecordsStatement,
+                            _FLSQLitePersistence._iteratePayloadStatement,
+                            _FLSQLitePersistence._log,
+                            _FLSQLitePersistence._maxAllowedDatabaseSizeInBytes,
+                            _FLSQLitePersistence._maxBatchPayloadInBytes,
+                            _FLSQLitePersistence._storeIdentifier,
+                            _FeedbackLoggerFBFClient._daemonConnection,
+                            _FeedbackLoggerFBFClient._fbf,
+                            _FeedbackLoggerFBFClient._log,
+                            _FeedbackLoggerFBFClient._notificationCenter,
+                            _UploadRecord._dateCreated,
+                            _UploadRecord._dateLastProcessed,
+                            _UploadRecord._dateUploaded, _UploadRecord._payload,
+                            _UploadRecord._processedAttempts,
+                            _UploadRecord._timestampReferenceIdentifier,
+                            _UploadRecord._uploadIdentifier,
+                            _UploadRecord._uploadStatus ]
+...

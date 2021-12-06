@@ -1,0 +1,34 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CloudKitDistributedSync.framework/CloudKitDistributedSync
+current-version:       1043
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CKDSErrorDomain, _CKXAtomBinding,
+                            _CKXLatestFormatVersion,
+                            _CKXUncompressedFormatVersion,
+                            _CKXUnknownFormatVersion ]
+    objc-classes:         [ _CKAtomBatch, _CKAtomBatchEnumerationOptions,
+                            _CKAtomBatchMutableProxy, _CKAtomBatchProxy,
+                            _CKAtomLocation, _CKAtomLocationMutableProxy,
+                            _CKAtomLocationProxy, _CKAtomMutableProxy,
+                            _CKAtomProxy, _CKAtomReference,
+                            _CKAtomReferenceMutableProxy, _CKAtomReferenceProxy,
+                            _CKDistributedTimestamp,
+                            _CKDistributedTimestampMutableProxy,
+                            _CKDistributedTimestampProxy,
+                            _CKDistributedTimestampVector,
+                            _CKDistributedTimestampVectorRange,
+                            _CKXArrayProxyBase, _CKXAtom, _CKXAtomBatch,
+                            _CKXAtomLocation, _CKXAtomReference, _CKXBackingStore,
+                            _CKXDistributedTimestamp, _CKXORCReader,
+                            _CKXORCReaderOptions, _CKXORCWriter,
+                            _CKXORCWriterOptions, _CKXProxyBase, _CKXProxyCache,
+                            _CKXReaderBase, _CKXSchema,
+                            _CKXStructArrayMutableProxy, _CKXStructArrayProxy,
+                            _CKXStructMutableProxyBase, _CKXStructProxyBase,
+                            _CKXUncompressedReader, _CKXUncompressedWriter,
+                            _CKXVersionedReaderWriterStore, _CKXWriterBase ]
+...

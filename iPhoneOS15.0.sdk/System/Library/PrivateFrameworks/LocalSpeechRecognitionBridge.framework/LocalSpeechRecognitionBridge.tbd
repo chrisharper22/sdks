@@ -1,0 +1,28 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/LocalSpeechRecognitionBridge.framework/LocalSpeechRecognitionBridge
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _LBErrorDomain,
+                            _LBLocalSpeechServiceDelegateGetXPCInterface,
+                            _LBLocalSpeechServiceGetXPCInterface,
+                            _LBLocalSpeechServiceName,
+                            _LBLogContextFacilityLocalSRBridge,
+                            _LBLogInitIfNeeded, _LBLoggingSubsystem,
+                            _kLBLoggingContextFramework ]
+    objc-classes:         [ _LBLocalSpeechRecognitionSettings,
+                            _LBLocalSpeechRecognizerClient ]
+    objc-ivars:           [ _LBLocalSpeechRecognitionSettings._inputOrigin,
+                            _LBLocalSpeechRecognitionSettings._jitGrammar,
+                            _LBLocalSpeechRecognitionSettings._location,
+                            _LBLocalSpeechRecognitionSettings._overrideModelPath,
+                            _LBLocalSpeechRecognitionSettings._requestId,
+                            _LBLocalSpeechRecognitionSettings._speechRecognitionTask,
+                            _LBLocalSpeechRecognizerClient._delegate,
+                            _LBLocalSpeechRecognizerClient._queue,
+                            _LBLocalSpeechRecognizerClient._recognitionActive,
+                            _LBLocalSpeechRecognizerClient._xpcConnection ]
+...

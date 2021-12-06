@@ -1,0 +1,10 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CoreUtilsExtras.framework/CoreUtilsExtras
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CUErrorCodesTableGet, _CUErrorDomainTableGet ]
+...

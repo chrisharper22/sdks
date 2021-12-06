@@ -1,0 +1,16 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/BridgeCommons.framework/BridgeCommons
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _BCViewContollerForModallyPresentingTheUrl,
+                            _BridgeCommonsVersionNumber,
+                            _BridgeCommonsVersionString ]
+    objc-classes:         [ _BCAboutManual, _BCCAReporter,
+                            _BCDiscoverPluginManager, _BCPluginLoader ]
+    objc-ivars:           [ _BCDiscoverPluginManager._discoverPlugins,
+                            _BCDiscoverPluginManager._discoverPluginsLock ]
+...

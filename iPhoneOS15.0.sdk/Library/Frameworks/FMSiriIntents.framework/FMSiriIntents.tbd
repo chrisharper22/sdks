@@ -1,0 +1,21 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /Library/Frameworks/FMSiriIntents.framework/FMSiriIntents
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _Device, _DeviceResolutionResult,
+                            _LocateDeviceClassResolutionResult,
+                            _LocateDeviceIntent, _LocateDeviceIntentResponse,
+                            _LocateIntent, _LocateIntentResponse,
+                            _PlaySoundDeviceClassResolutionResult,
+                            _PlaySoundIntent, _PlaySoundIntentResponse,
+                            _StateResolutionResult, _ToggleLocationSharingIntent,
+                            _ToggleLocationSharingIntentResponse ]
+    objc-ivars:           [ _LocateDeviceIntentResponse._code,
+                            _LocateIntentResponse._code,
+                            _PlaySoundIntentResponse._code,
+                            _ToggleLocationSharingIntentResponse._code ]
+...

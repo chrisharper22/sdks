@@ -1,0 +1,23 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SpeechDetector.framework/SpeechDetector
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _SDLogContextFacilityLocalSRBridge,
+                            _SDLogInitIfNeeded, _SDLoggingSubsystem,
+                            _kSDLoggingContextFramework ]
+    objc-classes:         [ _OSDAnalyzer, _OSDFeatures ]
+    objc-ivars:           [ _OSDAnalyzer._caesuraSPG, _OSDAnalyzer._delegate,
+                            _OSDAnalyzer._endOfSpeechDetected,
+                            _OSDAnalyzer._numConsecutiveNonSilenceFrames,
+                            _OSDAnalyzer._osdContext, _OSDAnalyzer._osdFeatures,
+                            _OSDAnalyzer._queue,
+                            _OSDAnalyzer._startOfSpeechDetected,
+                            _OSDFeatures._processedAudioMs,
+                            _OSDFeatures._silenceDurationMs,
+                            _OSDFeatures._silenceFramesCountMs,
+                            _OSDFeatures._silenceProbability ]
+...

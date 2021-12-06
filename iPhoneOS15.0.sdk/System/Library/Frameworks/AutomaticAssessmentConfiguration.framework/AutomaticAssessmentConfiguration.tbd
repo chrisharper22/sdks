@@ -1,0 +1,30 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/AutomaticAssessmentConfiguration
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AEAssessmentErrorDomain ]
+    objc-classes:         [ _AEAssessmentApplication, _AEAssessmentConfiguration,
+                            _AEAssessmentParticipantConfiguration,
+                            _AEAssessmentSession, __AEErrorHelper ]
+    objc-ivars:           [ _AEAssessmentApplication._bundleIdentifier,
+                            _AEAssessmentApplication._requiresSignatureValidation,
+                            _AEAssessmentApplication._teamIdentifier,
+                            _AEAssessmentConfiguration._allowsAccessibilitySpeech,
+                            _AEAssessmentConfiguration._allowsActivityContinuation,
+                            _AEAssessmentConfiguration._allowsContinuousPathKeyboard,
+                            _AEAssessmentConfiguration._allowsDictation,
+                            _AEAssessmentConfiguration._allowsKeyboardShortcuts,
+                            _AEAssessmentConfiguration._allowsPasswordAutoFill,
+                            _AEAssessmentConfiguration._allowsPredictiveKeyboard,
+                            _AEAssessmentConfiguration._allowsSpellCheck,
+                            _AEAssessmentConfiguration._autocorrectMode,
+                            _AEAssessmentConfiguration._configurationsByApplication,
+                            _AEAssessmentConfiguration._mainParticipantConfiguration,
+                            _AEAssessmentParticipantConfiguration._allowsNetworkAccess,
+                            _AEAssessmentSession._backingSession,
+                            _AEAssessmentSession._delegate ]
+...

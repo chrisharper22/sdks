@@ -1,0 +1,14 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/_QuickLook_SwiftUI.framework/_QuickLook_SwiftUI
+current-version:       846.1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _$s7SwiftUI4ViewP011_QuickLook_aB0E05quickE7Preview_2inQrAA7BindingVy10Foundation3URLVSgG_qd__tSkRd__AK7ElementRtd__lF,
+                            _$s7SwiftUI4ViewP011_QuickLook_aB0E05quickE7Preview_2inQrAA7BindingVy10Foundation3URLVSgG_qd__tSkRd__AK7ElementRtd__lFQOMQ,
+                            _$s7SwiftUI4ViewP011_QuickLook_aB0E05quickE7PreviewyQrAA7BindingVy10Foundation3URLVSgGF,
+                            _$s7SwiftUI4ViewP011_QuickLook_aB0E05quickE7PreviewyQrAA7BindingVy10Foundation3URLVSgGFQOMQ ]
+    objc-classes:         [ __TtC18_QuickLook_SwiftUI22QLPreviewItemContainer ]
+...

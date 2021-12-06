@@ -1,0 +1,61 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/RespiratoryHealthDaemon.framework/RespiratoryHealthDaemon
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _HDRPDailyAnalyticsReport,
+                            _HDRPFeatureAvailabilityManager,
+                            _HDRPOxygenSaturationSessionServer,
+                            _HDRPRespiratoryDailyAnalytics,
+                            _HDRespiratoryProfileExtension, _HLHeartRateData,
+                            _HLOxygenSaturationMeasurement,
+                            _HLOxygenSaturationSession, _MockHDRPHealthLite ]
+    objc-ivars:           [ _HDRPDailyAnalyticsReport._calendar,
+                            _HDRPDailyAnalyticsReport._controlCenterUserDefaults,
+                            _HDRPDailyAnalyticsReport._endTime,
+                            _HDRPDailyAnalyticsReport._featureAvailabilityProvider,
+                            _HDRPDailyAnalyticsReport._healthDataCollectionAllowed,
+                            _HDRPDailyAnalyticsReport._oxygenSaturationSettings,
+                            _HDRPDailyAnalyticsReport._pairedDeviceRegistry,
+                            _HDRPDailyAnalyticsReport._profile,
+                            _HDRPDailyAnalyticsReport._startTime,
+                            _HDRPFeatureAvailabilityManager._capabilityProvider,
+                            _HDRPFeatureAvailabilityManager._featureIdentifier,
+                            _HDRPFeatureAvailabilityManager._loggingCategory,
+                            _HDRPFeatureAvailabilityManager._manager,
+                            _HDRPFeatureAvailabilityManager._profile,
+                            _HDRPFeatureAvailabilityManager._skipHardwareCheck,
+                            _HDRPOxygenSaturationSessionServer._expectedDuration,
+                            _HDRPOxygenSaturationSessionServer._expectedEndDate,
+                            _HDRPOxygenSaturationSessionServer._queue,
+                            _HDRPOxygenSaturationSessionServer._sensorSession,
+                            _HDRPOxygenSaturationSessionServer._sessionState,
+                            _HDRPOxygenSaturationSessionServer._startTime,
+                            _HDRPRespiratoryDailyAnalytics._calculationPeriod,
+                            _HDRPRespiratoryDailyAnalytics._featureAvailabilityProvider,
+                            _HDRPRespiratoryDailyAnalytics._periodicActivity,
+                            _HDRPRespiratoryDailyAnalytics._profile,
+                            _HDRPRespiratoryDailyAnalytics._queue,
+                            _HDRPRespiratoryDailyAnalytics._retryPeriod,
+                            _HDRespiratoryProfileExtension._dailyAnalytics,
+                            _HDRespiratoryProfileExtension._featureAvailabilityManager,
+                            _HDRespiratoryProfileExtension._onboardingCacher,
+                            _HDRespiratoryProfileExtension._profile,
+                            _HDRespiratoryProfileExtension._queue,
+                            _HDRespiratoryProfileExtension._settings,
+                            _HDRespiratoryProfileExtension._unitTesting_healthLiteSessionWithDelegateHandler,
+                            _HLHeartRateData._confidence,
+                            _HLHeartRateData._confidenceLevel,
+                            _HLHeartRateData._context,
+                            _HLHeartRateData._heartRate,
+                            _HLHeartRateData._timestamp, _HLHeartRateData._uuid,
+                            _HLOxygenSaturationMeasurement._averageHeartRateData,
+                            _HLOxygenSaturationMeasurement._dateInterval,
+                            _HLOxygenSaturationMeasurement._oxygenSaturationPercentage,
+                            _HLOxygenSaturationMeasurement._pressureInKilopascals,
+                            _HLOxygenSaturationSession._delegate,
+                            _HLOxygenSaturationSession._queue ]
+...

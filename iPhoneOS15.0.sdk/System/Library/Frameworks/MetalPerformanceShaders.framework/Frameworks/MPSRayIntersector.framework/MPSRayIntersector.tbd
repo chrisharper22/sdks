@@ -1,0 +1,49 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSRayIntersector.framework/MPSRayIntersector
+current-version:       125.0.31
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _MPSAccelerationStructureBuilderCPU,
+                            _MPSAccelerationStructureBuilderGPU,
+                            _MPSAccelerationStructureGPUBuilderTypeDefault,
+                            _MPSAccelerationStructureGPUBuilderTypeFast,
+                            _MPSAccelerationStructureNodeLayoutAOS,
+                            _MPSAccelerationStructureNodeLayoutSOA,
+                            _MPSAccelerationStructureOptionBatchSize,
+                            _MPSAccelerationStructureOptionBins,
+                            _MPSAccelerationStructureOptionBranchingFactor,
+                            _MPSAccelerationStructureOptionBuilder,
+                            _MPSAccelerationStructureOptionComputeStatistics,
+                            _MPSAccelerationStructureOptionFragmentCost,
+                            _MPSAccelerationStructureOptionGPUBuilderType,
+                            _MPSAccelerationStructureOptionMaxDepth,
+                            _MPSAccelerationStructureOptionMaxFragmentsPerLeaf,
+                            _MPSAccelerationStructureOptionMaximumConcurrentNodeSize,
+                            _MPSAccelerationStructureOptionMinFragmentsPerLeaf,
+                            _MPSAccelerationStructureOptionMinimumOverlap,
+                            _MPSAccelerationStructureOptionNodeLayout,
+                            _MPSAccelerationStructureOptionSplitHeuristic,
+                            _MPSAccelerationStructureSplitHeuristicBinnedSAH,
+                            _MPSAccelerationStructureSplitHeuristicBinnedSpatialSAH,
+                            _MPSAccelerationStructureSplitHeuristicObjectMedian,
+                            _MPSAccelerationStructureSplitHeuristicSAH,
+                            __Z20MPSRayDataTypeStride14MPSRayDataType,
+                            __Z29MPSIntersectionDataTypeStride23MPSIntersectionDataType ]
+    objc-classes:         [ _MPSAccelerationStructure,
+                            _MPSAccelerationStructureGroup,
+                            _MPSCPUAccelerationStructure,
+                            _MPSCPUAccelerationStructureDescriptor,
+                            _MPSCPUAccelerationStructureGeometryDescriptor,
+                            _MPSCPUAccelerationStructureTriangleGeometryDescriptor,
+                            _MPSCPUPrimitiveAccelerationStructureDescriptor,
+                            _MPSCPURayIntersector,
+                            _MPSInstanceAccelerationStructure,
+                            _MPSPolygonAccelerationStructure, _MPSPolygonBuffer,
+                            _MPSQuadrilateralAccelerationStructure,
+                            _MPSRayIntersector, _MPSSVGF,
+                            _MPSSVGFDefaultTextureAllocator, _MPSSVGFDenoiser,
+                            _MPSTemporalAA, _MPSTriangleAccelerationStructure ]
+...

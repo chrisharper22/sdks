@@ -1,0 +1,37 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SleepHealth.framework/SleepHealth
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _HDSleepHealthDaemonPluginServerInterface,
+                            _HKSHHealthDaemonPluginIdentifier,
+                            _HKSHSleepDurationGoalLeeway,
+                            _HKSleepHealthStoreInterface ]
+    objc-classes:         [ _HKSHGoalProgress, _HKSHGoalProgressEngine,
+                            _HKSleepHealthStore ]
+    objc-ivars:           [ _HKSHGoalProgress._averageBedtime,
+                            _HKSHGoalProgress._averageBedtimeMiss,
+                            _HKSHGoalProgress._averageInBedDuration,
+                            _HKSHGoalProgress._averageSleepDuration,
+                            _HKSHGoalProgress._averageSleepDurationGoalMiss,
+                            _HKSHGoalProgress._averageSleepEndTime,
+                            _HKSHGoalProgress._averageSleepStartTime,
+                            _HKSHGoalProgress._averageWakeTime,
+                            _HKSHGoalProgress._bedtimeAchievedCount,
+                            _HKSHGoalProgress._morningIndexRange,
+                            _HKSHGoalProgress._sleepAnalysisAsleepCount,
+                            _HKSHGoalProgress._sleepAnalysisCount,
+                            _HKSHGoalProgress._sleepAnalysisInBedCount,
+                            _HKSHGoalProgress._sleepDurationGoalAchievedCount,
+                            _HKSHGoalProgress._sleepDurationGoalStreakCount,
+                            _HKSHGoalProgress._standardDeviationActualTimeAsleep,
+                            _HKSHGoalProgress._standardDeviationActualVsScheduledTimeAsleep,
+                            _HKSHGoalProgress._standardDeviationScheduledTimeAsleep,
+                            _HKSHGoalProgressEngine._healthStore,
+                            _HKSleepHealthStore._healthStore,
+                            _HKSleepHealthStore._proxyProvider,
+                            _HKSleepHealthStore._scheduler ]
+...

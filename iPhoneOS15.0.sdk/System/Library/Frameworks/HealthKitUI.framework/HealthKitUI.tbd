@@ -1,0 +1,24 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/HealthKitUI.framework/HealthKitUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _HKHealthKitUIFrameworkBundle ]
+    objc-classes:         [ _HKActivityRingView,
+                            __HKActivityRingViewSizingDirective, __HKShapeView ]
+    objc-ivars:           [ _HKActivityRingView._activitySummary,
+                            _HKActivityRingView._emptyRingAlpha,
+                            _HKActivityRingView._maskView,
+                            _HKActivityRingView._renderer,
+                            _HKActivityRingView._ringInsetPercentage,
+                            _HKActivityRingView._ringsView,
+                            _HKActivityRingView._shouldBypassApplicationStateChecking,
+                            __HKActivityRingViewSizingDirective._identifier,
+                            __HKActivityRingViewSizingDirective._outerRingOffset,
+                            __HKActivityRingViewSizingDirective._ringInterspacing,
+                            __HKActivityRingViewSizingDirective._ringThickness,
+                            __HKActivityRingViewSizingDirective._width ]
+...

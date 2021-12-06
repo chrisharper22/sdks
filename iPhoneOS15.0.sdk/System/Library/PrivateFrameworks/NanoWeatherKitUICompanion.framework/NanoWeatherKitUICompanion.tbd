@@ -1,0 +1,59 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/NanoWeatherKitUICompanion.framework/NanoWeatherKitUICompanion
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _LinearGaugeView_EmptyGaugeValue, _NWMColorForRGB,
+                            _NWMColorForValueInIndices,
+                            _NWMInterpolateBetweenColors,
+                            _kNWKUINHPViewModelLabelMinutesCount,
+                            _kNWKUINHPViewModelLabelMinutesDiff ]
+    objc-classes:         [ _NWKUIAQIFormatter, _NWKUIAQILinearModel,
+                            _NWKUIAQIModel, _NWKUIAQISegmentModel,
+                            _NWKUIAQISegmentView, _NWKUIAQISegmentedModel,
+                            _NWKUIAQISegmentedView, _NWKUIAirQualityColorIndex,
+                            _NWKUIColorIndex, _NWKUILinearGaugeView,
+                            _NWKUINextHourPrecipitationViewModel,
+                            _NWKUISeparatorView ]
+    objc-ivars:           [ _NWKUIAQIFormatter._formatter,
+                            _NWKUIAQIFormatter._lock,
+                            _NWKUIAQILinearModel._colorIndices,
+                            _NWKUIAQILinearModel._index,
+                            _NWKUIAQILinearModel._percentage,
+                            _NWKUIAQIModel._categoryDescription,
+                            _NWKUIAQIModel._color, _NWKUIAQIModel._date,
+                            _NWKUIAQIModel._expiration, _NWKUIAQIModel._label,
+                            _NWKUIAQIModel._name, _NWKUIAQISegmentModel._active,
+                            _NWKUIAQISegmentModel._color,
+                            _NWKUIAQISegmentView._active,
+                            _NWKUIAQISegmentView._bodyLayer,
+                            _NWKUIAQISegmentView._capLayer,
+                            _NWKUIAQISegmentView._color,
+                            _NWKUIAQISegmentView._lastLayoutHeight,
+                            _NWKUIAQISegmentView._mode,
+                            _NWKUIAQISegmentedModel._glyph,
+                            _NWKUIAQISegmentedModel._segments,
+                            _NWKUIAQISegmentedView._constraints,
+                            _NWKUIAQISegmentedView._lastLayoutHeight,
+                            _NWKUIAQISegmentedView._model,
+                            _NWKUIAQISegmentedView._segmentViews,
+                            _NWKUIColorIndex._color, _NWKUIColorIndex._value,
+                            _NWKUILinearGaugeView._colorIndices,
+                            _NWKUILinearGaugeView._gaugeLayer,
+                            _NWKUILinearGaugeView._indicatorFillColor,
+                            _NWKUILinearGaugeView._lastLayoutSubviewsHeight,
+                            _NWKUILinearGaugeView._layoutConstants,
+                            _NWKUILinearGaugeView._renderValueAsPercentage,
+                            _NWKUILinearGaugeView._value,
+                            _NWKUILinearGaugeView._valueIndicatorLayer,
+                            _NWKUINextHourPrecipitationViewModel._conditionText,
+                            _NWKUINextHourPrecipitationViewModel._conditionTitleText,
+                            _NWKUINextHourPrecipitationViewModel._currentTime,
+                            _NWKUINextHourPrecipitationViewModel._isRTL,
+                            _NWKUINextHourPrecipitationViewModel._nextHourPrecipitation,
+                            _NWKUISeparatorView._lineLayer,
+                            _NWKUISeparatorView._lineWidth ]
+...

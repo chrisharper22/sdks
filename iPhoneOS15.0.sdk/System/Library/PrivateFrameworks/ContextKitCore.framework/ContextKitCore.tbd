@@ -1,0 +1,27 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ContextKitCore.framework/ContextKitCore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _ContextKitCoreVersionNumber,
+                            _ContextKitCoreVersionString ]
+    objc-classes:         [ _CKContextDonation, _CKContextDonationItem ]
+    objc-ivars:           [ _CKContextDonation._donated,
+                            _CKContextDonation._donorBundleIdentifier,
+                            _CKContextDonation._items, _CKContextDonation._nonce,
+                            _CKContextDonation._remoteProcesses,
+                            _CKContextDonationItem._contentAuthor,
+                            _CKContextDonationItem._contentDescription,
+                            _CKContextDonationItem._contentKeywords,
+                            _CKContextDonationItem._debugText,
+                            _CKContextDonationItem._debugUrlString,
+                            _CKContextDonationItem._languageTag,
+                            _CKContextDonationItem._leadImage,
+                            _CKContextDonationItem._snapshot,
+                            _CKContextDonationItem._text,
+                            _CKContextDonationItem._title,
+                            _CKContextDonationItem._uiElements ]
+...

@@ -1,0 +1,48 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/BookLibrary.framework/BookLibrary
+current-version:       605
+compatibility-version: 0
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/PrivateFrameworks/BookLibraryCore.framework/BookLibraryCore ]
+    symbols:              [ _BookLibraryVersionNumber, _BookLibraryVersionString ]
+    objc-classes:         [ _BLDownloadQueue, _BLHLSKeyFetcher, _BLMediaItemUtils,
+                            _BLMediaQuery, _BLOfflineKeyRequest,
+                            _BLSecureOfflineKeyDeliveryRequest,
+                            _BLStoreItemMetadataRequest, _BLStreamingKeyRequest,
+                            _BLUIHostServiceProxy, __BLAcquireSlotRequest ]
+    objc-ivars:           [ _BLHLSKeyFetcher._ignoreCache,
+                            _BLOfflineKeyRequest._assetInfo,
+                            _BLOfflineKeyRequest._identity,
+                            _BLOfflineKeyRequest._mediaItem,
+                            _BLOfflineKeyRequest._metadataRequest,
+                            _BLOfflineKeyRequest._persistentKeyData,
+                            _BLOfflineKeyRequest._requestContext,
+                            _BLOfflineKeyRequest._secureKeyRequest,
+                            _BLSecureOfflineKeyDeliveryRequest._certificateData,
+                            _BLSecureOfflineKeyDeliveryRequest._identity,
+                            _BLSecureOfflineKeyDeliveryRequest._keyCertificateURL,
+                            _BLSecureOfflineKeyDeliveryRequest._keyServerURL,
+                            _BLSecureOfflineKeyDeliveryRequest._keySession,
+                            _BLSecureOfflineKeyDeliveryRequest._keySessionQueue,
+                            _BLSecureOfflineKeyDeliveryRequest._mediaItem,
+                            _BLSecureOfflineKeyDeliveryRequest._persistentKeyData,
+                            _BLSecureOfflineKeyDeliveryRequest._requestContext,
+                            _BLSecureOfflineKeyDeliveryRequest._slotRequest,
+                            _BLStoreItemMetadataRequest._buyProductRequest,
+                            _BLStoreItemMetadataRequest._mediaItem,
+                            _BLStoreItemMetadataRequest._requestContext,
+                            _BLStoreItemMetadataRequest._storeMetadata,
+                            _BLStreamingKeyRequest._loadingRequest,
+                            _BLStreamingKeyRequest._mediaItem,
+                            _BLStreamingKeyRequest._metadataRequest,
+                            _BLStreamingKeyRequest._secureKeyRequest,
+                            _BLUIHostServiceProxy._downloadQueue,
+                            _BLUIHostServiceProxy._fallback,
+                            _BLUIHostServiceProxy._request,
+                            _BLUIHostServiceProxy._uiManagerDelegate,
+                            __BLAcquireSlotRequest._deviceGUID,
+                            __BLAcquireSlotRequest._requestContext ]
+...

@@ -1,0 +1,53 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AcousticMaterials.framework/AcousticMaterials
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AMAcousticParameterTypeAbsorption,
+                            _AMAcousticParameterTypeScattering,
+                            _AMAcousticParameterTypeSoundReductionIndex,
+                            _AMErrorDomain, _AMSemanticTypeGeoLocation,
+                            _AMSemanticTypeObject,
+                            _AMSemanticTypeObjectARMeshClassificationID,
+                            _AMSemanticTypeObjectAttribute, _AMSemanticTypeScene,
+                            _AMSemanticTypeVisualMaterial,
+                            _AMSemanticTypeVisualMaterialARMeshMaterialID,
+                            _AcousticMaterialsVersionNumber,
+                            _AcousticMaterialsVersionString, _DBIOCloseDatabase,
+                            _DBIODatabaseValidatedWithoutError,
+                            _DBIOFetchDatabaseResults, _DBIOOpenDatabaseFromURL,
+                            __dbPtr, _decimalValuesFromCSV, _integerValuesFromCSV,
+                            _valueIsBetween ]
+    objc-classes:         [ _AMAbsorption, _AMDatabase, _AMScattering,
+                            _AMSoundReductionIndex ]
+    objc-ivars:           [ _AMAbsorption._absorptionReferenceData,
+                            _AMAbsorption._absorptionUserData,
+                            _AMAbsorption._frequencyBands,
+                            _AMAbsorption._materialDescription,
+                            _AMAbsorption._materialName,
+                            _AMAbsorption._numDataPointsReferenceData,
+                            _AMAbsorption._totalNumDataSetsReferenceData,
+                            _AMAbsorption._uncertaintyReferenceData,
+                            _AMScattering._frequencyBands,
+                            _AMScattering._materialDescription,
+                            _AMScattering._materialName,
+                            _AMScattering._numDataPointsReferenceData,
+                            _AMScattering._scatteringReferenceData,
+                            _AMScattering._scatteringUserData,
+                            _AMScattering._totalNumDataSetsReferenceData,
+                            _AMScattering._uncertaintyReferenceData,
+                            _AMSoundReductionIndex._averageSoundReductionIndex,
+                            _AMSoundReductionIndex._frequencyBands,
+                            _AMSoundReductionIndex._materialDepth,
+                            _AMSoundReductionIndex._materialDescription,
+                            _AMSoundReductionIndex._materialName,
+                            _AMSoundReductionIndex._numDataPointsReferenceData,
+                            _AMSoundReductionIndex._soundReductionIndexReferenceData,
+                            _AMSoundReductionIndex._soundReductionIndexUserData,
+                            _AMSoundReductionIndex._totalNumDataSetsReferenceData,
+                            _AMSoundReductionIndex._uncertaintyMaterialDepth,
+                            _AMSoundReductionIndex._uncertaintyReferenceData ]
+...

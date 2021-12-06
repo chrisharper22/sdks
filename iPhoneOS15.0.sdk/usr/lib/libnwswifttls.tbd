@@ -1,0 +1,24 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           A6076152-1643-3EB5-B71E-7B456DC6D30A
+  - target:          arm64e-ios
+    value:           FAC92767-3A60-3715-8031-A7F159DC8F9B
+install-name:    '/usr/lib/libnwswifttls.dylib'
+swift-abi-version: 7
+exports:
+  - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
+    symbols:         [ '_$s10nwswifttls14STLSHandshakerC13isImplementedSiyF', '_$s10nwswifttls14STLSHandshakerCACycfC', 
+                       '_$s10nwswifttls14STLSHandshakerCACycfc', '_$s10nwswifttls14STLSHandshakerCMa', 
+                       '_$s10nwswifttls14STLSHandshakerCMn', '_$s10nwswifttls14STLSHandshakerCN', 
+                       '_$s10nwswifttls14STLSHandshakerCfD', '_OBJC_CLASS_$__TtC10nwswifttls14STLSHandshaker', 
+                       '_OBJC_METACLASS_$__TtC10nwswifttls14STLSHandshaker', _nwswifttls_copy_definition, 
+                       _nwswifttls_isbuilt ]
+    objc-classes:    [ _TtC10nwswifttls14STLSHandshaker ]
+...

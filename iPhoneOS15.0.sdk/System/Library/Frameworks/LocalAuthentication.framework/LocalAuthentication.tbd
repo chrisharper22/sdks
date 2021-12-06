@@ -1,0 +1,38 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+current-version:       984.10.2
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _LAAvailableMechanisms, _LABiometryDatabaseHash,
+                            _LACopyExternalizedContext, _LAErrorDomain,
+                            _LAErrorInfoBiometryType,
+                            _LAErrorInfoTCCServerPrompt, _LAErrorInfoTCCService,
+                            _LAErrorSubcodeKey, _LAPasswordRetryTime,
+                            _LAStorageErrorDomain,
+                            _LATouchIDAuthenticationMaximumAllowableReuseDuration ]
+    objc-classes:         [ _Invalidation, _LAClient, _LAContext, _LAStorage ]
+    objc-ivars:           [ _Invalidation._block,
+                            _LAClient._cachedExternalizedContext,
+                            _LAClient._context, _LAClient._existingContext,
+                            _LAClient._invalidations, _LAClient._permanentError,
+                            _LAClient._remoteContext,
+                            _LAClient._serverConnection,
+                            _LAClient._shouldRecoverConnection,
+                            _LAClient._synchronous,
+                            _LAClient._synchronousRemoteContext,
+                            _LAClient._uiDelegate, _LAClient._userSession,
+                            _LAClient._uuid, _LAContext._biometryType,
+                            _LAContext._client,
+                            _LAContext._evaluatedPolicyDomainState,
+                            _LAContext._externalizedContext,
+                            _LAContext._instanceId,
+                            _LAContext._maxBiometryFailures,
+                            _LAContext._prearmContext,
+                            _LAStorage._authenticationContext,
+                            _LAStorage._connection, _LAStorage._domain,
+                            _LAStorage._instanceId,
+                            _LAStorage._remoteObjectProxy ]
+...

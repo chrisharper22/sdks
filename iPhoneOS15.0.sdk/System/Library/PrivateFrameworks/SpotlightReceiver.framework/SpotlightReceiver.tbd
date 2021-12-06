@@ -1,0 +1,24 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SpotlightReceiver.framework/SpotlightReceiver
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _SpotlightDaemonClientRegister,
+                            _SpotlightReceiverEntitlement,
+                            _SpotlightReceiverRegister,
+                            _SpotlightReceiverVersionNumber,
+                            _SpotlightReceiverVersionString,
+                            _SpotlightSenderEntitlement,
+                            __SpotlightDaemonClientHandleCommand ]
+    objc-classes:         [ _CSReceiverConnection,
+                            _SpotlightDaemonClientConnection ]
+    objc-ivars:           [ _CSReceiverConnection._INIntentClassNames,
+                            _CSReceiverConnection._bundleIDs,
+                            _CSReceiverConnection._contentTypes,
+                            _CSReceiverConnection._receiver,
+                            _CSReceiverConnection._supportedJobs,
+                            _SpotlightDaemonClientConnection._spotlightDaemonClient ]
+...

@@ -1,0 +1,27 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/TranslationUIServices.framework/TranslationUIServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _LTUIErrorDomain, _kLTUIViewServiceProtocol ]
+    objc-classes:         [ _LTUIErrorViewController, _LTUIRemoteViewController,
+                            _LTUISourceMeta, _LTUITranslationViewController ]
+    objc-ivars:           [ _LTUIRemoteViewController._delegate,
+                            _LTUISourceMeta._context,
+                            _LTUISourceMeta._languageHints,
+                            _LTUISourceMeta._origin,
+                            _LTUITranslationViewController._dismissCompletionHandler,
+                            _LTUITranslationViewController._ignoredAttributes,
+                            _LTUITranslationViewController._isSourceEditable,
+                            _LTUITranslationViewController._matchingToken,
+                            _LTUITranslationViewController._remoteViewController,
+                            _LTUITranslationViewController._replacementHandler,
+                            _LTUITranslationViewController._requestID,
+                            _LTUITranslationViewController._sourceMeta,
+                            _LTUITranslationViewController._text,
+                            _LTUITranslationViewController.cplID,
+                            _LTUITranslationViewController.extensionQueryID ]
+...

@@ -1,0 +1,13 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/PromotedContentProxy.framework/PromotedContentProxy
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _PromotedContentProxyVersionNumber,
+                            _PromotedContentProxyVersionString ]
+    objc-classes:         [ _APMediaURLUtilities, _APProxyProtocol,
+                            _APVideoURLUtilities, _APWebViewConfiguration ]
+...

@@ -1,0 +1,38 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MusicSettingsSupport.framework/MusicSettingsSupport
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _MusicSettingsDidSelectAction,
+                            _MusicSettingsDynamicEnabledKey,
+                            _MusicSettingsDynamicFooterHyperlinkViewLinkActionKey,
+                            _MusicSettingsDynamicFooterHyperlinkViewLinkTextKey,
+                            _MusicSettingsDynamicFooterHyperlinkViewTextKey,
+                            _MusicSettingsDynamicFooterTextKey,
+                            _MusicSettingsDynamicIconImageKey,
+                            _MusicSettingsDynamicLabelKey,
+                            _MusicSettingsFooterHyperlinkViewLinkTextKey,
+                            _MusicSettingsFooterHyperlinkViewTextKey,
+                            _MusicSettingsOverridesKey,
+                            _MusicSettingsPerformSelector,
+                            _MusicSettingsPerformSelector2,
+                            _MusicSettingsRequiredCapabilitiesKey,
+                            _MusicSettingsRequiredCapabilitiesNotKey,
+                            _MusicSettingsRequiredCapabilitiesNotOrKey,
+                            _MusicSettingsRequiredCapabilitiesOrKey,
+                            _MusicSettingsShouldSelectAction,
+                            _MusicSettingsValidDetails ]
+    objc-classes:         [ _MusicSettingsDynamicFooterHyperlinkAction,
+                            _MusicSettingsListItemDetailCell,
+                            _MusicSettingsListItemsViewController,
+                            _MusicSettingsListViewController ]
+    objc-ivars:           [ _MusicSettingsDynamicFooterHyperlinkAction._selectorString,
+                            _MusicSettingsDynamicFooterHyperlinkAction._target,
+                            _MusicSettingsListItemsViewController._allSpecifiers,
+                            _MusicSettingsListItemsViewController._stringsTable,
+                            _MusicSettingsListViewController._allSpecifiers,
+                            _MusicSettingsListViewController._stringsTable ]
+...

@@ -1,0 +1,21 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSMatrix.framework/MPSMatrix
+current-version:       125.0.31
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _MPSMatrixBinaryKernel, _MPSMatrixCopy,
+                            _MPSMatrixCopyDescriptor,
+                            _MPSMatrixDecompositionCholesky,
+                            _MPSMatrixDecompositionLU, _MPSMatrixFindTopK,
+                            _MPSMatrixLogSoftMax, _MPSMatrixLogSoftMaxGradient,
+                            _MPSMatrixMultiplication, _MPSMatrixRandom,
+                            _MPSMatrixRandomDistributionDescriptor,
+                            _MPSMatrixRandomMTGP32, _MPSMatrixRandomPhilox,
+                            _MPSMatrixSoftMax, _MPSMatrixSoftMaxGradient,
+                            _MPSMatrixSolveCholesky, _MPSMatrixSolveLU,
+                            _MPSMatrixSolveTriangular, _MPSMatrixUnaryKernel,
+                            _MPSMatrixVectorMultiplication ]
+...

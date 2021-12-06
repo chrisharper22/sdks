@@ -1,0 +1,29 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _MPSGraphDeviceTypeANE, _MPSGraphDeviceTypeCPU ]
+    objc-classes:         [ _MPSGraph, _MPSGraphAdamOptimizer,
+                            _MPSGraphCompilationDescriptor,
+                            _MPSGraphConvolution2DOpDescriptor,
+                            _MPSGraphCreateSparseOpDescriptor,
+                            _MPSGraphCropResizeOpDescriptor,
+                            _MPSGraphDepthwiseConvolution2DOpDescriptor,
+                            _MPSGraphDepthwiseConvolution3DOpDescriptor,
+                            _MPSGraphDevice, _MPSGraphExecutable,
+                            _MPSGraphExecutableDescriptor,
+                            _MPSGraphExecutableExecutionDescriptor,
+                            _MPSGraphExecutionDescriptor, _MPSGraphList,
+                            _MPSGraphListData, _MPSGraphListType,
+                            _MPSGraphOperation, _MPSGraphOptimizer,
+                            _MPSGraphPooling2DOpDescriptor,
+                            _MPSGraphPooling4DOpDescriptor, _MPSGraphShapedType,
+                            _MPSGraphStencilOpDescriptor,
+                            _MPSGraphStochasticGradientDescentOptimizer,
+                            _MPSGraphTensor, _MPSGraphTensorData, _MPSGraphType,
+                            _MPSGraphVariableInitializer, _MPSGraphVariableOp ]
+...

@@ -1,0 +1,15 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AvailabilityKit.framework/AvailabilityKit
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AKAvailabilityStatusTypeIdentifier ]
+    objc-classes:         [ _AKAvailability, _AKAvailabilityInvitation ]
+    objc-ivars:           [ _AKAvailability._activityIdentifierString,
+                            _AKAvailability._available,
+                            _AKAvailability._personalizedAvailability,
+                            _AKAvailabilityInvitation._availableDuringActivityIdentifiers ]
+...

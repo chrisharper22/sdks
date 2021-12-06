@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/HomeKitMetrics.framework/HomeKitMetrics
+current-version:       800.2.5
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _HMMLogEvent ]
+    objc-ivars:           [ _HMMLogEvent._endDate, _HMMLogEvent._error,
+                            _HMMLogEvent._startDate, _HMMLogEvent._submitted ]
+...

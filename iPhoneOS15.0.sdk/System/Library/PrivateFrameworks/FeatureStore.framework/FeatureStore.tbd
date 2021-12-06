@@ -1,0 +1,50 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/FeatureStore.framework/FeatureStore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _FSFCurareInteractionStreamErrorDomain,
+                            _FSFCurareInteractionStreamErrorDomainInvalidInput,
+                            _FeatureStoreVersionNumber,
+                            _FeatureStoreVersionString, _getStreamPath ]
+    objc-classes:         [ _FSFBMStringData, _FSFBiomeFeatureStore,
+                            _FSFBiomeFeatureStoreStream,
+                            _FSFCurareEvaluationFeature,
+                            _FSFCurareInteractionAsDict,
+                            _FSFCurareInteractionAsJsonStr,
+                            _FSFCurareInteractionAsProto,
+                            _FSFCurareInteractionStream, _FSFNLUFeature,
+                            _FSFNluRequestFeature, _FSFNluResponseFeature,
+                            _FSFNluUserParseFeature,
+                            __CurareInternalBiomeFeature ]
+    objc-ivars:           [ _FSFBMStringData._content,
+                            _FSFBMStringData._dataVersion,
+                            _FSFBiomeFeatureStore._config,
+                            _FSFBiomeFeatureStoreStream._readStore,
+                            _FSFBiomeFeatureStoreStream._writeStore,
+                            _FSFCurareEvaluationFeature._content,
+                            _FSFCurareEvaluationFeature._dataVersion,
+                            _FSFCurareInteractionAsDict._content,
+                            _FSFCurareInteractionAsDict._dataVersion,
+                            _FSFCurareInteractionAsDict._interactionId,
+                            _FSFCurareInteractionAsJsonStr._content,
+                            _FSFCurareInteractionAsJsonStr._dataVersion,
+                            _FSFCurareInteractionAsJsonStr._interactionId,
+                            _FSFCurareInteractionAsProto._content,
+                            _FSFCurareInteractionAsProto._dataVersion,
+                            _FSFCurareInteractionAsProto._interactionId,
+                            _FSFCurareInteractionAsProto._jsonStr,
+                            _FSFCurareInteractionStream._biomeStream,
+                            _FSFNLUFeature._content, _FSFNLUFeature._dataVersion,
+                            _FSFNluRequestFeature._content,
+                            _FSFNluRequestFeature._dataVersion,
+                            _FSFNluResponseFeature._content,
+                            _FSFNluResponseFeature._dataVersion,
+                            _FSFNluUserParseFeature._content,
+                            _FSFNluUserParseFeature._dataVersion,
+                            __CurareInternalBiomeFeature._content,
+                            __CurareInternalBiomeFeature.dataVersion ]
+...

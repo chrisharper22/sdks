@@ -1,0 +1,60 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ExtensionKit.framework/ExtensionKit
+current-version:       34.5
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/PrivateFrameworks/ExtensionFoundation.framework/ExtensionFoundation ]
+    objc-classes:         [ _EXExtensionUISession, _EXHostUISession,
+                            _EXPlaceholderView, _EXPlaceholderViewController,
+                            _EXUISession, __EXDefaultExtensionViewController,
+                            __EXExtensionRootViewController,
+                            __EXExtensionViewController, __EXHostSession,
+                            __EXHostViewController,
+                            __EXHostViewControllerConfiguration,
+                            __EXRemoteViewController, __EXRemoteViewService,
+                            __EXRunningUIExtension, __EXSceneConfigutration ]
+    objc-ivars:           [ _EXExtensionUISession._connectionAccepted,
+                            _EXExtensionUISession._extension,
+                            _EXExtensionUISession._extensionViewController,
+                            _EXExtensionUISession._listener,
+                            _EXExtensionUISession._viewController,
+                            _EXHostUISession._endpoint,
+                            _EXPlaceholderViewController._activityView,
+                            _EXPlaceholderViewController._completeIcon,
+                            _EXPlaceholderViewController._state,
+                            _EXPlaceholderViewController._timer,
+                            _EXUISession._identifier,
+                            _EXUISession._sceneIdentifier,
+                            __EXDefaultExtensionViewController._contentViewController,
+                            __EXExtensionRootViewController._embededViewController,
+                            __EXExtensionViewController._sceneConfiguration,
+                            __EXHostSession._activity,
+                            __EXHostSession._configuration,
+                            __EXHostSession._delegate, __EXHostSession._error,
+                            __EXHostSession._extensionProcess,
+                            __EXHostSession._internalQueue,
+                            __EXHostSession._remoteViewController,
+                            __EXHostSession._remoteViewControllerEndpoint,
+                            __EXHostSession._state, __EXHostSession._uuid,
+                            __EXHostViewController._delegate,
+                            __EXHostViewController._embededViewController,
+                            __EXHostViewController._placeholderViewController,
+                            __EXHostViewController._session,
+                            __EXHostViewControllerConfiguration._extension,
+                            __EXHostViewControllerConfiguration._sceneIdentifier,
+                            __EXRemoteViewService._configuration,
+                            __EXRemoteViewService._contextToken,
+                            __EXRemoteViewService._extensionProcess,
+                            __EXRunningUIExtension._internalListener,
+                            __EXRunningUIExtension._serviceListener,
+                            __EXRunningUIExtension._sessions,
+                            __EXRunningUIExtension._viewControllerFactory,
+                            __EXRunningUIExtension._xpcConnection,
+                            __EXSceneConfigutration._extensionPointViewControllerClassName,
+                            __EXSceneConfigutration._sceneIdentifier,
+                            __EXSceneConfigutration._storyboardName,
+                            __EXSceneConfigutration._viewControllerClassName ]
+...

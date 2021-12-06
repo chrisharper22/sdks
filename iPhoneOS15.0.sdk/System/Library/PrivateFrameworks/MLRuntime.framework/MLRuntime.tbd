@@ -1,0 +1,39 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _MLRuntimeVersionNumber, _MLRuntimeVersionString,
+                            _kMLRTrialTaskMinInterval, _kMRLogSubsystem ]
+    objc-classes:         [ _MLRExtensionPrincipalClass,
+                            _MLRExtensionRemoteContext,
+                            _MLRExtensionService_Subsystem,
+                            _MLRInternalTrialTask, _MLRInternalTrialTaskResult,
+                            _MLRTask, _MLRTaskAttachments, _MLRTaskParameters,
+                            _MLRTaskResult, _MLRTrialTask, _MLRTrialTaskResult,
+                            _MLRTrialTaskSchedulingPolicy ]
+    objc-ivars:           [ _MLRExtensionRemoteContext._plugin,
+                            _MLRExtensionRemoteContext._transaction,
+                            _MLRInternalTrialTask._evaluationID,
+                            _MLRInternalTrialTask._evaluationState,
+                            _MLRInternalTrialTask._policy,
+                            _MLRInternalTrialTask._projectId,
+                            _MLRInternalTrialTaskResult._JSONResult,
+                            _MLRTask._DESTask, _MLRTask._attachments,
+                            _MLRTask._parameters,
+                            _MLRTaskAttachments._attachmentURLs,
+                            _MLRTaskAttachments._count,
+                            _MLRTaskParameters._count,
+                            _MLRTaskParameters._recipeUserInfo,
+                            _MLRTaskResult._JSONResult, _MLRTaskResult._vector,
+                            _MLRTrialTask._triClient,
+                            _MLRTrialTaskResult._JSONResult,
+                            _MLRTrialTaskSchedulingPolicy._endAtDate,
+                            _MLRTrialTaskSchedulingPolicy._maxPerformCount,
+                            _MLRTrialTaskSchedulingPolicy._minInterval,
+                            _MLRTrialTaskSchedulingPolicy._startAfterDate,
+                            _MLRTrialTaskSchedulingPolicy._taskID ]
+...

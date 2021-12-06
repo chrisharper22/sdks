@@ -1,0 +1,47 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CryptoKitCBridging.framework/CryptoKitCBridging
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CryptoKitCBridgingVersionNumber,
+                            _CryptoKitCBridgingVersionString,
+                            _SPAKE2Alishaz0Size, _SPAKE2CtxSize,
+                            _SSPBSecretShareReadFrom,
+                            _ccss_sizeof_parameters_fix,
+                            _ciphersuiteForKeyByteCount, _coordinateSizeForCurve,
+                            _getCMACContextSize, _getContextSizeForECBMode,
+                            _getDigestSizeForDigestInfo, _getGCMCtxSize,
+                            _getHMACContextSizeForDigestInfo,
+                            _getccec_full_ctx_size, _getccec_pub_ctx_size,
+                            _keyIsCompactRepresentable ]
+    objc-classes:         [ _CKSSShare, _RSABSSATokenBlinder, _RSABSSATokenIssuer,
+                            _RSABSSATokenReady, _RSABSSATokenWaitingActivation,
+                            _SEPUtils, _SSPBSecretShare ]
+    objc-ivars:           [ _CKSSShare._share, _CKSSShare._share_size,
+                            _RSABSSATokenBlinder._ciphersuite,
+                            _RSABSSATokenBlinder._ciphersuiteModulusByteCount,
+                            _RSABSSATokenBlinder._keyId,
+                            _RSABSSATokenBlinder._publicKey,
+                            _RSABSSATokenIssuer._ciphersuite,
+                            _RSABSSATokenIssuer._ciphersuiteModulusByteCount,
+                            _RSABSSATokenIssuer._keyId,
+                            _RSABSSATokenIssuer._publicKey,
+                            _RSABSSATokenIssuer._rsaPrivateKey,
+                            _RSABSSATokenReady._keyId,
+                            _RSABSSATokenReady._signature,
+                            _RSABSSATokenReady._tokenContent,
+                            _RSABSSATokenWaitingActivation._blindedMessage,
+                            _RSABSSATokenWaitingActivation._blindingInverse,
+                            _RSABSSATokenWaitingActivation._ciphersuite,
+                            _RSABSSATokenWaitingActivation._tokenBlinder,
+                            _RSABSSATokenWaitingActivation._tokenContent,
+                            _SSPBSecretShare._associatedData,
+                            _SSPBSecretShare._ciphertext, _SSPBSecretShare._has,
+                            _SSPBSecretShare._iv, _SSPBSecretShare._shareX,
+                            _SSPBSecretShare._shareY, _SSPBSecretShare._tag,
+                            _SSPBSecretShare._threshold,
+                            _SSPBSecretShare._version ]
+...

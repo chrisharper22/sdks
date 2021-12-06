@@ -1,0 +1,16 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/PromotedContentSupport.framework/PromotedContentSupport
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _PromotedContentSupportVersionNumber,
+                            _PromotedContentSupportVersionString ]
+    objc-classes:         [ _PCAdPolicyFormat, _PCNewsSegmentation, _PCRingBuffer,
+                            _PCRuntimeParameters,
+                            _PCStatusConditionRateLimitedObject,
+                            _PCStatusConditions, _PCStatusConditionsImpl,
+                            _PCSupportRequester ]
+...

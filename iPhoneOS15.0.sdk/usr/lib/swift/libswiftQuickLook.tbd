@@ -1,0 +1,29 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           DF823E96-8D86-3715-8ADE-3A88A493F4B7
+  - target:          arm64e-ios
+    value:           2C5694FE-D8DF-3407-9176-ADE3798EC3FD
+install-name:    '/usr/lib/swift/libswiftQuickLook.dylib'
+current-version: 846.1
+swift-abi-version: 7
+exports:
+  - targets:         [ arm64-ios, arm64e-ios, armv7-ios, armv7s-ios ]
+    symbols:         [ '_$sSo14QLPreviewReplyC9QuickLookE11contextSize8isBitmap9drawUsingABSo6CGSizeV_SbySo12CGContextRefa_ABtKctcfC', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE11contextSize8isBitmap9drawUsingABSo6CGSizeV_SbySo12CGContextRefa_ABtKctcfc', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE14stringEncodingSS10FoundationE0F0VvM', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE14stringEncodingSS10FoundationE0F0Vvg', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE14stringEncodingSS10FoundationE0F0VvpMV', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE14stringEncodingSS10FoundationE0F0Vvs', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE17dataOfContentType11contentSize15createDataUsingAB07UniformH11Identifiers6UTTypeV_So6CGSizeV10Foundation0L0VABKctcfC', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE17dataOfContentType11contentSize15createDataUsingAB07UniformH11Identifiers6UTTypeV_So6CGSizeV10Foundation0L0VABKctcfc', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE18forPDFWithPageSize19createDocumentUsingABSo6CGSizeV_So11PDFDocumentCABKctcfC', 
+                       '_$sSo14QLPreviewReplyC9QuickLookE18forPDFWithPageSize19createDocumentUsingABSo6CGSizeV_So11PDFDocumentCABKctcfc', 
+                       '__swift_FORCE_LOAD_$_swiftQuickLook' ]
+...

@@ -1,0 +1,22 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/OSAServicesClient.framework/OSAServicesClient
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _OSAServicesClientVersionNumber,
+                            _OSAServicesClientVersionString,
+                            _kOSALogInfoErrorCode, _kOSALogInfoErrorDesc,
+                            _kOSALogInfoErrorDomain, _kOSALogInfoLogFilePath,
+                            _kOSALogInfoLogId, _kOSANotificationDidWriteLog,
+                            _kOSANotificationWillWriteLog ]
+    objc-classes:         [ _OSADiagnosticMonitorClient, _OSAServicesClient,
+                            _ObserverInfo ]
+    objc-ivars:           [ _OSADiagnosticMonitorClient._observers,
+                            _OSADiagnosticMonitorClient._queue,
+                            _OSAServicesClient._connection,
+                            _OSAServicesClient._synchRemoteObjectProxy,
+                            _ObserverInfo._bugTypes, _ObserverInfo._observer ]
+...

@@ -1,0 +1,55 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/DiagnosticRequest.framework/DiagnosticRequest
+current-version:       0
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _DRConfigStringForState, _DRShouldEnableLogGathering,
+                            _DRShouldGatherLog, _DRSubmitLog, _DRTailspinRequest,
+                            __DPCEnableLogGatheringQueryMessage,
+                            __DPCGetCloudChannelConfig,
+                            __DPCGetConfigStateForUUID,
+                            __DPCInjectEnableLogGatheringQueryResult,
+                            __DPCMarkConfigUUIDCompletedOrRejected,
+                            __DPCRequestTeamIDBroadcast,
+                            __DPCResetToDefaultCloudChannelConfig,
+                            __DPCSendClearTaskingStateMessage,
+                            __DPCSendTaskingSystemJSONDataMessage,
+                            __DPCSetCloudChannelConfig,
+                            __DPCSubmitLogRequestMessage,
+                            __DPCTailspinRequestMessage,
+                            __DPCTriggerRequestClean, __DPClientXPCSendMessage,
+                            __DPClientXPCSendMessageWithReplySync,
+                            __DRCResetDampeningConfigurationToDefault,
+                            __DRCSetDampeningConfigurationDefaults,
+                            __DRCSetDampeningIsEnabled, __DRCTriggerCloudKitWork,
+                            __DRRequestPassesTailspinHysteresis,
+                            _kDRRequestClientError,
+                            _kDRRequestOversizedContextDictErrorString,
+                            _kMinimumTailspinLeewaySeconds ]
+    objc-classes:         [ _DRConfig, _DRConfigMonitor, _DRSubscriptionManager,
+                            __DRCConnectionState, __DRCTaskingConnectionState ]
+    objc-ivars:           [ _DRConfig._build, _DRConfig._configDescription,
+                            _DRConfig._configUUID, _DRConfig._endDate,
+                            _DRConfig._payload,
+                            _DRConfig._payloadDictionaryRepresentation,
+                            _DRConfig._payloadIsJSON, _DRConfig._receivedDate,
+                            _DRConfig._skippedHysteresis, _DRConfig._startDate,
+                            _DRConfig._teamID, _DRConfigMonitor._accessQueue,
+                            _DRConfigMonitor._currentConfig,
+                            _DRConfigMonitor._processingBlock,
+                            _DRConfigMonitor._targetQueue,
+                            _DRConfigMonitor._teamID,
+                            _DRSubscriptionManager._accessQueue,
+                            _DRSubscriptionManager._inFlightSubscriptionRequests,
+                            _DRSubscriptionManager._perTeamIdConfigState,
+                            _DRSubscriptionManager._perTeamIdMonitors,
+                            __DRCConnectionState._connection,
+                            __DRCConnectionState._connectionQueue,
+                            __DRCConnectionState._isClosed,
+                            __DRCTaskingConnectionState._connection,
+                            __DRCTaskingConnectionState._connectionQueue,
+                            __DRCTaskingConnectionState._isClosed ]
+...

@@ -1,0 +1,53 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/CoreFollowUpUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CoreFollowUpUIVersionNumber,
+                            _CoreFollowUpUIVersionString ]
+    objc-classes:         [ _FLAlertControllerAction, _FLAlertControllerHelper,
+                            _FLExtensionContext, _FLExtensionViewController,
+                            _FLFollowUpActionHandler, _FLHeaderCell,
+                            _FLHiddenImageTableCell, _FLHostViewController,
+                            _FLNetworkObserver, _FLNetworkStatePrompter,
+                            _FLPreferencesController,
+                            _FLPreferencesFollowUpItemListViewController,
+                            _FLSpecifierTapHandler, _FLViewExtensionLoader,
+                            __FLNetworkObserverBlock ]
+    objc-ivars:           [ _FLAlertControllerAction._handler,
+                            _FLAlertControllerAction._style,
+                            _FLAlertControllerAction._title,
+                            _FLExtensionContext._shadowPrincipalObject,
+                            _FLExtensionViewController._context,
+                            _FLFollowUpActionHandler._completionHandler,
+                            _FLFollowUpActionHandler._extensionLoader,
+                            _FLFollowUpActionHandler._extensionRequestedViewControllerPresentation,
+                            _FLFollowUpActionHandler._remoteViewController,
+                            _FLHeaderCell._constraints,
+                            _FLHeaderCell._followSubtitle,
+                            _FLHeaderCell._followTitle,
+                            _FLNetworkObserver._invocationByObserver,
+                            _FLNetworkObserver._isNetworkReachable,
+                            _FLNetworkObserver._isWiFiEnabled,
+                            _FLNetworkObserver._observerQueue,
+                            _FLNetworkObserver._pathMonitor,
+                            _FLNetworkStatePrompter._presenter,
+                            _FLPreferencesController._activityIndicatorActive,
+                            _FLPreferencesController._groups,
+                            _FLPreferencesController._itemChangeObserver,
+                            _FLPreferencesController._listViewController,
+                            _FLPreferencesController._spyglassAllowList,
+                            _FLPreferencesController._spyglassController,
+                            _FLPreferencesController._topLevelItemList,
+                            _FLPreferencesController._topViewModel,
+                            _FLPreferencesFollowUpItemListViewController._actionHandler,
+                            _FLPreferencesFollowUpItemListViewController._presentationContext,
+                            _FLPreferencesFollowUpItemListViewController._viewModel,
+                            _FLSpecifierTapHandler._delegate,
+                            _FLViewExtensionLoader._extensionViewController,
+                            __FLNetworkObserverBlock._block,
+                            __FLNetworkObserverBlock._networkObserver ]
+...

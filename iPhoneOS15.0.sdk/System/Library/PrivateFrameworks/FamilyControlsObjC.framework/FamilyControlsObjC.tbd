@@ -1,0 +1,20 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/FamilyControlsObjC.framework/FamilyControlsObjC
+current-version:       1013.1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _FOFamilyControlsAgentPrivateServiceName ]
+    objc-classes:         [ _FOAgentConnectionPrivate, _FOAuthorizationCenter,
+                            _FOAuthorizationRecord,
+                            _FOAuthorizationRecordDecoder,
+                            _FOAuthorizationRecordEncoder,
+                            _FOXPCRemoteObjectProxy ]
+    objc-ivars:           [ _FOAuthorizationCenter._xpcConnection,
+                            _FOAuthorizationRecord._bundleIdentifier,
+                            _FOAuthorizationRecord._recordIdentifier,
+                            _FOAuthorizationRecord._status,
+                            _FOAuthorizationRecord._teamIdentifier ]
+...

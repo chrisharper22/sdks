@@ -1,0 +1,23 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/FeatureStoreUploader.framework/FeatureStoreUploader
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _FSFSchemaFSFFeatureReadFrom,
+                            _FSFSchemaFSFTopEventReadFrom,
+                            _FeatureStoreUploaderVersionNumber,
+                            _FeatureStoreUploaderVersionString ]
+    objc-classes:         [ _FSFSchemaFSFFeature, _FSFSchemaFSFTopEvent,
+                            _FSUUserDefaults, _FeatureStoreAggregator ]
+    objc-ivars:           [ _FSFSchemaFSFFeature._hasPayLoad,
+                            _FSFSchemaFSFFeature._payLoad,
+                            _FSFSchemaFSFTopEvent._feature,
+                            _FSFSchemaFSFTopEvent._fsfId,
+                            _FSFSchemaFSFTopEvent._hasFeature,
+                            _FSFSchemaFSFTopEvent._hasFsfId,
+                            _FSFSchemaFSFTopEvent._whichEvent_Type,
+                            _FSUUserDefaults.userDefault ]
+...

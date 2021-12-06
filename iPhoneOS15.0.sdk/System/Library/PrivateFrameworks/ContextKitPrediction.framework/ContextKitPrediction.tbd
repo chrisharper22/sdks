@@ -1,0 +1,33 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/ContextKitPrediction.framework/ContextKitPrediction
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _ContextKitPredictionVersionNumber,
+                            _ContextKitPredictionVersionString ]
+    objc-classes:         [ _CKContextRecentsCache,
+                            _CKContextRecentsPredictionManager,
+                            _CKContextUserFacingUniversalRecent ]
+    objc-ivars:           [ _CKContextRecentsCache._biomeQueue,
+                            _CKContextRecentsCache._computedFocusModeQueue,
+                            _CKContextRecentsCache._computedModeScheduler,
+                            _CKContextRecentsCache._computedModeSink,
+                            _CKContextRecentsCache._computedModeStream,
+                            _CKContextRecentsCache._configuration,
+                            _CKContextRecentsCache._deferredMaintenanceTaskBlock,
+                            _CKContextRecentsCache._delegate,
+                            _CKContextRecentsCache._latestActivity,
+                            _CKContextRecentsCache._serviceConnection,
+                            _CKContextRecentsCache._stream,
+                            _CKContextRecentsPredictionManager._clientModel,
+                            _CKContextRecentsPredictionManager._delegate,
+                            _CKContextRecentsPredictionManager._dndService,
+                            _CKContextRecentsPredictionManager._recentsCache,
+                            _CKContextRecentsPredictionManager._suggestionReportingQueue,
+                            _CKContextRecentsPredictionManager._suggestionsClearingBlock,
+                            _CKContextRecentsPredictionManager._suggestionsContributionBlock,
+                            _CKContextUserFacingUniversalRecent._event ]
+...

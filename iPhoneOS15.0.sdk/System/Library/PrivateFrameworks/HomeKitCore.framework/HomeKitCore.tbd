@@ -1,0 +1,10 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/HomeKitCore.framework/HomeKitCore
+current-version:       800.2.5
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    re-exports:           [ /System/Library/Frameworks/HomeKit.framework/HomeKit ]
+...

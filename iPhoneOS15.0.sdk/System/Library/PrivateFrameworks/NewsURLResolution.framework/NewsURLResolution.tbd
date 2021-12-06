@@ -1,0 +1,25 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/NewsURLResolution.framework/NewsURLResolution
+current-version:       2916
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _NRErrorDomain, _NewsURLResolutionVersionNumber,
+                            _NewsURLResolutionVersionString ]
+    objc-classes:         [ _NRNewsDaemonBloomFilterInfoService,
+                            _NRNewsURLResolutionOperation,
+                            _NRURLResolutionManager,
+                            _NRWebURLResolutionOperation ]
+    objc-ivars:           [ _NRNewsDaemonBloomFilterInfoService._bloomFilterInfo,
+                            _NRNewsDaemonBloomFilterInfoService._fetchOnceOperation,
+                            _NRNewsURLResolutionOperation._newsURL,
+                            _NRNewsURLResolutionOperation._resolutionCompletion,
+                            _NRNewsURLResolutionOperation._resultWebURL,
+                            _NRURLResolutionManager._bloomFilterInfoService,
+                            _NRWebURLResolutionOperation._bloomFilterInfoService,
+                            _NRWebURLResolutionOperation._resolutionCompletion,
+                            _NRWebURLResolutionOperation._resultNewsURL,
+                            _NRWebURLResolutionOperation._webURL ]
+...

@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/DataDetectorsCore.framework/PlugIns/PhoneNumbers.plugin/PhoneNumbers
+current-version:       694
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _GetPrefixInitialState, _GetResultPostprocessor,
+                            _GetSuffixInitialState, _GetVersion ]
+...

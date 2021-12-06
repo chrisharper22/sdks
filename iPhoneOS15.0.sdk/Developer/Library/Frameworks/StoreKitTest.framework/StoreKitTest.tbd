@@ -1,0 +1,29 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /Developer/Library/Frameworks/StoreKitTest.framework/StoreKitTest
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _SKTestErrorDomain ]
+    objc-classes:         [ _SKTestEventObservation, _SKTestSession,
+                            _SKTestSubscriptionWillRenewObservation,
+                            _SKTestTransaction ]
+    objc-ivars:           [ _SKTestEventObservation._identifier,
+                            _SKTestEventObservation._isCancelled,
+                            _SKTestSession._bundleID, _SKTestSession._connection,
+                            _SKTestSession._observations,
+                            _SKTestSession._storeKitService,
+                            _SKTestSubscriptionWillRenewObservation._eventBlock,
+                            _SKTestTransaction._autoRenewingEnabled,
+                            _SKTestTransaction._cancelDate,
+                            _SKTestTransaction._expirationDate,
+                            _SKTestTransaction._hasPurchaseIssue,
+                            _SKTestTransaction._identifier,
+                            _SKTestTransaction._originalTransactionIdentifier,
+                            _SKTestTransaction._pendingAskToBuyConfirmation,
+                            _SKTestTransaction._productIdentifier,
+                            _SKTestTransaction._purchaseDate,
+                            _SKTestTransaction._state ]
+...

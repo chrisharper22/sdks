@@ -1,0 +1,26 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CoreBrightness.framework/CoreBrightness
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _BrightnessSystem, _BrightnessSystemClient,
+                            _CBAdaptationClient, _CBBlueLightClient, _CBClient,
+                            _CBSimBrightnessController ]
+    objc-ivars:           [ _BrightnessSystem._initializationComplete,
+                            _CBAdaptationClient._supported,
+                            _CBBlueLightClient._supported,
+                            _CBClient._adaptationClient,
+                            _CBClient._blueLightClient,
+                            _CBSimBrightnessController._currentFactor,
+                            _CBSimBrightnessController._delegate,
+                            _CBSimBrightnessController._duration,
+                            _CBSimBrightnessController._initialFactor,
+                            _CBSimBrightnessController._logHandle,
+                            _CBSimBrightnessController._startDate,
+                            _CBSimBrightnessController._targetFactor,
+                            _CBSimBrightnessController._transitionTimer,
+                            _CBSimBrightnessController._workQueue ]
+...

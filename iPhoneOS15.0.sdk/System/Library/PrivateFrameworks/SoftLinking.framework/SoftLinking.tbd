@@ -1,0 +1,10 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+current-version:       42
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ __sl_dlopen, __sl_dlopen_audited ]
+...

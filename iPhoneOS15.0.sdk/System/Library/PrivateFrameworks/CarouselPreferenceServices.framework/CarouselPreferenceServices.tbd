@@ -1,0 +1,30 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/CarouselPreferenceServices.framework/CarouselPreferenceServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CarouselPreferenceServicesVersionNumber,
+                            _CarouselPreferenceServicesVersionString ]
+    objc-classes:         [ _CSLPRFApp, _CSLPRFAppCell, _CSLPRFAppLibrary,
+                            _CSLPRFAppSwitchCell, _CSLPRFAppTableCellHelper,
+                            _CSLPRFDefaultAppDataProvider, _CSLPRFIconCache,
+                            _CSLPRFNanoAppRegistryAppDataProvider ]
+    objc-ivars:           [ _CSLPRFApp._bundleID, _CSLPRFApp._icon,
+                            _CSLPRFApp._name, _CSLPRFApp._sdkVersion,
+                            _CSLPRFApp._supportsAlwaysOnDisplay,
+                            _CSLPRFAppCell._cellHelper,
+                            _CSLPRFAppLibrary._appDataProviders,
+                            _CSLPRFAppLibrary._apps, _CSLPRFAppLibrary._delegate,
+                            _CSLPRFAppSwitchCell._cellHelper,
+                            _CSLPRFAppTableCellHelper._requestInProgress,
+                            _CSLPRFAppTableCellHelper._tableCell,
+                            _CSLPRFDefaultAppDataProvider._delegate,
+                            _CSLPRFDefaultAppDataProvider._isStandAloneStoreCompatible,
+                            _CSLPRFDefaultAppDataProvider._nanoAppRegistryDataProvider,
+                            _CSLPRFIconCache._cache,
+                            _CSLPRFNanoAppRegistryAppDataProvider._delegate,
+                            _CSLPRFNanoAppRegistryAppDataProvider._workspace ]
+...

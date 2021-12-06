@@ -1,0 +1,20 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/AXNTKUtilities.framework/AXNTKUtilities
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AXNTKClockTimeStringForDateIncludingSeconds,
+                            _AXNTKClockTimeVoiceOverSpokenStringForDate,
+                            _AXNTKClockTimeVoiceOverSpokenStringForWatchFaces,
+                            _AXNTKComplicationTemplateContainsSimpleImage,
+                            _AXNTKCurrentTimeForWatchFaces,
+                            _AXNTKFormattingManager, _AXNTKLocalizedStringForKey,
+                            _AXNTKLocalizedStringForKeyInTable,
+                            _AXNTKUserIsWheelchairUserWithVoiceOverOn,
+                            _AXNTKUtilitiesVersionNumber,
+                            _AXNTKUtilitiesVersionString, _AXSolarPathValue ]
+    objc-classes:         [ _AXNTKUtilitiesHelperClass ]
+...

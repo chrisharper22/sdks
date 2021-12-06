@@ -1,0 +1,19 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/DeviceCheckInternal.framework/DeviceCheckInternal
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _DCAsset, _DCAssetFetcher, _DCAssetFetcherContext,
+                            _DCCryptoProxyImpl, _DCDDeviceMetadata,
+                            _DCXPCActivityController ]
+    objc-ivars:           [ _DCAsset._publicKey,
+                            _DCAsset._publicKeyRefreshInterval,
+                            _DCAsset._version,
+                            _DCAssetFetcherContext._allowCatalogRefresh,
+                            _DCAssetFetcherContext._ignoreCachedMetadata,
+                            _DCDDeviceMetadata._context,
+                            _DCDDeviceMetadata._cryptoProxy ]
+...

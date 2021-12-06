@@ -1,0 +1,42 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/Categories.framework/Categories
+current-version:       9
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _CTCategoriesDidChangeNotification,
+                            _CTCategoriesVersionIdentifierKey,
+                            _CTCategoriesVersionNumber,
+                            _CTCategoriesVersionString,
+                            _CTCategoryIdentifierCreativity,
+                            _CTCategoryIdentifierEducation,
+                            _CTCategoryIdentifierEntertainment,
+                            _CTCategoryIdentifierGames,
+                            _CTCategoryIdentifierHealthAndFitness,
+                            _CTCategoryIdentifierOther,
+                            _CTCategoryIdentifierProductivity,
+                            _CTCategoryIdentifierReadingAndReference,
+                            _CTCategoryIdentifierShoppingAndFood,
+                            _CTCategoryIdentifierSocialNetworking,
+                            _CTCategoryIdentifierSystemBlockable,
+                            _CTCategoryIdentifierSystemHidden,
+                            _CTCategoryIdentifierSystemUnblockable,
+                            _CTCategoryIdentifierTravel,
+                            _CTCategoryIdentifierUtilities, _CTErrorDomain,
+                            _CTErrorKeyHTTPResponse, _CTErrorKeyHTTPResponseData,
+                            _CTOSPlatformAll, _CTOSPlatformCurrent,
+                            _CTOSPlatformiOS, _CTOSPlatformmacOS,
+                            _CTOSPlatformtvOS, _CTOSPlatformwatchOS ]
+    objc-classes:         [ _CTCategories, _CTCategory, _CTError, _CTLogging,
+                            _CTUtilities ]
+    objc-ivars:           [ _CTCategories._indexVersionId,
+                            _CTCategories._lookupLock,
+                            _CTCategory._bundleIdentifier,
+                            _CTCategory._canonicalBundleIdentifier,
+                            _CTCategory._equivalentBundleIdentifiers,
+                            _CTCategory._identifier,
+                            _CTCategory._primaryWebDomain,
+                            _CTCategory._webDomains ]
+...

@@ -1,0 +1,25 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SiriModes.framework/SiriModes
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _AFPresentationModeForMDMode, _MDModeGetName,
+                            _MDModeGetNameForAnalytics, _kDialogIdentifierKey,
+                            _kSnippetAceViewIDKey ]
+    objc-classes:         [ _MDAudioAccessoryHeuristic,
+                            _MDDeviceIsMutedHeuristic, _MDDialogTransformer,
+                            _MDFixedModeProvider, _MDModeDecision,
+                            _MDUserOverrideHeuristic ]
+    objc-ivars:           [ _MDAudioAccessoryHeuristic._connectedOutputDevicesObserver,
+                            _MDAudioAccessoryHeuristic._connectedToAudioAccessory,
+                            _MDAudioAccessoryHeuristic._modeDecisionBasedOnAudioAccessory,
+                            _MDAudioAccessoryHeuristic._sharedSystemAudioContext,
+                            _MDDeviceIsMutedHeuristic._displayOnlyModeDecision,
+                            _MDDeviceIsMutedHeuristic._ringerStateObserver,
+                            _MDFixedModeProvider._fixedMode,
+                            _MDModeDecision._currentMode,
+                            _MDUserOverrideHeuristic._internalDefaults ]
+...

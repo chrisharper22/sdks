@@ -1,0 +1,28 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/SleepHealthDaemon.framework/SleepHealthDaemon
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _HDSHAccessibilityAssertionManager,
+                            _HDSHPluginServer, _HDSHProfileExtension,
+                            _HDSHSleepHealthDaemonPlugin,
+                            _HDSHWidgetSchedulingManager ]
+    objc-ivars:           [ _HDSHAccessibilityAssertionManager._accessibilityAssertion,
+                            _HDSHAccessibilityAssertionManager._profile,
+                            _HDSHAccessibilityAssertionManager._queue,
+                            _HDSHPluginServer._client,
+                            _HDSHPluginServer._profile,
+                            _HDSHPluginServer._profileExtension,
+                            _HDSHPluginServer._serializer,
+                            _HDSHProfileExtension._accessibilityAssertionManager,
+                            _HDSHProfileExtension._profile,
+                            _HDSHProfileExtension._widgetSchedulingManager,
+                            _HDSHWidgetSchedulingManager._profile,
+                            _HDSHWidgetSchedulingManager._queue,
+                            _HDSHWidgetSchedulingManager._reloadThrottler,
+                            _HDSHWidgetSchedulingManager._sleepStore,
+                            _HDSHWidgetSchedulingManager._timelineController ]
+...

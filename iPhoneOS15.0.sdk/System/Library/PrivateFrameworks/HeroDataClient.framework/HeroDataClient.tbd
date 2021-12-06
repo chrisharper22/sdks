@@ -1,0 +1,48 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/HeroDataClient.framework/HeroDataClient
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _ATXHeroDataXPCInterface,
+                            _ATXPBHeroAppPredictionReadFrom,
+                            _HeroDataClientVersionNumber,
+                            _HeroDataClientVersionString,
+                            _kATXHeroAppDecodeErrorCode,
+                            _kATXHeroAppDecodeErrorDomain,
+                            _kATXHeroAppDefaultIsTouristApp,
+                            _kATXHeroAppDefaultLatitudeAndLongitude,
+                            _kATXHeroAppDefaultRadius, _kATXHeroAppDefaultRank,
+                            _kATXHeroAppScoreNotSet,
+                            _kATXHeroAppUninstalledOrUnknownAdamId,
+                            _kATXHeroAppUninstalledOrUnknownBundleId,
+                            _kATXHeroDataXPCInterfaceMachServiceName ]
+    objc-classes:         [ _ATXHeroData, _ATXHeroDataClient,
+                            _ATXPBHeroAppPrediction ]
+    objc-ivars:           [ _ATXHeroData._adamId, _ATXHeroData._bundleId,
+                            _ATXHeroData._clipMetadata,
+                            _ATXHeroData._isTouristApp, _ATXHeroData._latitude,
+                            _ATXHeroData._latitudeAtPredictionTime,
+                            _ATXHeroData._longitude,
+                            _ATXHeroData._longitudeAtPredictionTime,
+                            _ATXHeroData._poiCategory,
+                            _ATXHeroData._radiusInMeters, _ATXHeroData._rank,
+                            _ATXHeroData._score, _ATXHeroData._urlHash,
+                            _ATXHeroDataClient._xpcConnection,
+                            _ATXPBHeroAppPrediction._adamId,
+                            _ATXPBHeroAppPrediction._bundleId,
+                            _ATXPBHeroAppPrediction._clipMetadata,
+                            _ATXPBHeroAppPrediction._has,
+                            _ATXPBHeroAppPrediction._isTouristApp,
+                            _ATXPBHeroAppPrediction._latitude,
+                            _ATXPBHeroAppPrediction._latitudeAtPredictionTime,
+                            _ATXPBHeroAppPrediction._longitude,
+                            _ATXPBHeroAppPrediction._longitudeAtPredictionTime,
+                            _ATXPBHeroAppPrediction._poiCategory,
+                            _ATXPBHeroAppPrediction._radius,
+                            _ATXPBHeroAppPrediction._rank,
+                            _ATXPBHeroAppPrediction._score,
+                            _ATXPBHeroAppPrediction._urlHash ]
+...

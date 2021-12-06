@@ -1,0 +1,14 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           92371D6F-1F9E-3E3B-A185-DF56861A0B52
+  - target:          arm64e-ios
+    value:           DB19DF22-5FB7-3712-B6D2-7CE45EACD317
+install-name:    '/usr/lib/libMainThreadChecker.dylib'
+...

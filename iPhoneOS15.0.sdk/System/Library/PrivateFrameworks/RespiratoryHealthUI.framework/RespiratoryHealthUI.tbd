@@ -1,0 +1,48 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/RespiratoryHealthUI.framework/RespiratoryHealthUI
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    objc-classes:         [ _HKRPOnboardingPairViewController,
+                            _HKRPOnboardingSettingsViewController,
+                            _HKRPOnboardingViewControllerFactory,
+                            _HKRPWatchAppInstaller, _RespiratoryHealthHeroView,
+                            __HKRPDefaultWatchAppsInstallProvider ]
+    objc-ivars:           [ _HKRPOnboardingPairViewController._heroView,
+                            _HKRPOnboardingPairViewController._onboardingManager,
+                            _HKRPOnboardingPairViewController._settings,
+                            _HKRPOnboardingPairViewController.miniFlowDelegate,
+                            _HKRPOnboardingSettingsViewController._blurView,
+                            _HKRPOnboardingSettingsViewController._contentView,
+                            _HKRPOnboardingSettingsViewController._descriptionLabel,
+                            _HKRPOnboardingSettingsViewController._didLayoutSubviews,
+                            _HKRPOnboardingSettingsViewController._footerView,
+                            _HKRPOnboardingSettingsViewController._initialInsets,
+                            _HKRPOnboardingSettingsViewController._isInitialInsetsSet,
+                            _HKRPOnboardingSettingsViewController._isVisible,
+                            _HKRPOnboardingSettingsViewController._locationLabel,
+                            _HKRPOnboardingSettingsViewController._onboardingDelegate,
+                            _HKRPOnboardingSettingsViewController._onboardingManager,
+                            _HKRPOnboardingSettingsViewController._scrollView,
+                            _HKRPOnboardingSettingsViewController._settings,
+                            _HKRPOnboardingSettingsViewController._setupLaterButton,
+                            _HKRPOnboardingSettingsViewController._style,
+                            _HKRPOnboardingSettingsViewController._suggestedChoiceButton,
+                            _HKRPOnboardingSettingsViewController._titleLabel,
+                            _HKRPOnboardingSettingsViewController._watchView,
+                            _HKRPOnboardingSettingsViewController.miniFlowDelegate,
+                            _HKRPWatchAppInstaller._device,
+                            _HKRPWatchAppInstaller._installAppsProviding,
+                            _HKRPWatchAppInstaller._watchAppAvailability,
+                            _RespiratoryHealthHeroView._countdownLabel,
+                            _RespiratoryHealthHeroView._countdownLabelMediumFrame,
+                            _RespiratoryHealthHeroView._heroImageMediumFrame,
+                            _RespiratoryHealthHeroView._heroImageView,
+                            _RespiratoryHealthHeroView._preferredWidth,
+                            _RespiratoryHealthHeroView._watchImageMediumFrame,
+                            _RespiratoryHealthHeroView._watchImageSize,
+                            _RespiratoryHealthHeroView._watchImageView ]
+...

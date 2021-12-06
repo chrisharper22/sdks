@@ -1,0 +1,14 @@
+---
+archs:                 [ arm64, arm64e ]
+platform:              (null)
+install-name:          /System/Library/PrivateFrameworks/MTLCompiler.framework/libMTLCompilerHelper.dylib
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e ]
+    symbols:              [ _createCompilerHelper, _deleteCompilerHelper ]
+    weak-def-symbols:     [ __ZTI26MTLCompilerHelperInterface,
+                            __ZTI28MTLCompilerBuiltInFileReader,
+                            __ZTS26MTLCompilerHelperInterface,
+                            __ZTS28MTLCompilerBuiltInFileReader ]
+...
