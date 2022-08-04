@@ -1,0 +1,6 @@
+framework module _AppIntents_SwiftUI {
+  header "_AppIntents_SwiftUI-Swift.h"
+
+  export *
+  module _AppIntents_SwiftUI { export * }
+}

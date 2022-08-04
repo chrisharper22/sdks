@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           7C9F9C3E-65E7-30B9-9262-48D11135D82F
+  - target:          arm64e-ios
+    value:           74C148EF-07AD-342B-999E-B847C6618CE6
+install-name:    '/usr/lib/libMTLHud.dylib'
+...

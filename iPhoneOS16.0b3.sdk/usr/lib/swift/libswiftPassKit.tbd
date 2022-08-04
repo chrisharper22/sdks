@@ -1,0 +1,27 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           A408CDB3-73B5-3F2A-AEF2-96177BA790A9
+  - target:          arm64e-ios
+    value:           0CFEAF8A-6B12-3F3A-BB57-1FCF00BB19F4
+install-name:    '/usr/lib/swift/libswiftPassKit.dylib'
+current-version: 1505.1.36
+swift-abi-version: 7
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ '_$sSo16PKPaymentRequestC7PassKitE29paymentCouponCodeExpiredError20localizedDescriptions0I0_pSSSg_tFZ', 
+                       '_$sSo16PKPaymentRequestC7PassKitE29paymentCouponCodeInvalidError20localizedDescriptions0I0_pSSSg_tFZ', 
+                       '_$sSo24PKStoredValuePassBalanceC0C3KitE2eeoiySbAB_ABtFZ', 
+                       '_$sSo24PKStoredValuePassBalanceC0C3KitE6amountSo9NSDecimalavg', 
+                       '_$sSo24PKStoredValuePassBalanceC0C3KitE6amountSo9NSDecimalavpMV', 
+                       '_$sSo27PKStoredValuePassPropertiesC0C3KitE9isBlockedSbvpMV', 
+                       '_$sSo29PKIdentityDocumentRawElementsC7PassKitE3ageSiSgvg', 
+                       '_$sSo29PKIdentityDocumentRawElementsC7PassKitE3ageSiSgvpMV', 
+                       '__swift_FORCE_LOAD_$_swiftPassKit' ]
+...

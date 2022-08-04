@@ -1,0 +1,65 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/HeadphoneConfigs.framework/HeadphoneConfigs
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackC22getDraftViewControllerSo06UIViewI0CyFZ,
+                            _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackCACycfC,
+                            _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackCACycfc,
+                            _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackCMa,
+                            _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackCMn,
+                            _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackCN,
+                            _$s16HeadphoneConfigs25HPSSpatialProfileFeedbackCfD,
+                            _BTAccessoryPressAndHoldModeSelected,
+                            _BTAccessorySetListeningModeUpdated,
+                            _HPSSpatialAudioProfileTapped,
+                            _HeadphoneConfigsVersionNumber,
+                            _HeadphoneConfigsVersionString,
+                            _createWarningCellBody, _createWarningCellTitle,
+                            _isPreferredLanguageEnglish,
+                            _sharedBluetoothSettingsLogComponent ]
+    objc-classes:         [ AccessoryControlListItemsController,
+                            AccessoryControlTableCell, AccessorySubController,
+                            AccessoryVoiceControlController,
+                            BTAccessoryListeningModeControl,
+                            BTDeviceNameEditingController,
+                            BTDeviceSmartRouteController, BTSDevice,
+                            BTSDeviceClassic, BTSDeviceConfigController,
+                            BTSDeviceConfigDigitalCrownController, BTSDeviceLE,
+                            BTSFitTestController, BTSFitTestWelcomeController,
+                            BTSpatialTutorialViewController, BTWarningCell,
+                            HPSBatteryGroupView, HPSBatteryIconView,
+                            HPSBatteryStatusHorizontalStackView,
+                            HPSBatteryStatusVerticalStackView,
+                            HPSBatteryStatusView, HPSDeviceAnalytics,
+                            HPSHeadphoneConfigController,
+                            HPSSpatialProfileAnalytics,
+                            _TtC16HeadphoneConfigs25HPSSpatialProfileFeedback ]
+    objc-ivars:           [ AccessoryVoiceControlController._volumeControlSpecifiers,
+                            BTSDeviceConfigController._aacpControlSpecifiers,
+                            BTSDeviceConfigController._accessoryFirmwareSpecifiers,
+                            BTSDeviceConfigController._accessoryInfoSpecifiers,
+                            BTSDeviceConfigController._ancAssetVersion,
+                            BTSDeviceConfigController._ancsControlSpecifiers,
+                            BTSDeviceConfigController._caseInfo,
+                            BTSDeviceConfigController._controlGroupSpecifiers,
+                            BTSDeviceConfigController._device,
+                            BTSDeviceConfigController._deviceTypeSpecifiers,
+                            BTSDeviceConfigController._dismissed,
+                            BTSDeviceConfigController._isManagedByWallet,
+                            BTSDeviceConfigController._isWatch,
+                            BTSDeviceConfigController._lastSelectedSyncGroup,
+                            BTSDeviceConfigController._messagingEnabled,
+                            BTSDeviceConfigController._messagingSpecifiers,
+                            BTSDeviceConfigController._nameControlSpecifiers,
+                            BTSDeviceConfigController._supportsMAP,
+                            BTSDeviceConfigController._syncContactsSpecifiers,
+                            BTSDeviceConfigController._syncGroupsSpecifiers,
+                            BTSDeviceConfigController._syncSettings,
+                            BTSDeviceConfigController._versionInfo ]
+...

@@ -1,0 +1,12 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/Message.framework/MailServices/IMAP.framework/IMAP
+current-version:       3726.0.10
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    re-exports:           [ /System/Library/PrivateFrameworks/Message.framework/Message ]
+...

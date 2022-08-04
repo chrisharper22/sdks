@@ -1,0 +1,14 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           C2B6D947-E498-3146-944A-24AB4402C179
+  - target:          armv7s-ios
+    value:           244BE15E-B725-3168-BDE2-492E02CAFD2F
+  - target:          arm64-ios
+    value:           B882BADF-747B-317F-BE25-5BDF3F5F1CEC
+  - target:          arm64e-ios
+    value:           B8582643-F5D2-38F0-8906-0EAA15E2AE24
+install-name:    '/usr/lib/libAWDProtobufFacetimeiMessage.dylib'
+...

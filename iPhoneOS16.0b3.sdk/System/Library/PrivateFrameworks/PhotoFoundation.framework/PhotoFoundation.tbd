@@ -1,0 +1,35 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/PhotoFoundation.framework/PhotoFoundation
+current-version:       500.26.102
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _PFCount, _PFExists, _PFFilter, _PFFind, _PFMap,
+                            _PFMapDictionary, _PFMapIndexes,
+                            _PFMethodNotImplementedException,
+                            _PFObjc_classIsSubclassOfClass,
+                            _PFObjc_enumerateClassNamesForImageHeader,
+                            _PFObjc_enumerateSubclassesForHeader,
+                            _PFObjc_implementingClassForInstanceMethod,
+                            _PFObjc_implementsClassMethod,
+                            _PFObjc_implementsInstanceMethod, _PFReduce,
+                            _PFReduceF, _PhotoFoundationVersionNumber,
+                            _PhotoFoundationVersionString,
+                            __PFAssertContinueHandler, __PFAssertFailHandler ]
+    objc-classes:         [ PFAssertionHandler, PFAssertionInfo,
+                            PFAssertionPolicyAbort, PFAssertionPolicyAlert,
+                            PFAssertionPolicyAlertRadar,
+                            PFAssertionPolicyComposite,
+                            PFAssertionPolicyCrashReport,
+                            PFAssertionPolicyDebuggerFatal,
+                            PFAssertionPolicyDebuggerWarning,
+                            PFAssertionPolicyLog, PFAssertionPolicyThrow,
+                            PFAssertionPolicyThrowAlways,
+                            PFAssertionPolicyUnique, PFAssertionPolicyUnitTest,
+                            PFCoalescer, PFCoalescerActivityToken,
+                            PFCoalescerContext, PFMutualExclusionAssertion ]
+...

@@ -1,0 +1,18 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           086590F9-57CF-37C6-8273-0F1DE9774D96
+  - target:          arm64e-ios
+    value:           70C8E58D-00F4-3F0B-9F97-91D6F2CC1F1B
+install-name:    '/usr/lib/libTLE.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _LWCRErrorDomain ]
+    objc-classes:    [ LWCR, LWCRExecutor, LWCRFact ]
+...

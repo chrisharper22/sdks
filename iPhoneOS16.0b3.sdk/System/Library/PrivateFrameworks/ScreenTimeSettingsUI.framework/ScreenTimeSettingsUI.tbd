@@ -1,0 +1,51 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/ScreenTimeSettingsUI.framework/ScreenTimeSettingsUI
+current-version:       502.0.14
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC014settingsPresetG5ModelAA0cjgK0CSgvpfi,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC027restrictionsToPresetMappingG5Model33_CB29295EC9F3D0EC2E869AD032A21C25LLAA014STRestrictionsjklgM8Protocol_pSgvpfi,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC11viewDidLoadyyF,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC4dsid8childAge5model027restrictionsToPresetMappingG5Model4name10onContinueACSo8NSNumberC_AKSgAA0efQ0_pAA014STRestrictionsnopgQ8Protocol_pSgSSyyctcfC,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC4dsid8childAge5model027restrictionsToPresetMappingG5Model4name10onContinueACSo8NSNumberC_AKSgAA0efQ0_pAA014STRestrictionsnopgQ8Protocol_pSgSSyyctcfCTq,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC4dsid8childAge5model027restrictionsToPresetMappingG5Model4name10onContinueACSo8NSNumberC_AKSgAA0efQ0_pAA014STRestrictionsnopgQ8Protocol_pSgSSyyctcfc,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC4dsid8childAge5model4name10onContinueACSo8NSNumberC_AJSgAA0eF5Model_pSSyyctcfC,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC4dsid8childAge5model4name10onContinueACSo8NSNumberC_AJSgAA0eF5Model_pSSyyctcfc,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC5title10detailText4icon13contentLayoutACSS_SSSgSo7UIImageCSgSo016OBWelcomeContentgN0VtcfC,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC5title10detailText4icon13contentLayoutACSS_SSSgSo7UIImageCSgSo016OBWelcomeContentgN0Vtcfc,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerC9presetsVC33_CB29295EC9F3D0EC2E869AD032A21C25LL05SwiftD009UIHostingH0CyAA0cfG0VGSgvpfi,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerCMa,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerCMn,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerCN,
+                            _$s20ScreenTimeSettingsUI28STIntroPresetsViewControllerCfD,
+                            _STSharedServicesScreenTimeSpecifierId ]
+    objc-classes:         [ STAllowance, STAlwaysAllowList, STCandyBarView,
+                            STChildSetupController,
+                            STCommunicationLimitsViewControllerProvider,
+                            STCommunicationSafetyListController,
+                            STCommunicationSafetyViewModel,
+                            STCommunicationSafetyViewModelCoordinator,
+                            STDeviceBedtime, STDevicePINFactory,
+                            STDeviceUnlockStateListener,
+                            STFamilyCircleSpecifierProvider,
+                            STFamilyCircleViewControllerProvider,
+                            STHorizontallySegmentedView, STIOSAlertPresenter,
+                            STKeyValuePair, STRestrictionsPINController,
+                            STRootViewControllerProvider,
+                            STRootViewModelCoordinator,
+                            STScreenTimeSettingsUIBundle, STSegmentItem,
+                            STSetupAssistantViewController,
+                            STTimeAllowancesCompatibilityController,
+                            STUIAuthenticationSession, STUILog, STUIUser,
+                            STUnlockForContentView,
+                            STUsageDetailsViewModelCoordinator,
+                            STUsageGraphViewController, STUsageItem, STUsageReport,
+                            STUsageSummaryTitleView, STWeeklyReportAppUsageView,
+                            STWeeklyReportViewController,
+                            _TtC20ScreenTimeSettingsUI28STIntroPresetsViewController ]
+...

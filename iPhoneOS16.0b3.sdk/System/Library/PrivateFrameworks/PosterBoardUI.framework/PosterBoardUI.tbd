@@ -1,0 +1,35 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/PosterBoardUI.framework/PosterBoardUI
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NSStringFromPRUISwitcherLayoutMode,
+                            _PRUIHomeScreenLegibilityMaterialRecipeName,
+                            _PRUILogCommon,
+                            _PRUISwitcherLayoutBouncingAnimationSettings,
+                            _PRUISwitcherLayoutDeflationAnimationSettings,
+                            _PRUISwitcherLayoutTransitionAnimationSettings,
+                            _PRUISwitcherSceneSessionRole,
+                            _PosterBoardLoggingSubsystem,
+                            _PosterBoardUIVersionNumber,
+                            _PosterBoardUIVersionString ]
+    objc-classes:         [ PRUIDidDismissSheetAction,
+                            PRUIFocusPosterSelectionController, PRUIGradientView,
+                            PRUIModalController, PRUIModalEntryPointEditing,
+                            PRUIModalEntryPointFocusPosterSelection,
+                            PRUIModalEntryPointGallery,
+                            PRUIModalEntryPointHomeScreenSwitcher,
+                            PRUIModalEntryPointSwitcher,
+                            PRUIModalRemoteViewController,
+                            PRUIModalSceneSettings, PRUIModalSceneSpecification,
+                            PRUIMutableModalSceneSettings,
+                            PRUIRequestDismissalAction, PRUISwitcherLayout,
+                            PRUISwitcherSceneClientSettingsDiffInspector,
+                            PRUISwitcherSceneSettingsDiffInspector,
+                            PRUISwitcherSceneSpecification ]
+...

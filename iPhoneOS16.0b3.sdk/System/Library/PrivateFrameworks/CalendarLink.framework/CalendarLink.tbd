@@ -1,0 +1,50 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/CalendarLink.framework/CalendarLink
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$s12CalendarLink03SetA18FocusConfigurationV10_calendars33_B0711E50AB7698233B8C005A71085240LL5Link217OptionalParameterCySayAA0A6EntityVGGvpfi,
+                            _$s12CalendarLink03SetA18FocusConfigurationV10appContext5Link20de3AppG0Vvg,
+                            _$s12CalendarLink03SetA18FocusConfigurationV10appContext5Link20de3AppG0VvpMV,
+                            _$s12CalendarLink03SetA18FocusConfigurationV11description5Link229StaticDeferredLocalizedStringVSgvMZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV11description5Link229StaticDeferredLocalizedStringVSgvau,
+                            _$s12CalendarLink03SetA18FocusConfigurationV11description5Link229StaticDeferredLocalizedStringVSgvgZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV11description5Link229StaticDeferredLocalizedStringVSgvpZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV11description5Link229StaticDeferredLocalizedStringVSgvsZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV17presentationStyle5Link2018ActionPresentationG0OvMZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV17presentationStyle5Link2018ActionPresentationG0Ovau,
+                            _$s12CalendarLink03SetA18FocusConfigurationV17presentationStyle5Link2018ActionPresentationG0OvgZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV17presentationStyle5Link2018ActionPresentationG0OvpZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV17presentationStyle5Link2018ActionPresentationG0OvsZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV19_eventStoreProvider33_B0711E50AB7698233B8C005A71085240LL5Link210DependencyCySo07EKEventgH0_pGvpfi,
+                            _$s12CalendarLink03SetA18FocusConfigurationV21displayRepresentation5Link207DisplayG0VSgvg,
+                            _$s12CalendarLink03SetA18FocusConfigurationV21displayRepresentation5Link207DisplayG0VSgvpMV,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5Link201_cdE10ActionTypeAAMc,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5Link20cdE6ActionAAMc,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5Link225AppContextProvidingActionAAMc,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5Link26ActionAAMc,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5title5Link229StaticDeferredLocalizedStringVSgvMZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5title5Link229StaticDeferredLocalizedStringVSgvau,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5title5Link229StaticDeferredLocalizedStringVSgvgZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5title5Link229StaticDeferredLocalizedStringVSgvpZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV5title5Link229StaticDeferredLocalizedStringVSgvsZ,
+                            _$s12CalendarLink03SetA18FocusConfigurationV7perform5Link212ActionOutputCyytGyYaKF,
+                            _$s12CalendarLink03SetA18FocusConfigurationV7perform5Link212ActionOutputCyytGyYaKFTu,
+                            _$s12CalendarLink03SetA18FocusConfigurationVACycfC,
+                            _$s12CalendarLink03SetA18FocusConfigurationVMa,
+                            _$s12CalendarLink03SetA18FocusConfigurationVMn,
+                            _$s12CalendarLink03SetA18FocusConfigurationVN,
+                            _$s12CalendarLink0A18FocusConfigurationV9logHandleSo06OS_os_E0Cvau,
+                            _$s12CalendarLink0A18FocusConfigurationV9logHandleSo06OS_os_E0CvgZ,
+                            _$s12CalendarLink0A18FocusConfigurationV9logHandleSo06OS_os_E0CvpZ,
+                            _$s12CalendarLink0A18FocusConfigurationVMa,
+                            _$s12CalendarLink0A18FocusConfigurationVMn,
+                            _$s12CalendarLink0A18FocusConfigurationVN,
+                            _CalendarLinkVersionNumber,
+                            _CalendarLinkVersionString ]
+...

@@ -1,0 +1,6 @@
+framework module CreateMLComponents {
+  header "CreateMLComponents-Swift.h"
+
+  export *
+  module CreateMLComponents { export * }
+}

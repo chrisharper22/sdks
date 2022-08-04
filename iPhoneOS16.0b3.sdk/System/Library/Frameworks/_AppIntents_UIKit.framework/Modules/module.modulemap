@@ -1,0 +1,6 @@
+framework module _AppIntents_UIKit {
+  header "_AppIntents_UIKit-Swift.h"
+
+  export *
+  module _AppIntents_UIKit { export * }
+}

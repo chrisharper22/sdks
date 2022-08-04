@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           B6338A19-B44A-3FE7-AA6B-0175610DAC6E
+  - target:          arm64e-ios
+    value:           04641A6D-1742-3B0E-A557-FA0A5E4C9489
+install-name:    '/usr/lib/libBacktraceRecording.dylib'
+...

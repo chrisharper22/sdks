@@ -1,0 +1,50 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/BackgroundAssets.framework/BackgroundAssets
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    re-exports:           [ /System/Library/Frameworks/CloudKit.framework/CloudKit ]
+    symbols:              [ _BAAppStoreClientErrorDomain,
+                            _BABackgroundDownloaderExtensionLabel,
+                            _BAClientConnectionLogObject, _BAClientLogObject,
+                            _BADownloadLogObject,
+                            _BADownloaderExtensionMetadataKeyApplicationCacheLocationURL,
+                            _BADownloaderExtensionMetadataKeyApplicationIdentifier,
+                            _BADownloaderExtensionMetadataKeyApplicationLocationURL,
+                            _BADownloaderExtensionMetadataKeyLocalizedApplicationName,
+                            _BADownloaderPriorityDefault,
+                            _BADownloaderPriorityMax, _BADownloaderPriorityMin,
+                            _BAErrorDomain,
+                            _BAInitialRestrictionsDomainAllowList,
+                            _BAInitialRestrictionsDownloadAllowance,
+                            _BAInitialRestrictionsKey, _BASystemLogObject,
+                            _NSErrorWithBAErrorCode,
+                            _kBADownloaderExtensionLabel,
+                            _kBADownloaderInfoDictionaryApplicationCacheLocationURLKey,
+                            _kBADownloaderInfoDictionaryApplicationIdentifierKey,
+                            _kBADownloaderInfoDictionaryApplicationLocationURLKey,
+                            _kBADownloaderInfoDictionaryLocalizedApplicationNameKey,
+                            _kBADownloaderInitialAllowListKey,
+                            _kBADownloaderInitialAllowanceKey,
+                            _kBADownloaderInitialRestrictionsKey,
+                            _kBackgroundAssetsAgentMachServiceName,
+                            _kBackgroundAssetsAgentSPIMachServiceName,
+                            _kBackgroundAssetsAppInfoAllowedDomain,
+                            _kBackgroundAssetsAppInfoAmountDownloadAllowance,
+                            _kBackgroundAssetsAppInfoAmountDownloadedKey,
+                            _kBackgroundAssetsAppInfoAppIdentifierKey,
+                            _kBackgroundAssetsAppInfoAppTeamIdentifierKey,
+                            _kBackgroundAssetsAppInfoDeliveredAppDidInstall,
+                            _kBackgroundAssetsAppInfoDeliveredAppHasLaunched,
+                            _kBackgroundAssetsAppInfoLastApplicationLaunchTime,
+                            _kBackgroundAssetsAppInfoLastTimeCheckKey,
+                            _kBackgroundAssetsDeveloperTeamIdentifierEntitlement ]
+    objc-classes:         [ BAAgentSystemProxy, BAAppStoreClient,
+                            BAApplicationExtensionInfo, BACloudKitDownload,
+                            BADownload, BADownloadManager, BAURLDownload ]
+...

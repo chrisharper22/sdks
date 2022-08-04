@@ -1,0 +1,17 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           6004BC06-D182-3576-A875-6D6B36430796
+  - target:          arm64e-ios
+    value:           F42B6A1D-B701-3029-9DCD-8B91F698A909
+install-name:    '/usr/lib/libmobileassetd.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _mobileassetd_main ]
+...

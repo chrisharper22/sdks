@@ -1,0 +1,6 @@
+framework module _DeviceActivity_SwiftUI {
+  header "_DeviceActivity_SwiftUI-Swift.h"
+
+  export *
+  module _DeviceActivity_SwiftUI { export * }
+}

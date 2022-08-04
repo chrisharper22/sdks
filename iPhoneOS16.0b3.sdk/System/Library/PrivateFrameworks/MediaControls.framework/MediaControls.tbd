@@ -1,0 +1,65 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _MPAVRoutingViewItemActionIdentifierShowMore,
+                            _MRMediaControlsPlatterDeviceIdentifierAppleTV,
+                            _MRMediaControlsPlatterDeviceIdentifierGenericSpeaker,
+                            _MRMediaControlsPlatterDeviceIdentifierHomePod,
+                            _MRMediaControlsPlatterDeviceIdentifierHomePodStereoPair,
+                            _MRMediaControlsPlatterDeviceIdentifierSpeaker,
+                            _MRUNowPlayingContextDescription,
+                            _MRUNowPlayingLayoutDescription,
+                            _MediaControlsVersionNumber,
+                            _MediaControlsVersionString, __MPAVLog, __log,
+                            _kMRUMetadataControllerEventCommandKey,
+                            _kMRUMetadataControllerQuickActionSelected,
+                            _kMRUNowPlayingEventIsRemoteDestinationKey,
+                            _kMRUNowPlayingEventPopulatedItemsCountKey,
+                            _kMRUNowPlayingEventPresentationContextKey,
+                            _kMRUNowPlayingEventSelectedIndexKey,
+                            _kMRUNowPlayingEventSuggestionsCountKey,
+                            _kMRUNowPlayingSuggestionProviderDisplayed,
+                            _kMRUNowPlayingSuggestionSelected,
+                            _kMRUNowPlayingSuggestionsDisplayed ]
+    objc-classes:         [ MRPlatterViewController, MRUArtwork, MRUArtworkView,
+                            MRUContinuousSliderView,
+                            MRUControlCenterViewController,
+                            MRUCoverSheetViewController, MRUEndpointController,
+                            MRUFeatureFlagProvider, MRUHardwareVolumeAssertion,
+                            MRUImageUtilities, MRUListeningMode,
+                            MRUListeningModeController, MRUMediaSuggestionsCache,
+                            MRUMetadataController,
+                            MRUMirroringAuthorizationRequest,
+                            MRUMirroringController,
+                            MRUMirroringDiscoverySessionController,
+                            MRUMirroringViewController,
+                            MRUNowPlayingCellContentView,
+                            MRUNowPlayingController, MRUNowPlayingInfo,
+                            MRUNowPlayingQueueHandoffCoordinator,
+                            MRUNowPlayingViewController,
+                            MRUOutputContextController, MRUOutputDeviceAsset,
+                            MRUSuggestionsController,
+                            MRUSystemOutputDeviceRouteController,
+                            MRUSystemVolumeController, MRUTimeControls,
+                            MRUTransportControlItem, MRUTransportControls,
+                            MRUViewServiceProvider, MRUVisualStylingProvider,
+                            MRUVolumeBackgroundViewController,
+                            MRUVolumeHUDRouteDescriptionProvider,
+                            MRUVolumeViewController,
+                            MediaControlsBluetoothListeningModeButton,
+                            MediaControlsCollectionViewController,
+                            MediaControlsEndpointsViewController,
+                            MediaControlsExpandableButton,
+                            MediaControlsExpandableButtonOption,
+                            MediaControlsLanguageOptionsViewController,
+                            MediaControlsPanelViewController,
+                            MediaControlsStyleCoordinator,
+                            MediaControlsVolumeController ]
+...

@@ -1,0 +1,47 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/HoverTextServices.framework/HoverTextServices
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$s17HoverTextServices0aB0AA0aB7ServiceCvg,
+                            _$s17HoverTextServices0aB15ServiceProtocolMp,
+                            _$s17HoverTextServices0aB15ServiceProtocolP04stopaB0yyKFTj,
+                            _$s17HoverTextServices0aB15ServiceProtocolP04stopaB0yyKFTq,
+                            _$s17HoverTextServices0aB15ServiceProtocolP05startaB0yyKFTj,
+                            _$s17HoverTextServices0aB15ServiceProtocolP05startaB0yyKFTq,
+                            _$s17HoverTextServices0aB15ServiceProtocolP9showAlertyySSFTj,
+                            _$s17HoverTextServices0aB15ServiceProtocolP9showAlertyySSFTq,
+                            _$s17HoverTextServices0aB15ServiceProtocolTL,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDO04stopaB0yA2CmFWC,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDO05startaB0yA2CmFWC,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDO8rawValueACSgSi_tcfC,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDO8rawValueSivg,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDO8rawValueSivpMV,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDO9showAlertyA2CmFWC,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDOMa,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDOMn,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDON,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDOSHAAMc,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDOSQAAMc,
+                            _$s17HoverTextServices0aB20AXUIServiceMessageIDOSYAAMc,
+                            _$s17HoverTextServices0aB7ServiceC04stopaB0yyKF,
+                            _$s17HoverTextServices0aB7ServiceC05startaB0yyKF,
+                            _$s17HoverTextServices0aB7ServiceC14sharedInstanceACvgZ,
+                            _$s17HoverTextServices0aB7ServiceC9showAlertyySSF,
+                            _$s17HoverTextServices0aB7ServiceCMa,
+                            _$s17HoverTextServices0aB7ServiceCMn,
+                            _$s17HoverTextServices0aB7ServiceCMo,
+                            _$s17HoverTextServices0aB7ServiceCN,
+                            _$s17HoverTextServices0aB7ServiceCfD,
+                            _$s17HoverTextServices5HTLog2os6LoggerVvM,
+                            _$s17HoverTextServices5HTLog2os6LoggerVvg,
+                            _$s17HoverTextServices5HTLog2os6LoggerVvs,
+                            _HoverTextObjc, _HoverTextServicesVersionNumber,
+                            _HoverTextServicesVersionString ]
+    objc-classes:         [ _TtC17HoverTextServices16HoverTextService ]
+...

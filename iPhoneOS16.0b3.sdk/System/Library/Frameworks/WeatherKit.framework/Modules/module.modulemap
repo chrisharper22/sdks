@@ -1,0 +1,6 @@
+framework module WeatherKit {
+  header "WeatherKit-Swift.h"
+
+  export *
+  module WeatherKit { export * }
+}
