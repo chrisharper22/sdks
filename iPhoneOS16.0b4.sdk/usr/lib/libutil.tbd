@@ -1,0 +1,22 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           C1AE78AD-7365-365D-98EE-47BB4531FB79
+  - target:          armv7s-ios
+    value:           E2F5D7A2-B367-3C57-BCF6-5B458C80DB9A
+  - target:          arm64-ios
+    value:           E92BE9E6-E37D-3B62-8E14-DCAEB5EE97C5
+  - target:          arm64e-ios
+    value:           0E899031-1BBF-34FD-97FD-7FFE5310A395
+install-name:    '/usr/lib/libutil.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _expand_number, _freemntopts, _getmnt_silent, _getmntoptnum, 
+                       _getmntopts, _getmntoptstr, _humanize_number, _pidfile_close, 
+                       _pidfile_open, _pidfile_remove, _pidfile_write, _realhostname, 
+                       _realhostname_sa, _reexec_to_match_kernel, _reexec_to_match_lp64ness, 
+                       _tzlink, _wipefs_alloc, _wipefs_except_blocks, _wipefs_free, 
+                       _wipefs_include_blocks, _wipefs_wipe ]
+...

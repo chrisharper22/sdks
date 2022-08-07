@@ -1,0 +1,12 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           997E0482-5A9E-349D-AE23-6FB271A715D5
+  - target:          arm64e-ios
+    value:           6113A047-6FE9-3799-B0CB-94FD08A9479B
+install-name:    '/System/Library/PrivateFrameworks/GPUToolsDiagnostics.framework/GPUToolsDiagnostics'
+current-version: 0
+compatibility-version: 0
+...

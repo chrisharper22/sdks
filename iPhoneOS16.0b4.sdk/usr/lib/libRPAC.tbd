@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           3AF77F49-2607-34DA-997B-88EF98F3BFA8
+  - target:          arm64e-ios
+    value:           64E977CF-E90C-339C-B8F2-00EEF4491463
+install-name:    '/usr/lib/libRPAC.dylib'
+...

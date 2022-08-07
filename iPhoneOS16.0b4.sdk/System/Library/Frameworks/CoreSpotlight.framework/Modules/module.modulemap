@@ -1,0 +1,6 @@
+framework module CoreSpotlight [extern_c][system] {
+  umbrella header "CoreSpotlight.h"
+  export *
+  module * { export * }
+  config_macros USE_SUGGESTIONS_API
+}

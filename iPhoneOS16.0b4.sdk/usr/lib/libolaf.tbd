@@ -1,0 +1,20 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           3AD1BB0A-3ACA-3D52-A07E-EE59C9C4C331
+  - target:          arm64e-ios
+    value:           7B35E287-098A-37A9-B21F-3948075544D1
+install-name:    '/usr/lib/libolaf.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _getGnssDeviceVersion, _getVersionString, _newGnssDevice, 
+                       _newGnssDeviceTest ]
+  - targets:         [ arm64-ios, arm64e-ios ]
+    symbols:         [ __ZN4gnss6DeviceC2ENSt3__18functionIFvNS_6ResultEEEE, __ZN8gnssTest6DeviceC2ENSt3__18functionIFvN4gnss6ResultEEEE ]
+...

@@ -1,0 +1,13 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           6F60F6B1-8142-3676-B83F-9D402A898CF7
+  - target:          arm64e-ios
+    value:           050F2D04-AE1A-3AAD-A9C9-EFB23FCD34D2
+install-name:    '/usr/lib/libBasebandCommandDriversARI.dylib'
+exports:
+  - targets:         [ arm64-ios, arm64e-ios ]
+    symbols:         [ __Z20ABMGetProjectVersionv ]
+...

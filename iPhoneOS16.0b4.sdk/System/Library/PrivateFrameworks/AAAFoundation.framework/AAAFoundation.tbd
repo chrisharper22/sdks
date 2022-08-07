@@ -1,0 +1,36 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/AAAFoundation.framework/AAAFoundation
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _AAAFoundationVersionNumber,
+                            _AAAFoundationVersionString,
+                            _AAFSerializationErrorDomain,
+                            _AFUtilitiesAppleIDBundleID,
+                            _AFUtilitiesBatteryBundleID,
+                            _AFUtilitiesFamilySharingBundleID,
+                            _AFUtilitiesInternetAccountsBundleID,
+                            _AFUtilitiesMailAppBundleIdentifier,
+                            _AFUtilitiesNetworkBundleID,
+                            _AFUtilitiesPhotosAppBundleIdentifier,
+                            _AFUtilitiesScreenTimeBundleID,
+                            _AFUtilitiesSecurityBundleID,
+                            _AFUtilitiesSharingBundleID,
+                            _AFUtilitiesSoftwareUpdateBundleIdentifier,
+                            _AFUtilitiesStoreAppBundleIdentifier,
+                            _AFUtilitiesSystemSettingsPath,
+                            _AFUtilitiesUsersAndGroupsBundleID, __AAFLogSystem,
+                            _kAAFDisableCertPinningKey,
+                            _kAAFInternalSettingsDomain ]
+    objc-classes:         [ AAFCertificateTrustValidator, AAFDefaultSerializer,
+                            AAFDeviceInfo, AAFImage, AAFJsonSerializer,
+                            AAFKeychainItem, AAFKeychainItemDescriptor,
+                            AAFKeychainManager, AAFPlistSerializer, AAFPromise,
+                            AAFSerialization, AAFService, AAFXPCSession,
+                            AAFXPCSessionConfig, AFUtilities ]
+...

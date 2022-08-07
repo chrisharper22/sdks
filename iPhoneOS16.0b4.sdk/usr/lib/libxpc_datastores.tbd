@@ -1,0 +1,18 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           75431201-3987-3CD3-8D51-98D3E1B455B6
+  - target:          arm64e-ios
+    value:           2A7A1199-2E47-35F5-92CF-6FCC32AEC04F
+install-name:    '/usr/lib/libxpc_datastores.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _xpc_datastore_copy_state, _xpc_datastore_publisher_create, 
+                       _xpc_datastore_publisher_invalidate_state, _xpc_datastore_subscriber_create ]
+...

@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           5CDFA00D-30A1-3049-A2E9-9BF3FC67669A
+  - target:          arm64e-ios
+    value:           234ECDAE-40AE-31CA-8361-9378F22AB0E2
+install-name:    '/usr/lib/libMainThreadChecker.dylib'
+...

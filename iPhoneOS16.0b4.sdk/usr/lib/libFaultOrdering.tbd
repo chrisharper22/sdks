@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           F1969030-E63D-3045-BAAC-8268EFC16E77
+  - target:          arm64e-ios
+    value:           10BC53F4-ABFE-358E-98D6-36349401920F
+install-name:    '/usr/lib/libFaultOrdering.dylib'
+...

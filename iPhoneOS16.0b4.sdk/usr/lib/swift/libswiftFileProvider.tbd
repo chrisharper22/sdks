@@ -1,0 +1,20 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           89A3B64B-251F-3429-BBBB-EF00143F70B0
+  - target:          arm64e-ios
+    value:           6AAE0FB3-576F-3DEB-8056-B8BFF4A03A0C
+install-name:    '/usr/lib/swift/libswiftFileProvider.dylib'
+current-version: 730.0.118
+swift-abi-version: 7
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ '_$sSo27NSFileProviderDomainVersionC04FileB0E1loiySbAB_ABtFZ', 
+                       '_$sSo27NSFileProviderDomainVersionCSL04FileB0Mc', '__swift_FORCE_LOAD_$_swiftFileProvider' ]
+...

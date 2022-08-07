@@ -1,0 +1,23 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           6A0035B7-9FB3-312B-A535-C84D7F7D31CE
+  - target:          arm64e-ios
+    value:           1234FA65-E904-3439-A884-685BB12329B5
+install-name:    '/usr/lib/libmrc.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _mrc_dns_proxy_activate, _mrc_dns_proxy_create, _mrc_dns_proxy_invalidate, 
+                       _mrc_dns_proxy_parameters_add_input_interface, _mrc_dns_proxy_parameters_create, 
+                       _mrc_dns_proxy_parameters_enumerate_input_interfaces, _mrc_dns_proxy_parameters_get_force_aaaa_synthesis, 
+                       _mrc_dns_proxy_parameters_get_output_interface, _mrc_dns_proxy_parameters_set_force_aaaa_synthesis, 
+                       _mrc_dns_proxy_parameters_set_nat64_prefix, _mrc_dns_proxy_parameters_set_output_interface, 
+                       _mrc_dns_proxy_set_event_handler, _mrc_dns_proxy_set_queue, 
+                       _mrc_release, _mrc_retain ]
+...

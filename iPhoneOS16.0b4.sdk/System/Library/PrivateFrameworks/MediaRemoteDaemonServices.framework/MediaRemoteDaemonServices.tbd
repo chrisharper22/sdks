@@ -1,0 +1,42 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/MediaRemoteDaemonServices.framework/MediaRemoteDaemonServices
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _$s25MediaRemoteDaemonServices17SessionControllerC010contextForE10IdentifierySo11MRUIContextaSSF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC010contextForE10IdentifierySo11MRUIContextaSSFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC010nowPlayingE10IdentifierSSSgvg,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC010nowPlayingE10IdentifierSSSgvgTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC010nowPlayingE10IdentifierSSSgvpMV,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC012endMirroringE0yyF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC012endMirroringE0yyFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC013endNowPlayingE0yyF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC013endNowPlayingE0yyFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC014startMirroringE0yyF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC014startMirroringE0yyFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC015startNowPlayingE0yyF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC015startNowPlayingE0yyFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC05fetchE11IdentifiersSaySSGyF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC05fetchE11IdentifiersSaySSGyFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC13clearSessionsyyF,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC13clearSessionsyyFTq,
+                            _$s25MediaRemoteDaemonServices17SessionControllerC22deviceSupportsSessionsSbvgZ,
+                            _$s25MediaRemoteDaemonServices17SessionControllerCACycfC,
+                            _$s25MediaRemoteDaemonServices17SessionControllerCACycfc,
+                            _$s25MediaRemoteDaemonServices17SessionControllerCMa,
+                            _$s25MediaRemoteDaemonServices17SessionControllerCMn,
+                            _$s25MediaRemoteDaemonServices17SessionControllerCN,
+                            _$s25MediaRemoteDaemonServices17SessionControllerCfD,
+                            _$sSo9OS_os_logC25MediaRemoteDaemonServicesE2uiABvau,
+                            _$sSo9OS_os_logC25MediaRemoteDaemonServicesE2uiABvgZ,
+                            _$sSo9OS_os_logC25MediaRemoteDaemonServicesE2uiABvpZ,
+                            _MediaRemoteDaemonServicesVersionNumber,
+                            _MediaRemoteDaemonServicesVersionString ]
+    objc-classes:         [ MRUISessionController,
+                            _TtC25MediaRemoteDaemonServices17SessionController ]
+...

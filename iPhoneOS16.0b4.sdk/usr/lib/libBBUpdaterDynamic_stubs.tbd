@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           43D04D00-BC7A-3AA9-96B5-3D199D5F4B0A
+  - target:          arm64e-ios
+    value:           1FD60B29-B7DD-3F27-99F0-4CC28BFC9AB5
+install-name:    '/usr/lib/libBBUpdaterDynamic_stubs.dylib'
+...

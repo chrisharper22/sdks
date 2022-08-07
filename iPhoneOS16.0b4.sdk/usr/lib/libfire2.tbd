@@ -1,0 +1,20 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           519D53EC-1C62-392C-BE7E-66BFE7F6F12E
+  - target:          arm64e-ios
+    value:           51D346C3-4DA8-3822-AD4C-0A5E7C01062A
+install-name:    '/usr/lib/libfire2.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _getGnssDeviceVersion, _getVersionString, _newGnssDevice, 
+                       _newGnssDeviceTest ]
+  - targets:         [ arm64-ios, arm64e-ios ]
+    symbols:         [ __ZN4gnss6DeviceC2ENSt3__18functionIFvNS_6ResultEEEE, __ZN8gnssTest6DeviceC2ENSt3__18functionIFvN4gnss6ResultEEEE ]
+...

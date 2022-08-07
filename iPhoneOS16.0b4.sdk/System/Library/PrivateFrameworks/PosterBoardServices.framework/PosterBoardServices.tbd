@@ -1,0 +1,74 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/PosterBoardServices.framework/PosterBoardServices
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _NSStringFromPRSPosterSnapshotOptions,
+                            _NSStringFromPRSPosterType,
+                            _PRSDefaultServiceQuality, _PRSEndpointMachName,
+                            _PRSLogCommon, _PRSLogDataStoreMigration,
+                            _PRSLogDataStorePrewarm, _PRSLogDataStoreProactive,
+                            _PRSLogObserver, _PRSLogPosterContents,
+                            _PRSPosterPathFileAttributes,
+                            _PRSPosterTypeFromDirectoryName,
+                            _PRSPosterTypeIsValid, _PRSServerAccessEntitlement,
+                            _PRSServerAccessSwitcherConfigurationEntitlement,
+                            _PRSServerAccessSwitcherFocusConfigurationEntitlement,
+                            _PRSServerDeleteConfigurationsAccessEntitlement,
+                            _PRSServerDeleteDataStoreAccessEntitlement,
+                            _PRSServerDeleteDescriptorsAccessEntitlement,
+                            _PRSServerMigrationEntitlement,
+                            _PRSServerMutateSwitcherConfigurationEntitlement,
+                            _PRSServerMutateSwitcherFocusConfigurationEntitlement,
+                            _PRSServerRefreshConfigurationSnapshotEntitlement,
+                            _PRSServerRefreshConfigurationsAccessEntitlement,
+                            _PRSServiceDidUpdateActivePosterConfigurationNotification,
+                            _PRSServiceDidUpdateAssociatedHomeScreenPosterConfigurationNotification,
+                            _PRSServiceDidUpdatePosterConfigurationNotification,
+                            _PRSServiceDidUpdateSelectedPosterConfigurationNotification,
+                            _PRSServiceDiedNotification,
+                            _PRSServiceFromActivePosterConfigurationUserInfoKey,
+                            _PRSServiceFromSelectedPosterConfigurationUserInfoKey,
+                            _PRSServiceHomeScreenAssociatedPosterConfigurationUserInfoKey,
+                            _PRSServiceInterface,
+                            _PRSServiceToActivePosterConfigurationUserInfoKey,
+                            _PRSServiceToSelectedPosterConfigurationUserInfoKey,
+                            _PRSServiceUpdatedPosterConfigurationUserInfoKey,
+                            _PRSServiceWillUpdateActivePosterConfigurationNotification,
+                            _PRSServiceWillUpdateSelectedPosterConfigurationNotification,
+                            _PRSWallpaperObserverInterface,
+                            _PRSWallpaperObserverLocationsDescription,
+                            _PRSWallpaperObserverLocationsFromIndex,
+                            _PRSWallpaperObserverLocationsIndexIsValid,
+                            _PRSWallpaperObserverLocationsLockIndexIfHomeIndex,
+                            _PRSWallpaperObserverLocationsToIndex,
+                            _PosterBoardServicesLoggingSubsystem,
+                            _PosterBoardServicesVersionNumber,
+                            _PosterBoardServicesVersionString,
+                            _configurationsForPath, _descriptorsForPath,
+                            _kPRSWallpaperConnectionContext_explanation,
+                            _kPRSWallpaperConnectionContext_needsSandboxExtensions,
+                            _kPRSWallpaperConnectionContext_observedLocations ]
+    objc-classes:         [ PRSActivePosterConfiguration,
+                            PRSMutablePosterConfiguration,
+                            PRSMutablePosterDescriptor, PRSPosterConfiguration,
+                            PRSPosterDescriptor, PRSPosterGalleryLayoutDataStore,
+                            PRSPosterPath, PRSPosterPathsAssertion,
+                            PRSPosterSnapshot, PRSPosterSnapshotCollection,
+                            PRSPosterSnapshotRequest, PRSPosterSnapshotResponse,
+                            PRSPosterUpdateSessionInfo, PRSServer,
+                            PRSServerPosterIdentity, PRSServerPosterPath,
+                            PRSService, PRSWallpaperClient, PRSWallpaperObserver,
+                            PRSWallpaperObserverConfiguration,
+                            PRSWallpaperObserverPathUpdate,
+                            PRSWallpaperObserverState,
+                            PRSWallpaperObserverTransition,
+                            PRSWallpaperPublisher, PRSWidget ]
+    objc-ivars:           [ PRSPosterPath._contentsURL,
+                            PRSPosterPath._serverIdentity ]
+...

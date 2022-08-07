@@ -1,0 +1,19 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           C902E761-4F91-3297-916E-57B45D3C81E2
+  - target:          arm64e-ios
+    value:           C4C6EC0A-112A-34F6-8859-23417157AE89
+install-name:    '/usr/lib/libSystemHealth.dylib'
+current-version: 0
+compatibility-version: 0
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    objc-classes:    [ SystemHealthClient, SystemHealthManager ]
+...

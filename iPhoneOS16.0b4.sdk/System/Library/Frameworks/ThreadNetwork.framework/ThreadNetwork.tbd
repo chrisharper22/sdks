@@ -1,0 +1,17 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           338F0540-CECD-36DB-A933-AEAF9869055D
+  - target:          arm64e-ios
+    value:           1C6AE2C1-523F-363D-9D7D-9879AEE43459
+install-name:    '/System/Library/Frameworks/ThreadNetwork.framework/ThreadNetwork'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    objc-classes:    [ THClient, THCredentials ]
+...

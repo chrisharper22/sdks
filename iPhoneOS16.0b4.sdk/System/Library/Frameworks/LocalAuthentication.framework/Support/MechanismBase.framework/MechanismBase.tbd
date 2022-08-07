@@ -1,0 +1,20 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismBase.framework/MechanismBase
+current-version:       1131.0.48
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _kRemoteUIManagerAlternateActivateTimeout,
+                            _kRemoteUIManagerDefaultActivateTimeout,
+                            _kRemoteUIManagerDefaultDeactivateTimeout ]
+    objc-classes:         [ ACMContextRecord, MechanismACM, MechanismBase,
+                            MechanismContext, MechanismKofN,
+                            MechanismKofNReorganizer, RemoteUIActivator,
+                            RemoteUIDeviceBuilder, RemoteUIManager,
+                            RemoteUIManagerConfig, RemoteUIParams,
+                            _RemoteUILocalDevice, _RemoteUIManager ]
+...

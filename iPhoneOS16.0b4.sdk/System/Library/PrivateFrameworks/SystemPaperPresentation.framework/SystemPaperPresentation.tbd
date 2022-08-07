@@ -1,0 +1,20 @@
+--- !tapi-tbd-v3
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/SystemPaperPresentation.framework/SystemPaperPresentation
+current-version:       2154.1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ armv7, armv7s, arm64 ]
+    symbols:              [ _ICEnableSystemPaperExtensionKey,
+                            _ICSystemPaperExtensionBundleIdentifier,
+                            _ICSystemPaperExtensionPointIdentifier,
+                            _SystemPaperPresentationVersionNumber,
+                            _SystemPaperPresentationVersionString ]
+    objc-classes:         [ ICSystemPaperDismissAction,
+                            ICSystemPaperExtensionHostViewController,
+                            ICSystemPaperPresenter,
+                            ICSystemPaperSceneViewController ]
+...

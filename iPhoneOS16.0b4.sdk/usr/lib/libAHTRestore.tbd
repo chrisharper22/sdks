@@ -1,0 +1,18 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           537EBA9F-0E52-340C-BAEA-53B80FAFA4B3
+  - target:          arm64e-ios
+    value:           43B44848-B79A-35A2-A09A-ED85798B8D5E
+install-name:    '/usr/lib/libAHTRestore.dylib'
+current-version: 6100.34
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _AHTRestoreCreateDeviceList, _AHTRestoreUpdateDevice, _AHTRestoreUpdateDeviceWithOverrides ]
+...

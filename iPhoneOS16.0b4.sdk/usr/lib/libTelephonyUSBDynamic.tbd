@@ -1,0 +1,30 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           E4FCF6CC-BD40-384F-AAEE-CE97AE4C9FA1
+  - target:          armv7s-ios
+    value:           01481A1E-9DE3-3B25-927C-A13017084114
+  - target:          arm64-ios
+    value:           589E2A12-6607-328E-B51A-6C9F482A350B
+  - target:          arm64e-ios
+    value:           EFAC5F77-0DA3-34FC-BED3-974EBF883A46
+install-name:    '/usr/lib/libTelephonyUSBDynamic.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _TelephonyUSBAddConfigurationValueMatching, _TelephonyUSBAddDeviceClassMatching, 
+                       _TelephonyUSBAddDeviceSubClassMatching, _TelephonyUSBAddInterfaceClassMatching, 
+                       _TelephonyUSBAddInterfaceNumberMatching, _TelephonyUSBAddInterfaceSubClassMatching, 
+                       _TelephonyUSBAddProductIDMatching, _TelephonyUSBAddVendorIDMatching, 
+                       _TelephonyUSBDeviceCreateInterface, _TelephonyUSBDeviceCreateInterfaceWithAllocator, 
+                       _TelephonyUSBDeviceCreateServiceMatchingDictionary, _TelephonyUSBDeviceGetDeviceInterface, 
+                       _TelephonyUSBDeviceGetLocationID, _TelephonyUSBDeviceGetProductID, 
+                       _TelephonyUSBDeviceGetVendorID, _TelephonyUSBDeviceIsValid, 
+                       _TelephonyUSBDeviceRegisterForGeneralInterest, _TelephonyUSBInterfaceCreateInterface, 
+                       _TelephonyUSBInterfaceCreateInterfaceWithAllocator, _TelephonyUSBInterfaceCreateServiceMatchingDictionary, 
+                       _TelephonyUSBInterfaceGetInterfaceInterface, _TelephonyUSBInterfaceGetProductID, 
+                       _TelephonyUSBInterfaceGetVendorID, _TelephonyUSBInterfaceIsValid, 
+                       _TelephonyUSBInterfaceOpen, _TelephonyUSBIterateIterator, 
+                       _TelephonyUSBRegisterForDevicesWithAllocator, _TelephonyUSBRegisterForInterfacesWithAllocator ]
+...

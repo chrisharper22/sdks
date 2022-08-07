@@ -1,0 +1,17 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+uuids:
+  - target:          armv7-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          armv7s-ios
+    value:           00000000-0000-0000-0000-000000000000
+  - target:          arm64-ios
+    value:           E496746B-A97D-3A16-B83B-FAC1800B2103
+  - target:          arm64e-ios
+    value:           D1856BB6-C499-319C-8748-F83FBB317B67
+install-name:    '/usr/lib/libusrtcp.dylib'
+exports:
+  - targets:         [ armv7-ios, armv7s-ios, arm64-ios, arm64e-ios ]
+    symbols:         [ _nw_protocol_tcp_identifier, _tcp_next_mtu ]
+...

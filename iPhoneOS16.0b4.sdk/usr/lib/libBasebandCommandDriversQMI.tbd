@@ -1,0 +1,16 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-ios, arm64e-ios ]
+uuids:
+  - target:          arm64-ios
+    value:           E92D9170-213A-39A1-9F12-E1A92D57BF47
+  - target:          arm64e-ios
+    value:           5FECA944-925C-327E-A9A4-BDC3F1DE926A
+install-name:    '/usr/lib/libBasebandCommandDriversQMI.dylib'
+exports:
+  - targets:         [ arm64-ios, arm64e-ios ]
+    symbols:         [ __Z20ABMGetProjectVersionv, __ZN3wda8asStringENS_11InterfaceIDE, 
+                       __ZN3wda8asStringENS_17FlowRebindVersionE, __ZN3wda8asStringENS_21LinkLayerProtocolModeE, 
+                       __ZN3wda8asStringENS_22PeripheralEndPointTypeE, __ZN3wda8asStringENS_23DataAggregationProtocolE, 
+                       __ZN3wda8asStringENS_23DataPowerSaveConfigMaskE ]
+...
