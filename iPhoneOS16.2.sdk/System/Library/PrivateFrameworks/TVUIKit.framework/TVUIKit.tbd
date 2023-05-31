@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/TVUIKit.framework/TVUIKit
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    objc-classes:         [ _TVCarouselView, _TVContentRating,
+                            _TVContentRatingBadgeManager,
+                            _TVContentRatingSystemUtilities,
+                            _TVContentRatingTextBadgeView, _TVFocusableTextView ]
+...

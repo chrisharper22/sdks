@@ -1,0 +1,11 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/SharingHUD.framework/SharingHUD
+current-version:       1853
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _SharingHUDVersionNumber, _SharingHUDVersionString ]
+...

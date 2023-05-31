@@ -1,0 +1,31 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/RemoteManagement.framework/Frameworks/RemoteManagementStore.framework/RemoteManagementStore
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _RMObserverStoreStoreDidChangeNotification,
+                            _RMStoreOptionAccountIdentifier,
+                            _RMStoreOptionDescription, _RMStoreOptionName,
+                            _RMStoreOptionPersonaIdentifier,
+                            _RMStoreXPCAgentMachServiceName,
+                            _RMStoreXPCDaemonMachServiceName ]
+    objc-classes:         [ RMBaseStore, RMConfigurationSubscriberClient,
+                            RMConfigurationSubscriberDelegate,
+                            RMConfigurationSubscriberDescription,
+                            RMConfigurationSubscriberEventStream,
+                            RMConfigurationSubscriberService,
+                            RMConfigurationSubscriberXPCListenerDelegate,
+                            RMDeclarationManifest, RMDeclarationManifestItem,
+                            RMObserverStore, RMProviderStore,
+                            RMStatusPublisherDelegate,
+                            RMStatusPublisherDescription, RMStoreLog,
+                            RMStoreResolvedAsset, RMStoreUnresolvedAsset,
+                            RMStoreUtility, RMStoreXPCConnection, RMStoreXPCProxy,
+                            RMSubscribedConfigurationReference,
+                            RMSubscriberStore ]
+...

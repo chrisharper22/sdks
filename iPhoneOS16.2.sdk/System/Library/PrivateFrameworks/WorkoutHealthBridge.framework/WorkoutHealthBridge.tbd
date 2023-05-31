@@ -1,0 +1,22 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/WorkoutHealthBridge.framework/WorkoutHealthBridge
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _WOColumnConfigurationTypeKey, _WOColumnGoalTypeKey,
+                            _WOPersistenceKeyData, _WOPersistenceKeyNumbers,
+                            _WOPersistenceKeyObjectModificationDate,
+                            _WOPersistenceKeyObjectState,
+                            _WOPersistenceKeyStrings, _WOPersistenceKeyType,
+                            _WOPersistenceKeyUUID, _WOPersistenceKeyVersion,
+                            _WOWorkoutServerInterface,
+                            _WorkoutHealthBridgeVersionNumber,
+                            _WorkoutHealthBridgeVersionString,
+                            _kNLWorkoutPluginIdentifier ]
+    objc-classes:         [ WOPersistence ]
+...

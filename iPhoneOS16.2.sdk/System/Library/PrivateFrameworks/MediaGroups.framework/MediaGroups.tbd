@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/MediaGroups.framework/MediaGroups
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _MGErrorDomain ]
+    objc-classes:         [ MGAudioReceiverAccessory, MGGroup, MGGroupIdentifier,
+                            MGGroupQuery, MGHome, MGHomePodAccessory, MGMediaSystem,
+                            MGRoom, MGSoloDevice, MGSpeakerAccessory, MGZone ]
+...

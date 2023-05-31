@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/FamilyControlsObjC.framework/FamilyControlsObjC
+current-version:       1045
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _FOFamilyControlsAgentPrivateServiceName ]
+    objc-classes:         [ FOAgentConnectionPrivate, FOAuthorizationCenter,
+                            FOAuthorizationRecord, FOAuthorizationRecordDecoder,
+                            FOAuthorizationRecordEncoder, FOXPCRemoteObjectProxy ]
+...

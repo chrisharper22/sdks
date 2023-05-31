@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerUtils.dylib
+current-version:       31001.255.2
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _MTLGPUCompilerHashComputePipelineScript,
+                            _MTLGPUCompilerHashFragmentPipelineScript,
+                            _MTLGPUCompilerHashFunctionScript,
+                            _MTLGPUCompilerHashVertexPipelineScript,
+                            _MTLGPUCompilerTimeStamp ]
+...

@@ -1,0 +1,39 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/PhotoFoundation.framework/PhotoFoundation
+current-version:       520.0.200
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _PFBackendGetLog, _PFCount, _PFExists, _PFFilter, _PFFind,
+                            _PFMap, _PFMapDictionary, _PFMapIndexes,
+                            _PFMethodNotImplementedException,
+                            _PFObjc_classIsSubclassOfClass,
+                            _PFObjc_enumerateClassNamesForImageHeader,
+                            _PFObjc_enumerateSubclassesForHeader,
+                            _PFObjc_implementingClassForInstanceMethod,
+                            _PFObjc_implementsClassMethod,
+                            _PFObjc_implementsInstanceMethod,
+                            _PFPhotoFoundationBinaryImageUUID, _PFReduce,
+                            _PFReduceF, _PFStateCaptureGetLog,
+                            _PLPhotosBackendLogSubsystem,
+                            _PhotoFoundationVersionNumber,
+                            _PhotoFoundationVersionString,
+                            __PFAssertContinueHandler, __PFAssertFailHandler ]
+    objc-classes:         [ PFAssertionHandler, PFAssertionInfo,
+                            PFAssertionPolicyAbort, PFAssertionPolicyAlert,
+                            PFAssertionPolicyAlertRadar,
+                            PFAssertionPolicyComposite,
+                            PFAssertionPolicyCrashReport,
+                            PFAssertionPolicyDebuggerFatal,
+                            PFAssertionPolicyDebuggerWarning,
+                            PFAssertionPolicyLog, PFAssertionPolicyThrow,
+                            PFAssertionPolicyThrowAlways,
+                            PFAssertionPolicyUnique, PFAssertionPolicyUnitTest,
+                            PFCoalescer, PFCoalescerActivityToken,
+                            PFCoalescerContext, PFMutualExclusionAssertion,
+                            PFStateCaptureHandler ]
+...

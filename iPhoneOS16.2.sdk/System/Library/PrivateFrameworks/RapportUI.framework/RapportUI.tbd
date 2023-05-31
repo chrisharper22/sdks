@@ -1,0 +1,16 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/RapportUI.framework/RapportUI
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _RPImageForDeviceModel, _RPUILocalizedString,
+                            _RPUILocalizedStringF, _RPUILocalizedStringV ]
+    objc-classes:         [ RPPINEntryView, RPPairingManagerUIController,
+                            RPPairingPromptViewController,
+                            RPPairingShowViewController, RPPairingUIController ]
+...

@@ -1,0 +1,24 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/BackBoardHIDEventProcessors.framework/BackBoardHIDEventProcessors
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _BKLogAccelerometer, _BKLogBootUI, _BKLogButton,
+                            _BKLogDisplayAnnotations, _BKLogGenericGesture,
+                            _BKLogHID, _BKLogIdleTimer, _BKLogKeyPresses,
+                            _BKLogMotionEvents, _BKLogRenderOverlay,
+                            _BKLogSendHIDEvent, _BKLogTouchDeliveryPolicy,
+                            _BackBoardHIDEventProcessorsVersionNumber,
+                            _BackBoardHIDEventProcessorsVersionString ]
+    objc-classes:         [ BKHIDBiometricEventProcessor,
+                            BKHIDGameControllerEventProcessor,
+                            BKHIDGenericGestureEventProcessor,
+                            BKHIDPointerEventProcessor, BKHIDPointerEventRecord,
+                            BKHIDScrollEventProcessor,
+                            BKHIDVendorDefinedEventProcessor ]
+...

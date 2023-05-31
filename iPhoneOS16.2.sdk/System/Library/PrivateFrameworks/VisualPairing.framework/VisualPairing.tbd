@@ -1,0 +1,14 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/VisualPairing.framework/VisualPairing
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    objc-classes:         [ VPPresenterView, VPScannerProxCardViewController,
+                            VPScannerView, VPScannerViewController,
+                            VPSpatialTutorialContentView ]
+...

@@ -1,0 +1,14 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/SignpostNotification.framework/SignpostNotification
+current-version:       91
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _EnableSignpostNotificationGeneration,
+                            _SignpostGetNewNotificationConnection,
+                            _SignpostNotificationSendNotificationSubscriptionRequestOnConnection ]
+...

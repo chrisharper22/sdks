@@ -1,0 +1,21 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/SystemAperture.framework/SystemAperture
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _SAEffectiveElementDescription,
+                            _SAElementDescription, _SAElementEqualToElement,
+                            _SAHasActivityBehavior, _SAHasAlertBehavior,
+                            _SAHasIndicatorBehavior, _SALogElement,
+                            _SALogSubsystem, _SALogSystem,
+                            _SARegisterSystemApertureLogging,
+                            _SATargetElementFromBehaviorOverrider,
+                            _SystemApertureVersionNumber,
+                            _SystemApertureVersionString ]
+    objc-classes:         [ SAAssertion, SAAutomaticallyInvalidatingAssertion ]
+...

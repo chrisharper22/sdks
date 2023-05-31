@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/DataDetection.framework/DataDetection
+current-version:       727
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    objc-classes:         [ DDMatch, DDMatchCalendarEvent, DDMatchEmailAddress,
+                            DDMatchFlightNumber, DDMatchLink, DDMatchMoneyAmount,
+                            DDMatchPhoneNumber, DDMatchPostalAddress,
+                            DDMatchShipmentTrackingNumber ]
+...

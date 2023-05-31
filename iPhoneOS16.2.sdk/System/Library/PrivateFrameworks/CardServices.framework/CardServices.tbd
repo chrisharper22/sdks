@@ -1,0 +1,18 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/CardServices.framework/CardServices
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _CardServicesVersionNumber,
+                            _CardServicesVersionString ]
+    objc-classes:         [ CRSCardRequest, CRSCardResponse,
+                            CRSIdentifiedServiceRegistry, CRSRequest, CRSResponse,
+                            _CRSCardServiceBundle, _CRSCardServiceBundleManager,
+                            _CRSPassthroughService, _CRSServiceBundle,
+                            _CRSServiceBundleManager ]
+...

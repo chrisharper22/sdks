@@ -1,0 +1,25 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _NPSHasCompletedInitialSync,
+                            _NPSLoggingDaemonObjectInit,
+                            _NPSLoggingDomainAccessorObjectInit,
+                            _NPSLoggingFrameworkObjectInit,
+                            _NPSManagedConfigurationClientID, _NPSShouldRun,
+                            _kNPSInitialSyncCompletionDarwinNotification,
+                            _kNPSInitialSyncKey,
+                            _kNPSPathComponentsToBackupFolderWithinPairingDataStore,
+                            _kNanoPreferencesSyncDomain, _nps_daemon_log,
+                            _nps_domain_accessor_log, _nps_framework_log ]
+    objc-classes:         [ NPSDomainAccessor, NPSDomainAccessorFilePresenter,
+                            NPSDomainAccessorInternal, NPSDomainAccessorUtils,
+                            NPSManager, NPSPrefPlistProtectedUtil,
+                            NPSPrefPlistSizeUtil ]
+...

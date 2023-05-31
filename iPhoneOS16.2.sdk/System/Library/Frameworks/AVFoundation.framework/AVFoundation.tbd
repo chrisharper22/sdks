@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+current-version:       2
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    re-exports:           [ /System/Library/Frameworks/AVFAudio.framework/AVFAudio,
+                            /System/Library/PrivateFrameworks/AVFCapture.framework/AVFCapture,
+                            /System/Library/PrivateFrameworks/AVFCore.framework/AVFCore ]
+    symbols:              [ _kAVFoundationSCMVersion ]
+...

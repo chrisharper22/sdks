@@ -1,0 +1,29 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/HIDPreferences.framework/HIDPreferences
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _HIDPreferencesCopy, _HIDPreferencesCopyDomain,
+                            _HIDPreferencesCopyDomainForInstance,
+                            _HIDPreferencesCopyForInstance,
+                            _HIDPreferencesCopyMultiple,
+                            _HIDPreferencesCopyMultipleForInstance,
+                            _HIDPreferencesCreateInstance, _HIDPreferencesSet,
+                            _HIDPreferencesSetDomain,
+                            _HIDPreferencesSetDomainForInstance,
+                            _HIDPreferencesSetForInstance,
+                            _HIDPreferencesSetMultiple,
+                            _HIDPreferencesSetMultipleForInstance,
+                            _HIDPreferencesSynchronize,
+                            _HIDPreferencesSynchronizeForInstance,
+                            _HIDPreferencesVersionNumber,
+                            _HIDPreferencesVersionString,
+                            _UseLocalHIDPreferences ]
+    objc-classes:         [ HIDPreferences, HIDPreferencesHelperClient,
+                            HIDPreferencesHelperListener, HIDPreferencesLocal ]
+...

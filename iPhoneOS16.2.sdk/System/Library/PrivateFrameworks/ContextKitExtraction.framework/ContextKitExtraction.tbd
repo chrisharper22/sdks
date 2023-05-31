@@ -1,0 +1,21 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/ContextKitExtraction.framework/ContextKitExtraction
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _ContextKitExtractionVersionNumber,
+                            _ContextKitExtractionVersionString ]
+    objc-classes:         [ CKContextContentProvider,
+                            CKContextContentProviderComponent,
+                            CKContextContentProviderManager,
+                            CKContextContentProviderUIScene, CKContextExecutor,
+                            CKContextExtractionItem, CKContextExtractionUtil,
+                            CKContextImageSource, CKContextItem,
+                            CKContextSharedExtractionHelper, CKContextUIClasses,
+                            CKContextUIElement ]
+...

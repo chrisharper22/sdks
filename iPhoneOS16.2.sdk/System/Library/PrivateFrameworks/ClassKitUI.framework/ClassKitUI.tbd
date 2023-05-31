@@ -1,0 +1,13 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/ClassKitUI.framework/ClassKitUI
+current-version:       148.2.6
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    objc-classes:         [ CLSNotificationBanner,
+                            CLSNotificationBannerDisplayManager ]
+...

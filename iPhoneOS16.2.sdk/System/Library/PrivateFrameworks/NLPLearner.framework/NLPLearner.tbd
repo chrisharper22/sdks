@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/NLPLearner.framework/NLPLearner
+current-version:       57.1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _NLPShadowEvaluationErrorDomain,
+                            _trainMLPModelForDES ]
+    objc-classes:         [ NLPLearnerShadowEvaluator, NLPLearnerTaskWrapper,
+                            PFLBackgroundRunner ]
+...

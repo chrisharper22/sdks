@@ -1,0 +1,38 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/PosterBoardUI.framework/PosterBoardUI
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _NSStringFromPRUISwitcherLayoutMode, _PRUILogCommon,
+                            _PRUISwitcherLayoutBouncingAnimationSettings,
+                            _PRUISwitcherLayoutDeflationAnimationSettings,
+                            _PRUISwitcherLayoutTransitionAnimationSettings,
+                            _PRUISwitcherSceneSessionRole,
+                            _PosterBoardUILoggingSubsystem,
+                            _PosterBoardUIVersionNumber,
+                            _PosterBoardUIVersionString ]
+    objc-classes:         [ PRUIDidDismissSheetAction, PRUIGradientView,
+                            PRUIModalController,
+                            PRUIModalEntryPointEditHomeScreen,
+                            PRUIModalEntryPointEditing,
+                            PRUIModalEntryPointFocusPosterSelection,
+                            PRUIModalEntryPointGallery,
+                            PRUIModalEntryPointHomeScreenSwitcher,
+                            PRUIModalEntryPointPosterSelection,
+                            PRUIModalEntryPointPosterSelectionResponse,
+                            PRUIModalEntryPointResponse,
+                            PRUIModalRemoteViewController,
+                            PRUIModalSceneSettings, PRUIModalSceneSpecification,
+                            PRUIMutableModalSceneSettings,
+                            PRUIRequestDismissEntirelyAction,
+                            PRUIRequestDismissalAction, PRUISwitcherLayout,
+                            PRUISwitcherSceneClientSettingsDiffInspector,
+                            PRUISwitcherSceneSettingsDiffInspector,
+                            PRUISwitcherSceneSpecification,
+                            PRUIWillDismissSheetAction ]
+...

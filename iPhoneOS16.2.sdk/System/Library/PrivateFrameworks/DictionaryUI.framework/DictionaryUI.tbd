@@ -1,0 +1,21 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/DictionaryUI.framework/DictionaryUI
+current-version:       36
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _DUDefinitionElementKeyHeadword,
+                            _DUDefinitionElementKeyPartOfSpeech,
+                            _DUDefinitionElementKeyPronunciation,
+                            _DUDefinitionElementKeyRecordID,
+                            _DUDefinitionElementKeySenses,
+                            _DUDefinitionElementKeySyllabifiedHeadword,
+                            _DictionaryUIVersionNumber,
+                            _DictionaryUIVersionString ]
+    objc-classes:         [ DUDefinitionDictionary, DUDefinitionValue,
+                            DUDictionaryManager, DUEntryViewController ]
+...

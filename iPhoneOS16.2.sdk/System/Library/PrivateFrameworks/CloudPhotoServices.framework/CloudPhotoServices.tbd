@@ -1,0 +1,32 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/CloudPhotoServices.framework/CloudPhotoServices
+current-version:       520.0.200
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _CloudPhotoServicesOptionAudioTrackGroupHandlingKey,
+                            _CloudPhotoServicesOptionBakeInOrientationKey,
+                            _CloudPhotoServicesOptionColorOutputKey,
+                            _CloudPhotoServicesOptionExportPresetKey,
+                            _CloudPhotoServicesOptionIsPassthroughConversionKey,
+                            _CloudPhotoServicesOptionLivePhotoPairingIdentifierKey,
+                            _CloudPhotoServicesOptionMaximumPixelCountKey,
+                            _CloudPhotoServicesOptionOriginatingSignatureKey,
+                            _CloudPhotoServicesOptionOutputFileTypeKey,
+                            _CloudPhotoServicesOptionRenderOriginatingSignatureKey,
+                            _CloudPhotoServicesOptionRequestReasonKey,
+                            _CloudPhotoServicesOptionTargetFileSizeKey,
+                            _CloudPhotoServicesRetryCount,
+                            _CloudPhotoServicesRetryDelay,
+                            _CloudPhotoServicesVersionNumber,
+                            _CloudPhotoServicesVersionString,
+                            _CloudPhotoServicesVideoConversionPowerEfficiencyKey,
+                            _CloudPhotoServicesVideoConversionPowerEfficiencyMinimumDurationKey,
+                            _CloudPhotoServicesVideoConversionPowerEfficiencyOverrideUserDefaultsKey,
+                            __logDropDerivatives ]
+    objc-classes:         [ CloudPhotoServices, CloudPhotoServicesUtilities ]
+...

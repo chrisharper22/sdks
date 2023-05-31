@@ -1,0 +1,23 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _MLRSanitizeError, _MLRuntimeVersionNumber,
+                            _MLRuntimeVersionString, _kMLRTrialTaskMinInterval ]
+    objc-classes:         [ MLRBMLTSchedulingPolicy, MLRExtensionPrincipalClass,
+                            MLRExtensionRemoteContext,
+                            MLRExtensionService_Subsystem, MLRInternalBMLTTask,
+                            MLRInternalTrialTask, MLRInternalTrialTaskResult,
+                            MLROnDemandConnectionHandler, MLROnDemandPlugin,
+                            MLRSandboxExtensionRequest, MLRTask,
+                            MLRTaskAttachments, MLRTaskParameters, MLRTaskResult,
+                            MLRTrialDediscoRecipe, MLRTrialDediscoTaskResult,
+                            MLRTrialTask, MLRTrialTaskResult,
+                            MLRTrialTaskSchedulingPolicy ]
+...

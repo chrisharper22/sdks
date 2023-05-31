@@ -1,0 +1,20 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/Support/DaemonUtils.framework/DaemonUtils
+current-version:       1131.60.20
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _LANVRAMNamespaceStartupManager,
+                            _NSStringFromBKBKMatchFailReason,
+                            _NSStringFromBKLockoutState,
+                            _NSStringFromBKOperationEndReason,
+                            _NSStringFromBKOperationState ]
+    objc-classes:         [ BiometryHelper, Caller, CredentialRequest, DaemonUtils,
+                            EvaluationRequest, InstalledAppsCache, LANVRAM,
+                            ManagedSettingsObserver, PushButtonMonitor, Request,
+                            StorageRequest ]
+...

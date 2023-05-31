@@ -1,0 +1,19 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/ExtensionKit.framework/ExtensionKit
+current-version:       97
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    re-exports:           [ /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation ]
+    objc-classes:         [ EXHostViewController, _EXExtensionViewController,
+                            _EXHostViewController,
+                            _EXHostViewControllerConfiguration,
+                            _EXNSExtensionUIShimExtension, _EXRunningUIExtension,
+                            _EXRunningUISceneExtension,
+                            _EXRunningUIViewServiceExtension,
+                            _EXViewControllerSceneConfiguration ]
+...

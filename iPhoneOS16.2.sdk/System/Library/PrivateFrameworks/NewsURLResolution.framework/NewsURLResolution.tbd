@@ -1,0 +1,16 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/NewsURLResolution.framework/NewsURLResolution
+current-version:       3255
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _NRErrorDomain, _NewsURLResolutionVersionNumber,
+                            _NewsURLResolutionVersionString ]
+    objc-classes:         [ NRNewsDaemonBloomFilterInfoService,
+                            NRNewsURLResolutionOperation, NRURLResolutionManager,
+                            NRWebURLResolutionOperation ]
+...

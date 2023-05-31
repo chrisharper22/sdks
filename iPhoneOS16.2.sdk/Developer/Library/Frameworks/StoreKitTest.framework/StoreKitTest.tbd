@@ -1,0 +1,17 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /Developer/Library/Frameworks/StoreKitTest.framework/StoreKitTest
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _SKAdTestErrorDomain, _SKAdTestPostbackVersion2_1,
+                            _SKAdTestPostbackVersion2_2,
+                            _SKAdTestPostbackVersion3_0, _SKTestErrorDomain ]
+    objc-classes:         [ SKAdTestPostback, SKAdTestPostbackResponse,
+                            SKAdTestSession, SKTestEventObservation, SKTestSession,
+                            SKTestTransaction ]
+...

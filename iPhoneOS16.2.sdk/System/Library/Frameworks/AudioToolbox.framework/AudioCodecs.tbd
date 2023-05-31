@@ -1,0 +1,11 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/AudioToolbox.framework/AudioCodecs
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _RegisterExternalAudioCodecs ]
+...

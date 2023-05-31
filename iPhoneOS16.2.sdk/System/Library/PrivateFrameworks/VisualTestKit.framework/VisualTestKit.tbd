@@ -1,0 +1,20 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _NSStringFromVTKAssertID, _VTKID,
+                            ___VTKAddExclusionAreaAt, ___VTKAddHorizontalGuideAt,
+                            ___VTKAddSqureGuideAt, ___VTKAddVerticalGuideAt,
+                            ___VTKAssertView, ___VTKExclusionAreaStatusBar,
+                            ___VTKSetImageComparatorStrategy,
+                            ___VTKSetImageComparisonOptions,
+                            ___VTKSetReferenceImagesDirectory,
+                            ___VTKSetReferenceItemSourceType ]
+    objc-classes:         [ VTKAssertID ]
+...

@@ -1,0 +1,33 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/DisembarkUI.framework/DisembarkUI
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _DisembarkUIVersionNumber, _DisembarkUIVersionString,
+                            __DKIsInternalInstall, __DKLogSystem ]
+    objc-classes:         [ DKAccountProvider, DKCloudProvider,
+                            DKCloudUploadResult, DKCloudUploadResults,
+                            DKCloudUploadViewController, DKConfiguration,
+                            DKEraseFlow, DKFindMyProvider,
+                            DKFindMySignOutController, DKFollowUp,
+                            DKIntroViewController, DKNavigationController,
+                            DKNotableUserData, DKNotableUserDataAccount,
+                            DKNotableUserDataCardCell,
+                            DKNotableUserDataCardPrimaryCell,
+                            DKNotableUserDataCardView,
+                            DKNotableUserDataCellularPlan,
+                            DKNotableUserDataProvider, DKNotableUserDataWallet,
+                            DKNotableUserDataWalletCardCell,
+                            DKNotableUserDataWalletCardView, DKPasscodeProvider,
+                            DKPasscodeViewController, DKPresenter,
+                            DKPromptCloudUploadViewController,
+                            DKScreenTimePasscodeViewController,
+                            DKSpinnerController, DKStorageProvider,
+                            DKTelephonyProvider,
+                            DKWalletLocalPaymentCardViewModel, DKWalletProvider ]
+...

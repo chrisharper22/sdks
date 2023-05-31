@@ -1,0 +1,22 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/SiriUIActivation.framework/SiriUIActivation
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _SiriUIActivationVersionNumber,
+                            _SiriUIActivationVersionString,
+                            __asynchronousCallQueue ]
+    objc-classes:         [ SASHIDGenerator,
+                            SASUIDeviceScreenEngagementController,
+                            SASUIUserEngagementProviderFactory,
+                            SiriPresentationPineBoardMainScreenViewController,
+                            SiriPresentationSpringBoardMainScreenViewController,
+                            SiriPresentationStateProvider,
+                            SiriPresentationViewController ]
+    objc-ivars:           [ SiriPresentationViewController._instrumentationDismissalState ]
+...

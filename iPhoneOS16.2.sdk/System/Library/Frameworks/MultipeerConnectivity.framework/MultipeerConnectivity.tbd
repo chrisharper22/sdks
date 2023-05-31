@@ -1,0 +1,16 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/Frameworks/MultipeerConnectivity.framework/MultipeerConnectivity
+current-version:       177
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _MCErrorDomain, _kMCSessionMaximumNumberOfPeers,
+                            _kMCSessionMinimumNumberOfPeers ]
+    objc-classes:         [ MCAdvertiserAssistant, MCBrowserViewController,
+                            MCNearbyServiceAdvertiser, MCNearbyServiceBrowser,
+                            MCPeerID, MCSession ]
+...

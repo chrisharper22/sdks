@@ -1,0 +1,21 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/FeedbackLogger.framework/FeedbackLogger
+current-version:       1
+compatibility-version: 1
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _FLErrorDomain, _FLGetBootSessionUUID,
+                            _FLSignpostLoggingInit, _FLUploadHeadersKey,
+                            _FLUploadImmediately, _FL_LOG_SIGNPOSTS,
+                            _FeedbackLoggerVersionNumber,
+                            _FeedbackLoggerVersionString, _flLogForObject,
+                            _kMaxBatchContinuesDuration, _tryGetDataProperty,
+                            _tryGetDateProperty, _tryGetTextProperty ]
+    objc-classes:         [ BatchMetadata, FLLogger, FLLoggingContext,
+                            FLSQLiteDatabaseConnection, FLSQLitePersistence,
+                            FeedbackLoggerFBFClient, UploadRecord ]
+...

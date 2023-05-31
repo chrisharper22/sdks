@@ -1,0 +1,15 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/XCTTargetBootstrap.framework/XCTTargetBootstrap
+current-version:       21240.2
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _XCTSetSharedDaemonConnectionProvider,
+                            _XCTSharedDaemonConnectionProvider, _XCTTBDefaultLog,
+                            _XCTTargetBootstrap ]
+    objc-classes:         [ XCTDaemonConnectionProvider, XCTTargetSession ]
+...

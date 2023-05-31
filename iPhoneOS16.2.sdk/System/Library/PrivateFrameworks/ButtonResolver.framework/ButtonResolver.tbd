@@ -1,0 +1,17 @@
+--- !tapi-tbd-v3
+archs:                 [ arm64, arm64e, i386, x86_64 ]
+platform:              (null)
+flags:                 [ flat_namespace ]
+install-name:          /System/Library/PrivateFrameworks/ButtonResolver.framework/ButtonResolver
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:                [ arm64, arm64e, i386, x86_64 ]
+    symbols:              [ _BRConfigGainKey, _BRConfigMaxTimeKey,
+                            _BRConfigMinTimeKey, _BRConfigSpeedKey,
+                            _BRGlobalConfigForceFeelKey ]
+    objc-classes:         [ BRAsset, BRButtonResolverController, BRInterface,
+                            BRInterfaceAOP, BRInterfaceKeyboard, BRInterfaceLegacy,
+                            BRSlotData, BRStateData ]
+...
